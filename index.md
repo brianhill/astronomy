@@ -14,18 +14,9 @@ We will spend much of the course focusing on fundamentals such as the astronomic
 
 ### Materials
 
-We will rely heavily on the latest edition of a textbook with a fully modern perspective. In a semester-long course with well-prepared students most of the textbook can be covered, and the outline that follows reflects that:
+We will rely heavily on the latest edition of a textbook with a fully modern perspective. In a semester-long course with well-prepared students most of the textbook can be covered, and the unit outline that follows reflects that:
 
 * *[The Cosmos: Astronomy in the New Millennium](https://www.cambridge.org/us/academic/subjects/physics/astronomy-general/cosmos-astronomy-new-millennium-5th-edition?format=PB&isbn=9781108431385),* 5th Edition, Jay M. Pasachoff and Alex Filippenko, Cambridge University Press, 2019.
-
-### Special Project Schedule
-
-```
-I. Project Selection (selection during first three weeks of Term 5)
-II. Data Taking (to be completed by end of Term 5)
-III. Data Analysis (to be completed during first half of Term 6)
-IV. Short Presentation to Community (to be scheduled during second half of Term 6)
-```
 
 ### Unit Outline
 
@@ -63,3 +54,11 @@ IV: The Cosmos
 	Dark Matter and Dark Energy
 ```
 
+### Special Project Schedule
+
+```
+I. Project Selection (selection during first three weeks of Term 5)
+II. Data Taking (to be completed by end of Term 5)
+III. Data Analysis (to be completed during first half of Term 6)
+IV. Short Presentation to Community (to be scheduled during second half of Term 6)
+```
