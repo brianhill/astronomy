@@ -6,14 +6,14 @@ Note: All page numbers, equations, and problem numbers refer to the [5th edition
 
 Details will be added on an ongoing basis through the term.
 
-### Week 1 &mdash; Chapters 1 and 2 &mdash; Units, Scientific Notation, Light, Temperature
+### Week 1 &mdash; Chapters 1 and 2 &mdash; Units, Scientific Notation, Light, Temperature, Atoms, Atomic Spectra
 
 * Tuesday, March 16 &mdash; Reading: Sections 1.1 to 1.4 (we'll be skipping 1.5 to 1.7) &mdash; Study Figure it Out Box 1.1 and Figure it Out Box 1.2 on units and scientific notation &mdash; In-Class Problems: Chapter 1, Problems 2, 8, and 24
-* Friday, March 19 &mdash; Reading: Sections 2.1 to 2.4 including all four Figure it Out Boxes in Chapter 2 (that's Figure it Out 2.1, 2.2, 2.3, and 2.4) &mdash; In other words, all of Chapter 2 but the Doppler Shift which we will save and come back to when we need it &mdash; In-Class Problems: Chapter 2, Problems 21, 22, and 24 (consider Problem 30 too)
+* Friday, March 19 &mdash; Reading: Sections 2.1 to 2.4 including all four Figure it Out Boxes in Chapter 2 (that's all of Chapter 2 except the Doppler Shift which we will save and come back to when we need it) &mdash; In-Class Problems: Chapter 2, Problems 21, 22, and 24 (I'll probably do Problem 30 in-class too).
 
-### Week 2 &mdash; Chapter 2 (continued) and Chapter 3 &mdash; Atoms, Doppler Shift, Optics, Telescopes
+### Week 2 &mdash; Chapter 2 (continued) and Chapter 3 &mdash; Doppler Shift, Optics, Telescopes
 
-* Tuesday, March 23 &mdash; Turned-in Problems (Problem Set 1): Chapter 2, Problems 25, 27, 28, 29, 32
+* Tuesday, March 23 &mdash; AS A SIGNIFCANT SYLLABUS REVISION, I AM ASSESSING WHETHER WE CAN SKIP ALL OF CHAPTER 3 AND GO STRAIGHT TO CHAPTER 4 FOR THIS CLASS'S READING &mdash; THAT IS GOING TO HAVE BIG RIPPLE EFFECTS &mdash; Turned-in Problems (Problem Set 1): Chapter 2, Problems 25, 27, 28, 29, 32
 * Friday, March 26
 
 ### Week 3 &mdash; Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
