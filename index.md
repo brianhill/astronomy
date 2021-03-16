@@ -21,15 +21,14 @@ We will rely heavily on the latest edition of a textbook with a fully modern per
 ### Unit Outline
 
 ```
-I. Coordinates, Solar Motion, Light
-	Charting the Stars, Magnitudes
-	The Motion of the Sun (Daily, Annual, Millenial)
-	Frequency, Waves, Light, Color, Temperature
-	Geometrical Optics, Telescopes.
+I. Light, Matter, Energy
+	Units, Scientific Notation
+	Light, Frequency, Waves, Color, Matter, Temperature, and Energy
+	Optics and Telescopes
 
 II. Solar System Motions
 	The Motions of the Earth, the Moon, and the Planets
-	The scale of the Solar System
+	The Scale of the Solar System
 	Kepler's Laws
 	Newton's Laws of Motion
 	Newton's Law of Universal Gravitation
@@ -46,7 +45,7 @@ IV. Other Stars and the Galaxy
 	Leavitt-Pickering Period-Luminosity Relationship
 	The Milky Way and the Magellanic Clouds
 
-IV: The Cosmos
+V: The Cosmos
 	Other Galaxies
 	Active Galactic Nuclei
 	The Big Bang
