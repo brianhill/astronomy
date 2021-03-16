@@ -2,16 +2,14 @@
 
 Course [home page](./)
 
-### Concerns and Hopes from Class
-
-#### Concerns
+### Concerns from Class
 
 * Textbook choice (at least three people had this concern). On the basis of the first reading, people found the text: too dry, too much of a survey ("science for English majors"), too lite.
 * Math (too much emphasis, and/or dull math).
 * Total class load (several students have three courses this term).
 * Vocabulary and technical material might preclude seminar-style discussion.
 
-#### Hopes
+### Hopes from Class
 
 * Constellations (at least three people had this hope). Alice has seen some of my old star guides and suggested we incorporate them.
 * Be an informed follower of new developments.
@@ -19,10 +17,10 @@ Course [home page](./)
 * Wondrous (want to emphasize wonder).
 * Vocabulary and technical material might give more.
 
-### Concerns and Hopes from the Professor
+### Top Concern and Hope from the Professor
 
-* Concern: we have only about 26 meetings in Terms 5 and 6. Subtracting away time for three midterms, and presentation of the special project, it is hard to see how we can cover 20 chapters well. When I have taught the class before we had three meetings per week, which I think is easier for absorbing and pacing this kind of material.
-* Hope: This is a new edition of Pasachoff and Filippenko that I haven't gotten to use. The Saint Mary's students were in general not making good use of the fourth edition. Prior to that I tried one other textbook which they also did not make great use of. The upshot is that this is my first chance to go through the 5th edition of the textbook with a group of strong students. That is something I was very much looking forward to, because astronomy is a wide and still rapidly advancing subject, and there is lots of it that I don't feel like I know the latest developments on.
+* Concern: we have only about 26 meetings in Terms 5 and 6. Subtracting away time for three midterms, and presentation of the special project, it is hard to see how we can cover 20 chapters well. When I have taught the class before we had three meetings per week, which I think is easier for absorbing and pacing this kind of material. It is still past the limit of what can be covered even at three meetings per week.
+* Hope: This is a new edition of Pasachoff and Filippenko that I haven't gotten to use. The Saint Mary's students were in general not making good use of the fourth edition. Prior to that I tried one other textbook which they also did not make very good use of. The upshot is that this is my first chance to go through the 5th edition of the textbook with a group of strong students. That is something I was very much looking forward to, because astronomy is a wide and still rapidly advancing subject, there is lots of it that I don't feel like I know the latest developments on, and this textbook is written by two people who are really on top of that.
 
 ### Ideas/Responses to Concerns and Hopes
 
