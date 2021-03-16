@@ -2,12 +2,14 @@
 
 Course [home page](./)
 
+Note: All page numbers, equations, and problem numbers refer to the [5th edition of The Cosmos by Pasachoff and Filippenko](https://www.amazon.com/Cosmos-Astronomy-New-Millennium/dp/1108431380).
+
 Details will be added on an ongoing basis through the term.
 
 ### Week 1 &mdash; Chapters 1 and 2 &mdash; 
 
-* Tuesday, March 16
-* Friday, March 19
+* Tuesday, March 16 &mdash; Reading: Sections 1.1 to 1.4 (we'll be skipping 1.5 to 1.7) &mdash; Study Figure it Out Box 1.1 and Figure it Out Box 1.2 on units and scientific notation &mdash; In-Class Problems: Chapter 1, Problems 2, 8, and 24 &mdash; Turned-in Problems: None.
+* Friday, March 19 &mdash; Reading: Sections 2.1 to 2.3 &mdash; Study all four Figure it Out Boxes in Chapter 2 (that's Figure it Out 2.1, 2.2, 2.3, and 2.4) &mdash; In-Class Problems: Chapter 2, Problems 21, 22, and 24 (in addition, I will do 30) &mdash; Turned-in Problems (Problem Set 1): Chapter 2, Problems 25, 27, 28, 29, 32 &mdash; [Problem Set 1 Solution Forthcoming](./problem_sets/Astronomy-PS01.pdf)
 
 ### Week 2 &mdash; Chapter 2 (continued) and Chapter 3 &mdash; Optics, Telescopes
 
