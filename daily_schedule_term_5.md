@@ -13,10 +13,8 @@ Details will be added on an ongoing basis through the term.
 
 ### Week 2 &mdash;Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
 
-* Tuesday, March 23 &mdash; Reading from The Cosmos: Sections 4.1 to 4.5 including Figure it Out Box 4.1 *but not* Figure it Out Box 4.2 (Box 4.2 we'll do when we get to Section 4.6) &mdash; Sample Reading from The Friendly Stars: up to *but not including* the Capella chapter &mdash; Sample Reading from Eli Maor, Venus in Transit: Chapter 3 &mdash; In-Class Problems: haven't picked them yet &mdash; Problem Set 1: will have several problems from Chapter 2.
-[2016 Eclipse Animation](https://youtu.be/B0mvLoDZCl0)
-[Total Solar Eclipse of April, 2024](https://eclipse.gsfc.nasa.gov/SEpath/SEpath2001/SE2024Apr08Tpath.html)
-* Friday, March 26
+* Tuesday, March 23 &mdash; The Cosmos: Section 4.1 (on the synodic and sidereal motion of Sun and Moon, moon phases) &mdash; The Friendly Stars: Chapters I and II &mdash; Venus in Transit: Chapter 3
+* Friday, March 26 &mdash; The Cosmos: Sections 4.2 to 4.5, including Figure it Out Boxes 4.1 and Box 4.2 (eclipses, atmospheric effects of reddening and twinkling, daily motion of the stars, apparent magnitude)  &mdash; The Friendly Stars: Chapters III and IV (on Capella and Arcturus) &mdash; Venus in Transit: Chapters 1 and 2 (Copernicus and Kepler) &mdash; [2017 Eclipse Animation](https://youtu.be/yKFPL9xBe_U) &mdash; [2024 Eclipse Animation](https://eclipse.gsfc.nasa.gov/SEpath/SEpath2001/SE2024Apr08Tpath.html) &mdash; Problem Set 1: Chapter 2, Problems 25, 26, 29, 30, Repeat problem 25 for 2.45 GHz microwave oven radiation. These are plug-in type problems except for 30, which forces you to rearrange the equation for *L* in Figure it Out Box 2.3 for *T*, and then argue what must happen to *T* if *L* is doubled and nothing else changes.
 
 ### Week 3 &mdash; Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
 
@@ -30,7 +28,7 @@ Details will be added on an ongoing basis through the term.
 
 ### Week 5 &mdash; Finish Chapter 5 &mdash; Newton's Laws &mdash; Start Chapters 6 to 9 &mdash; The Rocky Planets
 
-* Tuesday, April 13 &dash; Newton's Laws
+* Tuesday, April 13 &mdash; Newton's Laws
 * Friday, April 16 &mdash; The Rocky Planets
 
 ### Week 6 &mdash; Finish Chapters 6 to 9 &mdash; the Gas Giants, The Asteroid Belt, The Kuiper Belt, and Other Planetary Systems (Exoplanets)
