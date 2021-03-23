@@ -11,9 +11,11 @@ Details will be added on an ongoing basis through the term.
 * Tuesday, March 16 &mdash; Reading: Sections 1.1 to 1.4 (we'll be skipping 1.5 to 1.7) &mdash; Study Figure it Out Box 1.1 and Figure it Out Box 1.2 on units and scientific notation &mdash; In-Class Problems: Chapter 1, Problems 2, 8, and 24
 * Friday, March 19 &mdash; Reading: Sections 2.1 to 2.4 including all four Figure it Out Boxes in Chapter 2 (that's all of Chapter 2 except the Doppler Shift which we will save and come back to when we need it) &mdash; In-Class Problems: Chapter 2, Problems 21, 22, and 24.
 
-### Week 2 &mdash; Chapter 2 (continued) and Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
+### Week 2 &mdash;Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
 
 * Tuesday, March 23 &mdash; Reading from The Cosmos: Sections 4.1 to 4.5 including Figure it Out Box 4.1 *but not* Figure it Out Box 4.2 (Box 4.2 we'll do when we get to Section 4.6) &mdash; Sample Reading from The Friendly Stars: up to *but not including* the Capella chapter &mdash; Sample Reading from Eli Maor, Venus in Transit: Chapter 3 &mdash; In-Class Problems: haven't picked them yet &mdash; Problem Set 1: will have several problems from Chapter 2.
+[2016 Eclipse Animation](https://youtu.be/B0mvLoDZCl0)
+[Total Solar Eclipse of April, 2024](https://eclipse.gsfc.nasa.gov/SEpath/SEpath2001/SE2024Apr08Tpath.html)
 * Friday, March 26
 
 ### Week 3 &mdash; Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
