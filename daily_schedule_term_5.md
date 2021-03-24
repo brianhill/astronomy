@@ -2,7 +2,7 @@
 
 Course [home page](./)
 
-Note: All page numbers, equations, and problem numbers refer to the [5th edition of The Cosmos by Pasachoff and Filippenko](https://www.amazon.com/Cosmos-Astronomy-New-Millennium/dp/1108431380).
+Note: Unless otherwise noted, page numbers, equation numbers, and problem numbers refer to the [5th edition of The Cosmos by Pasachoff and Filippenko](https://www.amazon.com/Cosmos-Astronomy-New-Millennium/dp/1108431380).
 
 Details will be added on an ongoing basis through the term.
 
