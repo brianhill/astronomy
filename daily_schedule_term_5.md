@@ -18,7 +18,7 @@ Details will be added on an ongoing basis through the term.
 
 ### Week 3 &mdash; Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
 
-* Tuesday, March 30 &mdash; AS A SIGNIFCANT SYLLABUS REVISION, WE SKIPPED ALL OF CHAPTER 3 AND WENT STRAIGHT TO CHAPTER 4 &mdash; THAT IS HAVING BIG RIPPLE EFFECTS &mdash; STAY TUNED
+* Tuesday, March 30 &mdash; Finish Chapter 4 of The Cosmos. &mdash; Read Chapters XI, XII, XIII, and XIV from The Friendly Stars (the winter stars, which are now setting in the west) &mdash; Observe the stars in the west (compare with the star chart for the west that I handed out) and add your observing notes for those stars to the worksheet &mdash; Read Chapter 4 from Venus in Transit -- but not the appendix on parallax that I included along with Chapter 4.
 * Friday, April 2
 
 ### Week 4 &mdash; Start Chapter 5 &mdash; Gravitation and Motion (through Kepler's Laws)
