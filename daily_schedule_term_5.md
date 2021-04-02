@@ -19,16 +19,16 @@ Details will be added on an ongoing basis through the term.
 ### Week 3 &mdash; Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
 
 * Tuesday, March 30 &mdash; Finish Chapter 4 of The Cosmos. &mdash; Read Chapters XI, XII, XIII, and XIV from The Friendly Stars (the winter stars, which are now setting in the west) &mdash; Observe the stars in the west (compare with the [star chart for the west](./resources/StarChartWest-2021-03-26.png) that I handed out) and add your observing notes for those stars to [Friendly Stars - 15 Brightest](./resources/FriendlyStars-15Brightest.pdf) worksheet &mdash; Read Chapter 4 from Venus in Transit (but not the appendix on parallax)
-* Friday, April 2 &mdash; Read *The Cosmos* Sections 5.1-5.5 &mdash; Read Chapters V, VI, and XV from *The Friendly Stars* &mdash; Read Chapter 5 of *Venus In Transit* &mdash; From Ian Ridpath's website, read Gemini, Canis Minor, Canis Major, Orion, Taurus, and Auriga (the spectacular display setting in the west right now) &mdash; Read *The Cosmos* Sections 5.1-5.5 &mdash; Problem Set 2: Aristarchus Measures the Size and Distance of the Moon
+* Friday, April 2 &mdash; Read *The Cosmos* Sections 5.1-5.5 &mdash; Read Chapter 5 of *Venus In Transit* &mdash; Problem Set 2: Aristarchus Measures the Size and Distance of the Moon
 
-### Week 4 &mdash; Start Chapter 5 &mdash; Gravitation and Motion (through Kepler's Laws)
+### Week 4 &mdash; Start Chapter 5 &mdash; Gravitation and Motion
 
-* Tuesday, April 6 &dash; Kepler's Laws (through Section 5.6)
-* Friday, April 9 &mdash; First Midterm
+* Tuesday, April 6 &dash; Read *The Cosmos* Section 5.6 (Kepler's Laws) *any more for this class?* &mdash; Read Chapters V, VI, and XV from *The Friendly Stars* (Spica, Vega, and Regulus) &mdash; Read Chapter 6 of *Venus In Transit* &mdash; From Ian Ridpath's website: Gemini, Canis Minor, Canis Major, Orion, Taurus, and Auriga (the spectacular display setting in the west right now) &mdash; Problem Set 3: [Mars Retrograde Construction](./resources/MarsRetrogradeConstruction-2021-03-06.pdf) (started in class) &mdash; Problem Set 4: TEXTBOOK PROBLEMS I STILL NEED TO CHOOSE
+* Friday, April 9 &mdash; First Midterm (first half of class) &mdash; Start Newton's Laws (second half of class)
 
-### Week 5 &mdash; Finish Chapter 5 &mdash; Newton's Laws &mdash; Start Chapters 6 to 9 &mdash; The Rocky Planets
+### Week 5 &mdash; Finish Chapter 5 &mdash; Gravitation and Motion &mdash; Start Chapters 6 to 9 &mdash; The Rocky Planets
 
-* Tuesday, April 13 &mdash; Newton's Laws
+* Tuesday, April 13 &mdash; Finish Newton's Laws
 * Friday, April 16 &mdash; The Rocky Planets
 
 ### Week 6 &mdash; Finish Chapters 6 to 9 &mdash; the Gas Giants, The Asteroid Belt, The Kuiper Belt, and Other Planetary Systems (Exoplanets)
@@ -36,9 +36,9 @@ Details will be added on an ongoing basis through the term.
 * Tuesday, April 20 &mdash; The Gas Giants, The Scale of the Solar System
 * Friday, April 23 &mdash; The Asteroid Belt, the Kuiper Belt, Exoplanets
 
-### Week 7 
+### Week 7 &mdash; Astrology in Shakespeare
 
-* Tuesday, April 27 &mdash; Tuesday class canceled due to Shakespeare week
+* Tuesday, April 27 &mdash; Astrology in Shakespeare? &mdash; [Shakespeare and Astrology, Chapter IV](https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2094&context=masters-theses) by William Bruce Smith, Master's Thesis, 1989
 * Friday, April 30 &mdash; Friday class canceled due to break beginning Friday, April 30th
 
 
