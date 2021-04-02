@@ -23,7 +23,7 @@ Details will be added on an ongoing basis through the term.
 
 ### Week 4 &mdash; Start Chapter 5 &mdash; Gravitation and Motion
 
-* Tuesday, April 6 &dash; Read *The Cosmos* Section 5.6 (Kepler's Laws) *any more for this class?* &mdash; Read Chapters V, VI, and XV from *The Friendly Stars* (Spica, Vega, and Regulus) &mdash; Read Chapter 6 of *Venus In Transit* &mdash; From Ian Ridpath's website: Gemini, Canis Minor, Canis Major, Orion, Taurus, and Auriga (the spectacular display setting in the west right now) &mdash; Problem Set 3: [Mars Retrograde Construction](./resources/MarsRetrogradeConstruction-2021-03-06.pdf) (started in class) &mdash; Problem Set 4: TEXTBOOK PROBLEMS I STILL NEED TO CHOOSE
+* Tuesday, April 6 &dash; Read *The Cosmos* Section 5.6 (Kepler's Laws) *any more for this class?* &mdash; Read Chapters V, VI, and XV from *The Friendly Stars* (Spica, Vega, and Regulus) &mdash; Read Chapter 6 of *Venus In Transit* &mdash; From Ian Ridpath's website: Gemini, Canis Minor, Canis Major, Orion, Taurus, and Auriga (the spectacular display setting in the west right now) &mdash; Problem Set 3: [Mars Retrograde Construction](./resources/MarsRetrogradeConstruction-2021-04-02.pdf) (started in class) &mdash; Problem Set 4: TEXTBOOK PROBLEMS I STILL NEED TO CHOOSE
 * Friday, April 9 &mdash; First Midterm (first half of class) &mdash; Start Newton's Laws (second half of class)
 
 ### Week 5 &mdash; Finish Chapter 5 &mdash; Gravitation and Motion &mdash; Start Chapters 6 to 9 &mdash; The Rocky Planets
