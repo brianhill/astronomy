@@ -19,11 +19,11 @@ Details will be added on an ongoing basis through the term.
 ### Week 3 &mdash; Chapter 4 &mdash; The Daily, Monthly, and Annual Motions of the Heavens
 
 * Tuesday, March 30 &mdash; Finish Chapter 4 of The Cosmos. &mdash; Read Chapters XI, XII, XIII, and XIV from The Friendly Stars (the winter stars, which are now setting in the west) &mdash; Observe the stars in the west (compare with the [star chart for the west](./resources/StarChartWest-2021-03-26.png) that I handed out) and add your observing notes for those stars to [Friendly Stars - 15 Brightest](./resources/FriendlyStars-15Brightest.pdf) worksheet &mdash; Read Chapter 4 from Venus in Transit (but not the appendix on parallax)
-* Friday, April 2 &mdash; Read *The Cosmos* Sections 5.1-5.5 &mdash; Read Chapter 5 of *Venus In Transit* &mdash; Problem Set 2: Aristarchus Measures the Size and Distance of the Moon
+* Friday, April 2 &mdash; Read *The Cosmos* Sections 5.1-5.4 &mdash; Read Chapter 5 of *Venus In Transit* &mdash; Problem Set 2: Aristarchus Measures the Size and Distance of the Moon
 
 ### Week 4 &mdash; Start Chapter 5 &mdash; Gravitation and Motion
 
-* Tuesday, April 6 &dash; Read *The Cosmos* Section 5.6 (Kepler's Laws) *any more for this class?* &mdash; Read Chapters V, VI, and XV from *The Friendly Stars* (Spica, Vega, and Regulus) &mdash; Read Chapter 6 of *Venus In Transit* &mdash; From Ian Ridpath's website: Gemini, Canis Minor, Canis Major, Orion, Taurus, and Auriga (the spectacular display setting in the west right now) &mdash; Problem Set 3: [Mars Retrograde Construction](./resources/MarsRetrogradeConstruction-2021-04-02.pdf) (started in class) &mdash; Problem Set 4: TEXTBOOK PROBLEMS I STILL NEED TO CHOOSE
+* Tuesday, April 6 &mdash; Read *The Cosmos* Section 5.5 and 5.6 (Kepler's Laws) *any more for this class?* &mdash; Read Chapters V, VI, and XV from *The Friendly Stars* (Spica, Vega, and Regulus) &mdash; Read Chapter 6 of *Venus In Transit* &mdash; From Ian Ridpath's website: Gemini, Canis Minor, Canis Major, Orion, Taurus, and Auriga (the spectacular display setting in the west right now) &mdash; Problem Set 3: [Mars Retrograde Construction](./resources/MarsRetrogradeConstruction-2021-04-02.pdf) (started in class) &mdash; Problem Set 4: Chapter 4, Problems 1 (and are the stars in the right side of the photo going up or down?), 11, 12 (be approximate, actually the stars go around every 23 hours and 56 minutes, but don't worry about that), 30, 31, 46, and Chapter 5, Problems 35 and 39 (these both require you to use Kepler's 3rd Law and read Figure it Out Box 5.1 on p. 121).
 * Friday, April 9 &mdash; First Midterm (first half of class) &mdash; Start Newton's Laws (second half of class)
 
 ### Week 5 &mdash; Finish Chapter 5 &mdash; Gravitation and Motion &mdash; Start Chapters 6 to 9 &mdash; The Rocky Planets
@@ -40,6 +40,3 @@ Details will be added on an ongoing basis through the term.
 
 * Tuesday, April 27 &mdash; Astrology in Shakespeare? &mdash; [Shakespeare and Astrology, Chapter IV](https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2094&context=masters-theses) by William Bruce Smith, Master's Thesis, 1989
 * Friday, April 30 &mdash; Friday class canceled due to break beginning Friday, April 30th
-
-
-* ????Good problems for Problem Set 1: Chapter 2, Problems 25, 27, 28, 29, 30, 32????
