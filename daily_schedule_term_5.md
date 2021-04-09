@@ -26,9 +26,9 @@ Details will be added on an ongoing basis through the term.
 * Tuesday, April 6 &mdash; Read *The Cosmos* Section 5.5 and 5.6 (Kepler's Laws) &mdash; Read Chapters V, VI, and XV from *The Friendly Stars* (Spica, Vega, and Regulus) &mdash; Read Chapter 6 of *Venus In Transit* &mdash; Problem Set 3: [Mars Retrograde Construction](./resources/MarsRetrogradeConstruction-2021-04-02.pdf) &mdash; [Problem Set 3 Solution](./problem_sets/Astro-PS03.pdf) &mdash; Problem Set 4: Chapter 4, Problems 1, 11, 12, 30, 31, 46, and Chapter 5, Problems 35 and 39 &mdash; [Problem Set 4 Solution](./problem_sets/Astro-PS04.pdf) &mdash; 9pm Star Party with readings from Ian Ridpath's *Star Tales* on Canis Major, Canis Minor, Gemini, and Orion (the spectacular display setting in the west right now)
 * Friday, April 9 &mdash; First Midterm (first half of class) &mdash; In-Class: rounding out our understanding of Kepler's Laws &mdash; Finish Reading Chapter 5 of *The Cosmos* (Newton's Laws) 
 
-### Week 5 &mdash; Finish Chapter 5 &mdash; Gravitation and Motion &mdash; Chapters 6 and 7 &mdash; The Rocky Planets and the Gas Giants
+### Week 5 &mdash; Chapters 6 and 7 &mdash; The Rocky Planets and the Gas Giants
 
-* Tuesday, April 13 &mdash; Problem Set 5: Handout on Newton's Laws &mdash; Reading: [Excerpts](./resources/StarryMessengerExcerpts.pdf) from *The Starry Messenger* and Chapter 7 of *Venus In Transit*
+* Tuesday, April 13 &mdash; Problem Set 5: Handout on Newton's Laws &mdash; Reading: [*Starry Messenger* Excerpts](./resources/StarryMessengerExcerpts.pdf) &mdash; Reading: Chapter 7 of *Venus In Transit*
 * Friday, April 16 &mdash; The Rocky Planets and the Gas Giants &mdash; The Scale of the Solar System &mdash; Sizes and Densities in the Solar System
 
 ### Week 6 &mdash; Chapters 8 and 9 &mdash; The Asteroid Belt, The Kuiper Belt, and Other Planetary Systems (Exoplanets)
