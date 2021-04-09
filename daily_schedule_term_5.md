@@ -33,8 +33,8 @@ Details will be added on an ongoing basis through the term.
 
 ### Week 6 &mdash; Chapters 8 and 9 &mdash; The Asteroid Belt, The Kuiper Belt, and Other Planetary Systems (Exoplanets)
 
-* Tuesday, April 20 &mdash; The Gas Giants &mdash; 
-* Friday, April 23 &mdash; The Asteroid Belt, the Kuiper Belt, Exoplanets
+* Tuesday, April 20 &mdash; The Asteroid Belt, the Kuiper Belt 
+* Friday, April 23 &mdash; Other Planetary Systems
 
 ### Week 7 &mdash; Astrology in Shakespeare
 
