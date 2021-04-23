@@ -29,7 +29,7 @@ Details will be added on an ongoing basis through the term.
 ### Week 5 &mdash; Chapters 6 and 7 &mdash; The Rocky Planets and the Gas Giants
 
 * Tuesday, April 13 &mdash; Problem Set 5: Handout on Newton's Laws &mdash; Reading: [*Starry Messenger* Excerpts](./resources/StarryMessengerExcerpts.pdf) &mdash; Reading: Chapter 7 of *Venus In Transit*
-* Friday, April 16 &mdash; Reading: *The Cosmos* Chapters 6 and 7 (The Four Rocky Planets and the Four Gas Giants) &mdash; Topics: Tides, Magnetic Fields, Volume, Density, [The Scale of the Solar System](./resources/SolarSystemSizes.pdf) &mdash; [Black Rock Desert](https://vimeo.com/139407849) scale model &mdash; [Orbital Resonance](https://youtu.be/Qyn64b4LNJ0) explanation
+* Friday, April 16 &mdash; Reading: *The Cosmos* Chapters 6 and 7 (The Four Rocky Planets and the Four Gas Giants) &mdash; Topics: Tides, Magnetic Fields, Volume, and Density &mdash; [Solar System Sizes](./resources/SolarSystemSizes.pdf) table &mdash; [Black Rock Desert](https://vimeo.com/139407849) scale model &mdash; [Orbital Resonance](https://youtu.be/Qyn64b4LNJ0) explanation
 
 ### Week 6 &mdash; Chapters 8 and 9 &mdash; The Asteroid Belt, The Kuiper Belt, and Solar System Formation
 
