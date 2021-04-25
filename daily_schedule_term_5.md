@@ -38,5 +38,5 @@ Details will be added on an ongoing basis through the term.
 
 ### Week 7 &mdash; Astrology in Shakespeare
 
-* Tuesday, April 27 &mdash; Astrology in Shakespeare? &mdash; [Shakespeare and Astrology, Chapter IV](https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2094&context=masters-theses) by William Bruce Smith, Master's Thesis, 1989
+* Tuesday, April 27 &mdash;  Read Chapters 8 and 9 of *Venus In Transit* &mdash; [Shakespeare and Astrology, Chapter IV](https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2094&context=masters-theses) by William Bruce Smith, Master's Thesis, 1989 &mdash; Problem Set 7: 
 
