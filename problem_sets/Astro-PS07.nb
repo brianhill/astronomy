@@ -1,0 +1,410 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19691,        402]
+NotebookOptionsPosition[     17733,        358]
+NotebookOutlinePosition[     18180,        376]
+CellTagsIndexPosition[     18137,        373]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Astronomy \[LongDash] PS 7 \[LongDash] Solar System \
+Properties",
+ FontSize->36]], "Title",
+ CellChangeTimes->{{3.826990895531827*^9, 3.8269909050731707`*^9}, {
+  3.826991212936166*^9, 3.826991215061927*^9}, {3.828370378578549*^9, 
+  3.828370404709653*^9}},ExpressionUUID->"1cd65f7b-be86-46b3-aaf1-\
+48ae0714202a"],
+
+Cell["April 27, 2021", "Subtitle",
+ CellChangeTimes->{{3.8269909442346687`*^9, 3.8269909472827673`*^9}, {
+  3.828370548369618*^9, 
+  3.828370548762776*^9}},ExpressionUUID->"f75a004f-b82e-44e2-9064-\
+ae0d2c22a56e"],
+
+Cell["\<\
+In Chapters 6 and 7, which we had to cover hastily, we met the four small \
+rocky planets and the four gas giants. Problem Set 6 was designed to see what \
+the rocky planets have in common and what the gas giants have in common. The \
+densities of the rocky planets were all in the range 4-6 kg/liter. The four \
+gas giants were in the range 0.7-1.6 kg/liter. If you wanted to be very \
+rough, you\[CloseCurlyQuote]d say the rocky planets were about 5 kg/liter and \
+the gas giants were about 1 kg/liter.
+
+This problem set is designed to help you make some sense of the other \
+categories of objects in the Solar System which Pasachoff and Filippenko \
+covered in Chapter 8 and Section 9.1.\
+\>", "Text",
+ CellChangeTimes->{{3.82699096010775*^9, 3.826991127144486*^9}, {
+  3.826993914261252*^9, 3.8269939948007317`*^9}, {3.826994338254922*^9, 
+  3.82699435417417*^9}, {3.828370560293696*^9, 3.8283708044124947`*^9}, {
+  3.828370840289352*^9, 3.8283708684360456`*^9}, {3.8283712798807087`*^9, 
+  3.828371339734014*^9}, {3.828375190029025*^9, 3.828375196542169*^9}, {
+  3.828375269396963*^9, 
+  3.8283752763147297`*^9}},ExpressionUUID->"e7c0cf94-4e48-4036-8533-\
+84a391a7e271"],
+
+Cell[CellGroupData[{
+
+Cell["Planets vs. Dwarf Planets", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 
+  3.828375348066052*^9}},ExpressionUUID->"e3583be7-533b-427c-856f-\
+d9183166dddc"],
+
+Cell["\<\
+Pluto was our first example of a dwarf planet. It was demoted from being the \
+9th planet by the IAU because it has not cleared its orbit. In particular, it \
+crosses Neptune\[CloseCurlyQuote]s orbit, and since \
+Neptune\[CloseCurlyQuote]s mass is almost 8,000 times that of Pluto\
+\[CloseCurlyQuote]s, whenever they get close enough to clear each other, it \
+is Pluto that will be flung out of orbit, not Neptune. In addition, Pluto\
+\[CloseCurlyQuote]s orbit overlaps with many other Kuiper-Belt Objects, and \
+it hasn\[CloseCurlyQuote]t cleared them.
+
+Pluto actually consists of two objects, Pluto and Charon
+
+1. What are the diameters of Pluto and Charon as quoted by Pasachoff and \
+Filippenko, in Section 8.1?
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375810796669*^9}, {
+   3.828376332259346*^9, 3.828376361105803*^9}, {3.8283786645974894`*^9, 
+   3.8283786647764473`*^9}},ExpressionUUID->"a2057f16-e51f-4168-9923-\
+9a7013c6350d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Kuiper Belt Objects", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}},ExpressionUUID->"d218687d-d0e9-43e4-81f1-\
+b51672583119"],
+
+Cell["\<\
+Neptune\[CloseCurlyQuote]s semi-major axis is about 30 AU. The Kuiper Belt \
+Objects (KBOs) are mostly beyond Neptune according to the plots at the top of \
+p. 233, and they go out to about 50AU. Many 10s of thousands of KBOs larger \
+than 100km are thought to exist.
+
+Among the larger KBOs so far discovered, are Varuna and Quaoar. These are \
+about 1300km in diameter making them larger than Charon.
+
+2. Would it be fair to say \[LongDash] based on size and distance \[LongDash] \
+that Pluto and Charon are just especially large KBOs? 
+
+An object larger than Pluto that is currently 97AU from the Sun was first \
+sighted in 2003 and confirmed in 2005. On p. 232, Pasachoff and Filippenko \
+discuss its discovery.
+
+3. Why is this object, now called Eris, thought to be in such a highly tilted \
+orbit relative to the ecliptic?
+
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.8283786884272947`*^9, 
+   3.828378694140337*^9}},ExpressionUUID->"4b536bb5-858e-4ff2-973f-\
+923242167953"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Comets and the Oort Cloud", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}, {3.8283767046238117`*^9, 3.8283767054670553`*^9}, {
+  3.828376866950411*^9, 
+  3.828376873610574*^9}},ExpressionUUID->"282607c1-e8e4-478e-b038-\
+6ec3fb8d6859"],
+
+Cell["\<\
+Comets are distinguished from other solar system objects insofar as they \
+sometimes have long tails of gas and dust.
+
+The comet\[CloseCurlyQuote]s tails emanate from its nucleus which appear to \
+be dark rock surrounding ices of various kinds. The nucleus of Halley\
+\[CloseCurlyQuote]s Comet was photographed up close by the Giotto spacecraft \
+during its most recent  approach in 1986. It is about 30km across.
+
+Since we have defined a comet as an object having a tail, perhaps it is an \
+oxymoron to talk of tailless comets. However, the comets we see are thought \
+to be part of the Oort cloud, which extends to 50,000AU. Occasionally one of \
+these objects gets flung towards the Sun and when it does, it heats up enough \
+to begin ejecting gas and dust and form a tail.
+
+On p. 236, Pasachoff and Filippenko discuss two categories of comets, one of \
+which is \[OpenCurlyDoubleQuote]nearly isotropic\[CloseCurlyDoubleQuote] \
+meaning that they are not concentrated along the plane of the ecliptic.
+
+4. What is the other major category of comets?
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.828376715907757*^9, 
+   3.828376747013587*^9}, {3.8283767958613367`*^9, 3.828376828397504*^9}, {
+   3.828376893343378*^9, 3.828377142194477*^9}, {3.828377204598778*^9, 
+   3.828377239406448*^9}, {3.828377287613223*^9, 3.828377323849278*^9}, {
+   3.8283786973463173`*^9, 
+   3.8283786975042877`*^9}},ExpressionUUID->"4d7c3624-487e-4d20-ac4a-\
+5fe93c4cd20c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Meteoroids", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}, {3.8283767046238117`*^9, 3.8283767054670553`*^9}, {
+  3.828376866950411*^9, 3.828376873610574*^9}, {3.828377355283279*^9, 
+  3.828377357937772*^9}},ExpressionUUID->"b6c529df-0d8a-45f0-a54d-\
+4ea74aca72fc"],
+
+Cell["\<\
+Meteoroids are small chunks from the size of a grain of sand to a boulder \
+(about 1m). Anything larger than that is usually called an asteroid.
+
+5. What is the distinction between a meteoroid and a meteorite according to \
+Pasachoff and Filippenko?
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.828376715907757*^9, 
+   3.828376747013587*^9}, {3.8283767958613367`*^9, 3.828376828397504*^9}, {
+   3.828376893343378*^9, 3.828377142194477*^9}, {3.828377204598778*^9, 
+   3.828377239406448*^9}, {3.828377287613223*^9, 3.828377323849278*^9}, {
+   3.828377362246036*^9, 3.828377366408787*^9}, {3.828377396502795*^9, 
+   3.8283775104025373`*^9}, {3.828378701610012*^9, 
+   3.828378701813273*^9}},ExpressionUUID->"be946b4c-2289-4fdf-85a8-\
+570798df29ac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Asteroids", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}, {3.8283767046238117`*^9, 3.8283767054670553`*^9}, {
+  3.828376866950411*^9, 3.828376873610574*^9}, {3.828377355283279*^9, 
+  3.828377357937772*^9}, {3.828377516901984*^9, 
+  3.82837751820709*^9}},ExpressionUUID->"06ee0815-5a2e-4959-a74a-\
+57e9f1222c05"],
+
+Cell["\<\
+In addition to the KBOs, the Oort cloud, and the meteoroids, there is a large \
+number of objects in the orbit between Mars (at 1.5AU) and Jupiter (at \
+5.2AU). Hundreds are over 100km across and six are over 300km across. Most \
+are less than 10km, and ones less than 1m are usually called meteoroids. The \
+meteoroids that come to Earth may often be the result of collisions between \
+asteroids. Over 600,000 asteroids have so far been found. The two largest \
+asteroids are Vesta and Ceres. Ceres is almost 1000km in diameter. Vesta is \
+530km in diameter and is not quite spherical, so maybe it doesn\
+\[CloseCurlyQuote]t quite count as a dwarf planet.
+
+Due to the large number of asteroids, with vast numbers still being found, \
+Pasachoff and Filippenko quote a roughly 1% chance each century (or once in \
+10,000 years) that an asteroid greater than 200m will collide with Earth. \
+Objects 50-60m across are expected to arrive about once every 1,000 years.
+
+6. How often are objects in the 20m size range expected to arrive?
+\
+\>", "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.828376715907757*^9, 
+   3.828376747013587*^9}, {3.8283767958613367`*^9, 3.828376828397504*^9}, {
+   3.828376893343378*^9, 3.828377142194477*^9}, {3.828377204598778*^9, 
+   3.828377239406448*^9}, {3.828377287613223*^9, 3.828377323849278*^9}, {
+   3.828377362246036*^9, 3.828377366408787*^9}, {3.828377396502795*^9, 
+   3.828377582634815*^9}, {3.828377618648137*^9, 3.8283777253262463`*^9}, {
+   3.8283777592897243`*^9, 3.8283777815424633`*^9}, {3.82837786108004*^9, 
+   3.828377937850999*^9}, {3.828378055862915*^9, 3.82837822188052*^9}, {
+   3.828378254741847*^9, 3.828378287737121*^9}, 3.828378734091416*^9, {
+   3.8283792167351913`*^9, 
+   3.828379216991467*^9}},ExpressionUUID->"6104eb95-204e-46bf-a8c0-\
+e30eb9dd9d4b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Formation of the Solar System", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}, {3.8283767046238117`*^9, 3.8283767054670553`*^9}, {
+  3.828376866950411*^9, 3.828376873610574*^9}, {3.828377355283279*^9, 
+  3.828377357937772*^9}, {3.828377516901984*^9, 3.82837751820709*^9}, {
+  3.828378331421978*^9, 
+  3.828378339566292*^9}},ExpressionUUID->"5a196e79-fac2-4585-ac35-\
+3a2990ed8511"],
+
+Cell["\<\
+Although there are a large variety of objects in the solar system, a \
+systematic understanding of how they assembled has emerged, and Pasachoff and \
+Filippenko discuss it in Section 9.1. They discuss the conservation of \
+angular momentum, wherein the early solar system cannot shed its spin, and \
+indeed, as it contracts, it spins faster, just as ice skaters spin faster \
+when they draw their arms in. The solar system started with a random amount \
+of spin, and since it cannot shed it, it retains it today. The spinning \
+material formed into a large spinning disk. It is highly worth studying the \
+story described in Figure 9-5 to know the best story 
+
+7. As the gas and dust started sticking together, the first thing it formed \
+were _____________ and this category is objects that are about _________ in \
+diameter.
+
+8. What is the frost line (referred to in Section 9.1b and on p. 218, and \
+what is distinctive about objects that form inside the frost line vs. outside \
+it?
+
+
+9. How did the gas giants get so ridiculously large?
+ 
+
+10. The asteroids in the asteroid belt today have only __________ per cent of \
+the mass that was initially at their location. Why did no planet form where \
+the asteroid belt is now?\
+\>", "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.828376715907757*^9, 
+   3.828376747013587*^9}, {3.8283767958613367`*^9, 3.828376828397504*^9}, {
+   3.828376893343378*^9, 3.828377142194477*^9}, {3.828377204598778*^9, 
+   3.828377239406448*^9}, {3.828377287613223*^9, 3.828377323849278*^9}, {
+   3.828377362246036*^9, 3.828377366408787*^9}, {3.828377396502795*^9, 
+   3.8283775104025373`*^9}, {3.828378363102429*^9, 3.828378507484819*^9}, {
+   3.828378547625045*^9, 3.828378635604711*^9}, {3.8283787396133547`*^9, 
+   3.828379081438807*^9}, {3.828379115504685*^9, 3.8283791914429197`*^9}, 
+   3.828379240135846*^9},ExpressionUUID->"741ca0e3-27a3-468d-a191-\
+aef11899230a"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 657}, {Automatic, 50}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 9, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"6e25029f-ab9b-455d-97fa-61553039680f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 339, 6, 86, "Title",ExpressionUUID->"1cd65f7b-be86-46b3-aaf1-48ae0714202a"],
+Cell[922, 30, 213, 4, 53, "Subtitle",ExpressionUUID->"f75a004f-b82e-44e2-9064-ae0d2c22a56e"],
+Cell[1138, 36, 1185, 20, 196, "Text",ExpressionUUID->"e7c0cf94-4e48-4036-8533-84a391a7e271"],
+Cell[CellGroupData[{
+Cell[2348, 60, 368, 6, 67, "Section",ExpressionUUID->"e3583be7-533b-427c-856f-d9183166dddc"],
+Cell[2719, 68, 1342, 25, 265, "Text",ExpressionUUID->"a2057f16-e51f-4168-9923-9a7013c6350d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4098, 98, 408, 6, 67, "Section",ExpressionUUID->"d218687d-d0e9-43e4-81f1-b51672583119"],
+Cell[4509, 106, 1748, 34, 380, "Text",ExpressionUUID->"4b536bb5-858e-4ff2-973f-923242167953"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6294, 145, 516, 8, 67, "Section",ExpressionUUID->"282607c1-e8e4-478e-b038-6ec3fb8d6859"],
+Cell[6813, 155, 2221, 39, 426, "Text",ExpressionUUID->"4d7c3624-487e-4d20-ac4a-5fe93c4cd20c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9071, 199, 547, 8, 67, "Section",ExpressionUUID->"b6c529df-0d8a-45f0-a54d-4ea74aca72fc"],
+Cell[9621, 209, 1513, 26, 150, "Text",ExpressionUUID->"be946b4c-2289-4fdf-85a8-570798df29ac"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11171, 240, 594, 9, 67, "Section",ExpressionUUID->"06ee0815-5a2e-4959-a74a-57e9f1222c05"],
+Cell[11768, 251, 2566, 40, 311, "Text",ExpressionUUID->"6104eb95-204e-46bf-a8c0-e30eb9dd9d4b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14371, 296, 667, 10, 67, "Section",ExpressionUUID->"5a196e79-fac2-4585-ac35-3a2990ed8511"],
+Cell[15041, 308, 2664, 46, 449, "Text",ExpressionUUID->"741ca0e3-27a3-468d-a191-aef11899230a"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

@@ -29,14 +29,14 @@ Details will be added on an ongoing basis through the term.
 ### Week 5 &mdash; Chapters 6 and 7 &mdash; The Rocky Planets and the Gas Giants
 
 * Tuesday, April 13 &mdash; Problem Set 5: Handout on Newton's Laws &mdash; Reading: [*Starry Messenger* Excerpts](./resources/StarryMessengerExcerpts.pdf) &mdash; Reading: Chapter 7 of *Venus In Transit*
-* Friday, April 16 &mdash; The Rocky Planets and the Gas Giants &mdash; The Scale of the Solar System &mdash; Sizes and Densities in the Solar System
+* Friday, April 16 &mdash; Reading: *The Cosmos* Chapters 6 and 7 (The Four Rocky Planets and the Four Gas Giants) &mdash; Topics: Tides, Magnetic Fields, Volume, and Density &mdash; [Solar System Sizes](./resources/SolarSystemSizes.pdf) table &mdash; [Black Rock Desert](https://vimeo.com/139407849) scale model &mdash; [Orbital Resonance](https://youtu.be/Qyn64b4LNJ0) explanation
 
-### Week 6 &mdash; Chapters 8 and 9 &mdash; The Asteroid Belt, The Kuiper Belt, and Other Planetary Systems (Exoplanets)
+### Week 6 &mdash; Chapters 8 and 9 &mdash; The Asteroid Belt, The Kuiper Belt, and Solar System Formation
 
-* Tuesday, April 20 &mdash; The Asteroid Belt, the Kuiper Belt 
-* Friday, April 23 &mdash; Other Planetary Systems
+* Tuesday, April 20 &mdash; The class is rescheduled to be an observing night and telescope operation night starting at 9pm on Sunday evening &mdash; Problem Set 6: Solar System Densities Worksheet](./problem_sets/SolarSystemDensitiesWorksheet.pdf) (put in my box on Tuesday since we are not actually meeting on Tuesday)
+* Friday, April 23 &mdash; Reading *The Cosmos* Chapter 8 and Section 9.1: Our Solar System and Solar System Formation
 
 ### Week 7 &mdash; Astrology in Shakespeare
 
-* Tuesday, April 27 &mdash; Astrology in Shakespeare? &mdash; [Shakespeare and Astrology, Chapter IV](https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2094&context=masters-theses) by William Bruce Smith, Master's Thesis, 1989
-* Friday, April 30 &mdash; Friday class canceled due to break beginning Friday, April 30th
+* Tuesday, April 27 &mdash;  Read Chapters 8 and 9 of *Venus In Transit* &mdash; [Shakespeare and Astrology, Chapter IV](https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2094&context=masters-theses) by William Bruce Smith, Master's Thesis, 1989 &mdash; [Problem Set 7](./problem_sets/Astro-PS07.pdf)
+
