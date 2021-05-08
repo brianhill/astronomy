@@ -8,7 +8,7 @@ Details will be added on an ongoing basis through the term.
 
 ### Week 8 &mdash; Chapters 10 & 11 &mdash; Our Sun and Other Stars
 
-* Tuesday, May 11 &mdash; Our Sun
+* Tuesday, May 11 &mdash; Our Sun &ndash; Guide to Reading and [Problem Set 8](./problem_sets/Astro-PS08.pdf)
 * Friday, May 14 &mdash; Other Stars
 
 ### Week 9 &mdash; Chapter 12 &mdash; Fusion &mdash; Start Chapter 13 &mdash; Novas
