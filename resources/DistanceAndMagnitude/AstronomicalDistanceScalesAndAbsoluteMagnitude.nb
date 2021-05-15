@@ -1,0 +1,903 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     35000,        895]
+NotebookOptionsPosition[     32228,        836]
+NotebookOutlinePosition[     32677,        854]
+CellTagsIndexPosition[     32634,        851]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["AU, Parsec, Light-Year, Luminosity, Intensity, \
+Absolute Magnitude, and the HR Diagram",
+ FontSize->36]], "Title",
+ CellChangeTimes->{{3.686551433635851*^9, 3.686551435702796*^9}, {
+  3.686566204548839*^9, 3.68656620629377*^9}, {3.8300142529231977`*^9, 
+  3.8300143022870913`*^9}, {3.830015886613295*^9, 
+  3.830015889145129*^9}},ExpressionUUID->"1d04ec28-ffbc-4db3-bc58-\
+44df7696715a"],
+
+Cell[CellGroupData[{
+
+Cell["Astronomical Unit", "Section",
+ CellChangeTimes->{{3.6865515057708797`*^9, 
+  3.6865515089308863`*^9}},ExpressionUUID->"bde6603c-8f4c-49d1-b0d5-\
+a894727975e8"],
+
+Cell[TextData[{
+ "The \[OpenCurlyDoubleQuote]astronomical unit\[CloseCurlyDoubleQuote] or AU \
+is the \[OpenCurlyDoubleQuote]average distance\[CloseCurlyDoubleQuote] from \
+the earth to the Sun. Since \[OpenCurlyDoubleQuote]average\
+\[CloseCurlyDoubleQuote] is an imprecise term when you are talking about an \
+ellipse, it is now ",
+ StyleBox["defined",
+  FontSlant->"Italic"],
+ " to be 1.495978707 x ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "11"], TraditionalForm]],ExpressionUUID->
+  "9bcf627e-3bd3-44b5-afd6-6fa7e30e3c2f"],
+ " meters. In round numbers, 150,000,000 km or 93 million miles."
+}], "Text",
+ CellChangeTimes->{{3.686551516952475*^9, 3.686551642399416*^9}, {
+  3.8300143093851967`*^9, 3.830014313953952*^9}, {3.830018893787455*^9, 
+  3.830018897746482*^9}},ExpressionUUID->"e8134fb9-fab2-4ecd-af51-\
+d19c40b67a99"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Light-Year", "Section",
+ CellChangeTimes->{{3.6865515057708797`*^9, 3.6865515089308863`*^9}, {
+  3.686551695737627*^9, 
+  3.6865516975353622`*^9}},ExpressionUUID->"161587e7-d11e-492c-8798-\
+abc10e18823e"],
+
+Cell[TextData[{
+ "The light-year is how far light goes in a year. Nothing goes faster than \
+light, and light of all kinds \[LongDash] gamma rays, X-rays, ultraviolet, \
+visible light (ROY G BIV), infrared, microwaves and radio waves \[LongDash] \
+always goes the speed of light, so the speed of light is extremely \
+fundamental. The speed of light is so fundamental that since 1960, the meter \
+is defined by the speed of light. Up until the 1950's, the meter was defined \
+by official copies of meter bars that were kept in various locations such as \
+the US National Institute of Standards and Technology (NIST). Now that the \
+speed of light defines the meter, and the definition of the meter is how far \
+light goes in:\n\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"299", ",", "792", ",", "458"}]], TraditionalForm]],
+  ExpressionUUID->"b10c9c38-a0fd-4aac-bb5e-84659656aeed"],
+ " of a second\n\nit follows that the speed of light is exactly 299,792,458 \
+meters per second. In round numbers, 3 x ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "8"], TraditionalForm]],ExpressionUUID->
+  "0848a351-282c-44ee-9bbc-e56272df7d52"],
+ " m/s or 300,000 km/sec."
+}], "Text",
+ CellChangeTimes->{{3.6865517077298603`*^9, 3.686551833266919*^9}, {
+  3.686551871855064*^9, 3.686551976119277*^9}, {3.6865520197828827`*^9, 
+  3.686552038230744*^9}, {3.6865521709263*^9, 3.6865521981042624`*^9}, {
+  3.686552245275627*^9, 3.68655226375876*^9}, {3.686552301763423*^9, 
+  3.686552323057716*^9}, {3.686552370545375*^9, 3.686552528285285*^9}, {
+  3.830014345120719*^9, 
+  3.830014403033025*^9}},ExpressionUUID->"b3a1eab8-64b8-408d-b78c-\
+5ebce8bdfa77"],
+
+Cell["\<\
+The year needs defining too. Is it a leap year or a regular year (366 days or \
+365 days)? People decided to compromise and since a leap year usually comes \
+every four years, they settled on 365.25 days.\
+\>", "Text",
+ CellChangeTimes->{{3.6865517077298603`*^9, 3.686551833266919*^9}, {
+  3.686551871855064*^9, 3.686551976119277*^9}, {3.6865520197828827`*^9, 
+  3.686552038230744*^9}, {3.6865521709263*^9, 3.6865521981042624`*^9}, {
+  3.686552245275627*^9, 3.68655226375876*^9}, {3.686552301763423*^9, 
+  3.686552323057716*^9}, {3.686552370545375*^9, 3.686552507883905*^9}, {
+  3.686552548136201*^9, 3.686552588950852*^9}, {3.6865526934986553`*^9, 
+  3.686552754999771*^9}, {3.830014438257687*^9, 
+  3.8300144385387173`*^9}},ExpressionUUID->"c789b3f3-893a-498c-a7d2-\
+cc5925048d31"],
+
+Cell[CellGroupData[{
+
+Cell["Value for the Light-Year", "Subsection",
+ CellChangeTimes->{{3.6865525414433527`*^9, 3.686552544085556*^9}, {
+  3.686552682034404*^9, 3.6865526824374*^9}, {3.686552827282538*^9, 
+  3.6865528311504097`*^9}},ExpressionUUID->"d2319c39-d914-44fd-9f7c-\
+46a1e3a2e776"],
+
+Cell[TextData[{
+ "Now that we know the speed of light and what is meant by a year, we can \
+compute the light year (distance = speed * time):\n\n299,792,458 ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    FractionBox["meters", "second"],
+    FontSize->18], TraditionalForm]],ExpressionUUID->
+  "28468bd0-0991-4b2a-a890-ffbc9dddea3a"],
+ "* 365.25 * 24 * 60 * 60 seconds = 9.4607304725808 * ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "15"], TraditionalForm]],ExpressionUUID->
+  "c274b59c-e30a-47a7-9104-37b24c361945"],
+ " meters\n\nand that is ",
+ StyleBox["exact",
+  FontSlant->"Italic"],
+ " thanks to the fact that both the meter and the year are now ",
+ StyleBox["defined",
+  FontSlant->"Italic"],
+ ", not measured, values."
+}], "Text",
+ CellChangeTimes->{{3.6865517077298603`*^9, 3.686551833266919*^9}, {
+  3.686551871855064*^9, 3.686551976119277*^9}, {3.6865520197828827`*^9, 
+  3.686552038230744*^9}, {3.6865521709263*^9, 3.6865521981042624`*^9}, {
+  3.686552245275627*^9, 3.68655226375876*^9}, {3.686552301763423*^9, 
+  3.686552323057716*^9}, {3.686552370545375*^9, 3.686552507883905*^9}, {
+  3.686552548136201*^9, 3.686552588950852*^9}, {3.6865526934986553`*^9, 
+  3.686552754999771*^9}, {3.686552834986912*^9, 3.686552925054159*^9}, {
+  3.686553187290371*^9, 3.686553191441678*^9}, {3.6865532268226547`*^9, 
+  3.686553239715382*^9}, {3.686553283851576*^9, 3.686553325732437*^9}, {
+  3.686556940081026*^9, 3.686556948043799*^9}, {3.686556984404169*^9, 
+  3.686557000783854*^9}, {3.765499063642137*^9, 3.765499067970243*^9}, {
+  3.8300189498569813`*^9, 
+  3.830018950228302*^9}},ExpressionUUID->"e5ec66c5-e17b-4000-936b-\
+cc2d464c2258"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Light-Year Compared to AU", "Subsection",
+ CellChangeTimes->{{3.6865525414433527`*^9, 3.686552544085556*^9}, {
+  3.686552682034404*^9, 3.6865526824374*^9}, {3.686552827282538*^9, 
+  3.6865528311504097`*^9}, {3.686566486539934*^9, 
+  3.686566520417445*^9}},ExpressionUUID->"ad90cb8d-ef9c-40ec-8b5b-\
+46b9219099eb"],
+
+Cell[TextData[{
+ "It takes light only 500 seconds or 8 1/3 minutes to get from the Sun to the \
+Earth, so obviously the light-year is a lot more than the AU. How much more? \
+It\[CloseCurlyQuote]s 9.4607304725808 * ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "15"], TraditionalForm]],ExpressionUUID->
+  "27dffae5-4b41-4145-b0f6-f949c52ce698"],
+ " / 1.495978707 x ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "11"], TraditionalForm]],ExpressionUUID->
+  "fd8422f8-50b7-4d94-9934-c901c5698e23"],
+ " = 63241.077084 times as much."
+}], "Text",
+ CellChangeTimes->{{3.6865665401566133`*^9, 3.6865665762724133`*^9}, {
+  3.686566651002857*^9, 3.686566672814621*^9}, {3.686566737998642*^9, 
+  3.6865667934363337`*^9}, {3.765498839964305*^9, 3.765498840119508*^9}, {
+  3.830018967137103*^9, 3.830018989681814*^9}, {3.830020926632663*^9, 
+  3.8300209269020367`*^9}},ExpressionUUID->"2b4c65e2-51c2-4160-8510-\
+e452e59f7981"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Parallax and the Parsec", "Section",
+ CellChangeTimes->{{3.6865515057708797`*^9, 3.6865515089308863`*^9}, {
+  3.686551695737627*^9, 3.6865516975353622`*^9}, {3.686553363714182*^9, 
+  3.686553364533428*^9}, {3.765498957594493*^9, 
+  3.765498959742955*^9}},ExpressionUUID->"05d6644c-bdec-4533-bf14-\
+04fa5f89ba18"],
+
+Cell[TextData[{
+ "Astronomers use the parsec more often than the light-year. Perhaps that \
+will change, but for now, we also need to know the parsec. The parsec is \
+defined as follows: ",
+ StyleBox["One parsec is how far away something has to be so that in angle, \
+it appears to move exactly one arc-second as you move one astronomical unit.",
+  
+  FontSlant->"Italic"],
+ "\n\nOne arc second is tiny. It is 1/60th of 1/60th of 1/360th of the way \
+around a circle (because there are 60 arc-seconds in an arc-minute, and 60 \
+arc-minutes in one degree and 360 degrees in a full circle). That\
+\[CloseCurlyQuote]s ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"1", ",", "296", ",", "000"}]], TraditionalForm]],ExpressionUUID->
+  "6f497898-9b4c-4eb8-b5f0-dbc9bcf2854c"],
+ " of a circle. The apparent movement (the change in angle) is the \
+\[OpenCurlyDoubleQuote]parallax angle.\[CloseCurlyDoubleQuote] For the \
+parallax angle to be less than a millionth of a circle of radius 1 A.U., a \
+parsec must be an extremely large distance. A full circle has radius ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", "\[Pi]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  ExpressionUUID->"e95759f7-a7f9-4518-95e2-5a00496f2466"],
+ " so ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"1", ",", "296", ",", "000"}]], TraditionalForm]],ExpressionUUID->
+  "683223ee-0fd6-4d68-86f7-0a567b6723a6"],
+ " of a circle has length:\n\n1 AU = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"1", ",", "296", ",", "000"}]], "2", "\[Pi]", "\[VeryThinSpace]",
+     "r"}], TraditionalForm]],ExpressionUUID->
+  "4dcfa24a-2382-4515-9981-7269a2c7a569"],
+ "\n\nSolving for ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],ExpressionUUID->
+  "3f926b86-6a57-4699-9046-90507047dca8"],
+ ", we have the parsec:\n\n1 parsec = 1 ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"AU", " ", 
+     FractionBox[
+      RowBox[{"1", ",", "296", ",", "000"}], 
+      RowBox[{"2", "\[VeryThinSpace]", "\[Pi]"}]]}], "=", 
+    RowBox[{
+     RowBox[{"1", " ", "AU", " ", "*", " ", "206265"}], "=", 
+     RowBox[{"3.0856776", " ", "*", 
+      SuperscriptBox["10", "16"], "m"}]}]}], TraditionalForm]],ExpressionUUID->
+  "ef9739e1-0dec-4329-9c79-c7429d05e876"],
+ "\n\nIf you thought it was slightly cheesy to use the pie-crust formula, you \
+could just as well have used:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"1", " ", "AU"}], 
+     RowBox[{"1", " ", "parsec"}]], "=", 
+    RowBox[{"tan", 
+     FractionBox["1", 
+      RowBox[{"3600", "\.ba"}]]}]}], TraditionalForm]],ExpressionUUID->
+  "560d52b7-6f54-4824-889b-18dbd404d526"],
+ "\n\nbut the angle is so tiny it doesn\[CloseCurlyQuote]t make any \
+difference even out at the 7th decimal place, and in any case, the \
+International Astronomical Union has ",
+ StyleBox["defined",
+  FontSlant->"Italic"],
+ " the parsec to be ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "AU", " ", 
+    FractionBox[
+     RowBox[{"1", ",", "296", ",", "000"}], 
+     RowBox[{"2", "\[VeryThinSpace]", "\[Pi]"}]]}], TraditionalForm]],
+  ExpressionUUID->"bceee520-86ae-4cfc-b89e-c2f67a808b4f"],
+ " rather than using ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"tan", " ", 
+    FractionBox["1", 
+     RowBox[{"3600", "\.ba"}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e4b67309-f93b-47a8-b987-909edd6caae3"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.686553419794874*^9, 3.686553480306828*^9}, {
+   3.686555021592146*^9, 3.686555046831397*^9}, {3.686555078781266*^9, 
+   3.686555126167468*^9}, 3.686555164251919*^9, {3.686555245083097*^9, 
+   3.686555278513715*^9}, {3.6865554191925917`*^9, 3.686555419193822*^9}, {
+   3.686555470900466*^9, 3.686555544280058*^9}, {3.686555736621455*^9, 
+   3.686555752758972*^9}, {3.686556863643242*^9, 3.6865568743168488`*^9}, {
+   3.6865570342444267`*^9, 3.686557326810754*^9}, {3.686557366154665*^9, 
+   3.686557489897236*^9}, {3.686557573528796*^9, 3.686557636020344*^9}, {
+   3.686557668545312*^9, 3.686557706713113*^9}, {3.686557939263192*^9, 
+   3.6865580651601048`*^9}, {3.686558162530472*^9, 3.686558173418738*^9}, {
+   3.686558229760504*^9, 3.686558630796348*^9}, {3.6865586920356827`*^9, 
+   3.686558836495302*^9}, {3.686558872074835*^9, 3.686558878896242*^9}, {
+   3.686558943631012*^9, 3.686559076651183*^9}, {3.6865591118269663`*^9, 
+   3.686559150931094*^9}, {3.686559228706584*^9, 3.686559259099146*^9}, 
+   3.686559641437948*^9, {3.68656018742598*^9, 3.686560198650861*^9}, {
+   3.6865659495286703`*^9, 3.6865659532601023`*^9}, {3.686567384392499*^9, 
+   3.686567477208228*^9}, {3.830014517550439*^9, 3.8300145433124657`*^9}, {
+   3.8300145910934362`*^9, 3.830014618273631*^9}, {3.830014706337639*^9, 
+   3.8300147671148443`*^9}, {3.830014797231999*^9, 3.830014819765718*^9}, {
+   3.830014896570841*^9, 3.8300149766633673`*^9}, {3.8300153092587223`*^9, 
+   3.8300153925772963`*^9}, {3.8300155094465714`*^9, 3.830015652030035*^9}, {
+   3.830019020326693*^9, 3.830019039496459*^9}, {3.830019080119451*^9, 
+   3.8300191077946167`*^9}, {3.830019161411392*^9, 3.830019180625643*^9}, {
+   3.830020946534186*^9, 
+   3.830020961745409*^9}},ExpressionUUID->"81f94878-ac74-475d-aae8-\
+f27709e62e36"],
+
+Cell[CellGroupData[{
+
+Cell["Parsec Compared to Light-Year", "Subsection",
+ CellChangeTimes->{{3.686567201867*^9, 
+  3.686567207991474*^9}},ExpressionUUID->"d7bd142f-c079-4c72-8b10-\
+f7e453341d3a"],
+
+Cell[TextData[{
+ "How does the parsec compare to the light-year?\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"3.0856776", " ", "*", 
+      SuperscriptBox["10", "16"]}], 
+     RowBox[{"9.4607304725808", "*", 
+      SuperscriptBox["10", "15"]}]], "\[TildeTilde]", "3.26"}], 
+   TraditionalForm]],ExpressionUUID->"1c1a582d-7040-435b-b783-b53a2fe90d63"],
+ "\n\nIt is good to remember that the parsec is more than three light years. \
+The distance to the nearest star is also handy to know. It is Proxima \
+Centauri, and it is 4.22 light-years away, or 1.29 parsecs."
+}], "Text",
+ CellChangeTimes->{{3.686566862062348*^9, 3.6865670235216846`*^9}, {
+   3.6865670591508837`*^9, 3.686567061966927*^9}, {3.6865672677585087`*^9, 
+   3.686567268072802*^9}, 3.68656732036311*^9, {3.830015679603655*^9, 
+   3.830015704923952*^9}, {3.830019192398388*^9, 3.83001923316739*^9}, {
+   3.8300209841878223`*^9, 
+   3.830020984344926*^9}},ExpressionUUID->"8a372156-c011-4a6f-9c35-\
+d91c823b3475"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Luminosity and Intensity", "Section",
+ CellChangeTimes->{{3.6865515057708797`*^9, 3.6865515089308863`*^9}, {
+  3.686551695737627*^9, 3.6865516975353622`*^9}, {3.8300157900446787`*^9, 
+  3.830015792260203*^9}, {3.8300194412872887`*^9, 
+  3.830019446462864*^9}},ExpressionUUID->"c16cb7d8-574c-43cf-940e-\
+27d7170f89bc"],
+
+Cell[TextData[{
+ "Luminosity, usually denoted ",
+ Cell[BoxData[
+  FormBox["L", TraditionalForm]],ExpressionUUID->
+  "10ebaa9c-961a-4c00-80e6-5a2fcd1f93e4"],
+ ", is a star\[CloseCurlyQuote]s power output. Power is energy / time. In MKS \
+units that is Joules/second which is more commonly know as Watts.",
+ "\n",
+ "Intensity, usually denoted as ",
+ Cell[BoxData[
+  FormBox["I", TraditionalForm]],ExpressionUUID->
+  "4d12f70d-3932-41ac-91d1-b5419f1839ac"],
+ " by physicists, but which is ",
+ Cell[BoxData[
+  FormBox["b", TraditionalForm]],ExpressionUUID->
+  "4133718e-6931-4baf-afa7-debc6153716f"],
+ " in our textbook (see p. 326), is power per unit area. In MKS units that is \
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"Watts", "/", 
+    SuperscriptBox[
+     StyleBox["m",
+      FontSlant->"Plain"], "2"]}], TraditionalForm]],ExpressionUUID->
+  "ae631541-8919-4d3d-a032-3309d339ceba"],
+ ". If you are a distance ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],ExpressionUUID->
+  "73d03cbe-0cb8-4c83-b62f-9c445961b183"],
+ " from a star, its intensity is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"b", "=", 
+    FractionBox["L", 
+     RowBox[{"4", "\[Pi]", " ", 
+      SuperscriptBox[
+       RowBox[{"R", "\[VeryThinSpace]"}], "2"]}]]}], TraditionalForm]],
+  FontSize->18,ExpressionUUID->"399eab92-0092-4dec-85a4-c8860d752bd8"]
+}], "Text",
+ CellChangeTimes->{{3.686566862062348*^9, 3.6865670235216846`*^9}, {
+   3.6865670591508837`*^9, 3.686567061966927*^9}, {3.686567330081167*^9, 
+   3.686567332533319*^9}, {3.830015802442277*^9, 3.830015874171371*^9}, 
+   3.830019439063416*^9},ExpressionUUID->"b672223c-9ba3-4087-9862-\
+b3c246928d19"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Relationship between Intensity and Magnitude (or casually, \
+\[OpenCurlyDoubleQuote]brightness\[CloseCurlyDoubleQuote])\
+\>", "Section",
+ CellChangeTimes->{{3.6865515057708797`*^9, 3.6865515089308863`*^9}, {
+  3.686551695737627*^9, 3.6865516975353622`*^9}, {3.8300157900446787`*^9, 
+  3.830015792260203*^9}, {3.830015898201714*^9, 3.830015899258696*^9}, {
+  3.8300161810369062`*^9, 3.830016182240394*^9}, {3.83001643464439*^9, 
+  3.830016449471734*^9}, {3.830018229672423*^9, 
+  3.830018235568726*^9}},ExpressionUUID->"a83bbfe0-e3fc-4c58-8aac-\
+17f0ba6ca6ce"],
+
+Cell[TextData[{
+ "There must be a relationship between intensity and magnitude, since they \
+are both measures of what physicists call intensity and what we casually call \
+\[OpenCurlyDoubleQuote]brightness.\[CloseCurlyDoubleQuote] It\
+\[CloseCurlyQuote]s actually a little more complicated than I am about to \
+write, but the details aren\[CloseCurlyQuote]t worth getting into:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"b", "="}], TraditionalForm]],ExpressionUUID->
+  "fc0cb255-e3d1-45b3-8f8a-89ca850274ac"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["I", "0"], " ", 
+    SuperscriptBox["100", 
+     RowBox[{
+      RowBox[{"-", "m"}], "/", "5"}]]}], TraditionalForm]],ExpressionUUID->
+  "4473b7ca-b7bb-4c64-885f-af0fa996a8c5"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["I", "0"], TraditionalForm]],ExpressionUUID->
+  "cffaf5d6-ba6c-46ab-ad56-636a379da8e4"],
+ " is a standard intensity that the International Astronomical Union has \
+agreed is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["I", "0"], "=", 
+    FractionBox[
+     RowBox[{"3.0128", "\[Times]", 
+      SuperscriptBox["10", "28"], " ", "Watts", " "}], 
+     RowBox[{"4", " ", "\[Pi]", " ", 
+      RowBox[{"(", 
+       RowBox[{"10", 
+        FormBox[
+         SuperscriptBox[
+          RowBox[{"parsec", ")"}], "2"],
+         TraditionalForm]}]}]}]]}], TraditionalForm]],ExpressionUUID->
+  "72c3a65f-cf2c-4486-b558-c9818f4e9bfa"],
+ "\n\nYou will never need \t",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["I", "0"], TraditionalForm]],ExpressionUUID->
+  "42d72094-940c-48e8-ac12-0eeec1e26562"],
+ " because we are going to compute ratios of brightnesses, and it disappears \
+out of the ratios."
+}], "Text",
+ CellChangeTimes->{{3.686566862062348*^9, 3.6865670235216846`*^9}, {
+  3.6865670591508837`*^9, 3.686567061966927*^9}, {3.686567330081167*^9, 
+  3.686567332533319*^9}, {3.830015802442277*^9, 3.830016005223627*^9}, {
+  3.8300161862115602`*^9, 3.830016233732224*^9}, {3.830016405935465*^9, 
+  3.830016427500874*^9}, {3.83001646196903*^9, 3.830016480472608*^9}, {
+  3.8300165236884336`*^9, 3.8300165297502317`*^9}, {3.830016564631867*^9, 
+  3.8300166480250053`*^9}, {3.830016679190885*^9, 3.8300166981542177`*^9}, {
+  3.830016748724369*^9, 3.830016799618202*^9}, {3.830016829857609*^9, 
+  3.830016882305573*^9}, {3.830017561462254*^9, 3.8300175763905087`*^9}, {
+  3.830019454777761*^9, 3.8300194559926577`*^9}, {3.830020199931596*^9, 
+  3.83002020021292*^9}, {3.830020264755527*^9, 3.830020344948996*^9}, {
+  3.8300205212922153`*^9, 
+  3.830020532191824*^9}},ExpressionUUID->"228c0b51-a557-45e1-b280-\
+53abcec6d9a8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Absolute Magnitude", "Section",
+ CellChangeTimes->{{3.6865515057708797`*^9, 3.6865515089308863`*^9}, {
+   3.686551695737627*^9, 3.6865516975353622`*^9}, {3.8300157900446787`*^9, 
+   3.830015792260203*^9}, {3.830015898201714*^9, 3.830015899258696*^9}, {
+   3.8300161810369062`*^9, 3.830016182240394*^9}, {3.83001643464439*^9, 
+   3.830016449471734*^9}, {3.83001753127875*^9, 3.8300175339329977`*^9}, 
+   3.830019491680057*^9},ExpressionUUID->"6933fe77-7953-4e17-a1df-\
+f0fef90995e5"],
+
+Cell[TextData[{
+ "Suppose a star is at a distance ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "79ac4fa9-e202-43e9-97de-f35c01e602ca"],
+ ". Then we already have one formula for its brightness:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"b", "=", 
+    FractionBox["L", 
+     RowBox[{"4", "\[Pi]", " ", 
+      SuperscriptBox[
+       RowBox[{"R", "\[VeryThinSpace]"}], "2"]}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm",
+  FontSize->18,ExpressionUUID->"f1bf27e3-ec76-43c7-9d02-90dfd8d5b648"],
+ "\n\nImagine moving this star to a standard distance of 10 parsecs (without \
+changing its luminosity). In that case, its intensity would be:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["b", 
+     RowBox[{"at", " ", "10", " ", "parsecs"}]], "=", 
+    FractionBox["L", 
+     RowBox[{"4", "\[Pi]", " ", 
+      SuperscriptBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"10", " ", "parsec"}], ")"}], "\[VeryThinSpace]"}], 
+       "2"]}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm",
+  FontSize->18,ExpressionUUID->"adffdf6c-2911-43f5-93ae-b097841659f1"],
+ "\n\nSuppose its magnitude at ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "17522cd3-40c6-446d-89fb-569ed6567c59"],
+ " was ",
+ Cell[BoxData[
+  FormBox["m", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "1de1cbf8-6529-4d18-be26-6b9642bd81b6"],
+ " and its magnitude at the standard distance of 10 parsecs is ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "276e3c0b-b6aa-4297-8f1d-c27cc1cddec4"],
+ ".  ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "41b71645-ca2e-4976-ae33-eff8ac5d844d"],
+ " is by definition the \[OpenCurlyDoubleQuote]absolute magnitude.\
+\[CloseCurlyDoubleQuote] It is its magnitude at the standard distance.\n\n\
+From the prior section we have \n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"b", "=", 
+    RowBox[{
+     SubscriptBox["I", "0"], " ", 
+     SuperscriptBox["100", 
+      RowBox[{
+       RowBox[{"-", "m"}], "/", "5"}]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",
+  FontSize->18,ExpressionUUID->"9da45796-4cbe-4822-8bcb-ea66920b59c9"],
+ "\n\nand\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["b", 
+     RowBox[{"at", " ", "10", " ", "parsecs"}]], "=", 
+    RowBox[{
+     SubscriptBox["I", "0"], " ", 
+     SuperscriptBox["100", 
+      RowBox[{
+       RowBox[{"-", "M"}], "/", "5"}]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",
+  FontSize->18,ExpressionUUID->"273b3232-bed4-4b6c-b5dc-738c1c7ec2cc"],
+ "\n\nCombine the two formulas for ",
+ Cell[BoxData[
+  FormBox["b", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0afcbb4a-e4e7-45d3-93b8-59a7b75e0514"],
+ " and the two formulas for ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["b", 
+    RowBox[{"at", " ", "10", " ", "parsecs"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b508de42-f32b-4c22-a3f7-e7bc8eb9f5f9"],
+ ":\n\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["L", 
+    RowBox[{"4", "\[Pi]", " ", 
+     SuperscriptBox[
+      RowBox[{"R", "\[VeryThinSpace]"}], "2"]}]], TraditionalForm]],
+  FontSize->18,ExpressionUUID->"12c8d78d-e638-4dc4-a7d1-93b484d82cda"],
+ "=",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["I", "0"], " ", 
+    SuperscriptBox["100", 
+     RowBox[{
+      RowBox[{"-", "m"}], "/", "5"}]]}], TraditionalForm]],
+  FontSize->18,ExpressionUUID->"165a7a17-eda9-45be-8b46-fdf1ade085dd"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     FractionBox["L", 
+      RowBox[{"4", "\[Pi]", "\[VeryThinSpace] ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"10", "parsec"}], ")"}], "2"]}]],
+     FontSize->16], "=", 
+    RowBox[{
+     SubscriptBox["I", "0"], 
+     SuperscriptBox["100", 
+      RowBox[{
+       RowBox[{"-", "M"}], "/", "5"}]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",
+  FontSize->18,ExpressionUUID->"856b6b55-5d18-42bc-b497-d1dd223ca01a"],
+ "\n\n",
+ StyleBox["Now take the ratio of these two formulas.",
+  FontSlant->"Italic"],
+ " Notice that ",
+ Cell[BoxData[
+  FormBox["L", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "5f480187-0f9a-49d4-a387-8aa25372fb30"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"4", "\[Pi]"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "14fc6baa-7842-4ed7-bfc6-74ca08ea3f90"],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["I", "0"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "5bf66d79-a19b-4f64-a38f-9cf15135f99b"],
+ " is in both formulas so it drops out of the ratio:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"1", "/", 
+      SuperscriptBox["R", "2"]}], 
+     RowBox[{"1", "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"10", " ", "parsec"}], ")"}], "2"]}]], "=", 
+    FractionBox[
+     SuperscriptBox["100", 
+      RowBox[{
+       RowBox[{"-", "m"}], "/", "5"}]], 
+     SuperscriptBox["100", 
+      RowBox[{
+       RowBox[{"-", "M"}], "/", "5"}]]]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "bf328d01-7331-424c-92b4-e434692bca63"],
+ "\n\nTo summarize, we now have  formula we can solve for ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "992aeb81-48f5-403a-9349-d57e15a500b6"],
+ ", the \[OpenCurlyDoubleQuote]absolute magnitude.\[CloseCurlyDoubleQuote] It \
+is the magnitude of the star if it were at the standard distance of 10 \
+parsecs."
+}], "Text",
+ CellChangeTimes->{{3.8300173765248737`*^9, 3.830017495357399*^9}, {
+   3.830017665691352*^9, 3.830017722065618*^9}, {3.830017759123507*^9, 
+   3.83001794916925*^9}, {3.830017993684079*^9, 3.830018036219346*^9}, {
+   3.830018071792116*^9, 3.83001821593587*^9}, 3.830018342622838*^9, {
+   3.830018381829159*^9, 3.8300185198565483`*^9}, {3.8300185790053053`*^9, 
+   3.830018623352306*^9}, {3.830019478941675*^9, 3.8300196576344337`*^9}, {
+   3.8300205528496237`*^9, 
+   3.830020583459279*^9}},ExpressionUUID->"e6416983-7941-4751-b748-\
+7cb9ca8fdd6e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Solving for ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b5aea34c-1481-423b-809f-fbbc4d370219"],
+ " and the HR Diagram"
+}], "Section",
+ CellChangeTimes->{{3.6865515057708797`*^9, 3.6865515089308863`*^9}, {
+  3.686551695737627*^9, 3.6865516975353622`*^9}, {3.8300157900446787`*^9, 
+  3.830015792260203*^9}, {3.830015898201714*^9, 3.830015899258696*^9}, {
+  3.8300161810369062`*^9, 3.830016182240394*^9}, {3.83001643464439*^9, 
+  3.830016449471734*^9}, {3.83001753127875*^9, 3.8300175339329977`*^9}, {
+  3.8300185603979483`*^9, 3.830018565797023*^9}, {3.830019661109439*^9, 
+  3.8300196662061863`*^9}},ExpressionUUID->"5f025625-1928-48cb-a75a-\
+ee85bfc4fceb"],
+
+Cell[TextData[{
+ "In the previous section, I derived\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"1", "/", 
+      SuperscriptBox["R", "2"]}], 
+     RowBox[{"1", "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"10", " ", "parsec"}], ")"}], "2"]}]], "=", 
+    FractionBox[
+     SuperscriptBox["100", 
+      RowBox[{
+       RowBox[{"-", "m"}], "/", "5"}]], 
+     SuperscriptBox["100", 
+      RowBox[{
+       RowBox[{"-", "M"}], "/", "5"}]]]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "da7c2da8-4556-4176-9b7a-42212cf9fb85"],
+ "\n\nUsually we know ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "37f59ce5-872b-423d-a52e-22c913ffb3cc"],
+ " from astrometry, and the apparent magnitude ",
+ Cell[BoxData[
+  FormBox["m", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "7382952c-6f2e-4a4f-8ef4-1fe85b727af8"],
+ " from looking at the star, and we want to know ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "de9d79ba-7538-4c28-a973-59c56f36bcec"],
+ ".\n\nWe can take the square root of the equation and we get:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"1", "/", "R"}], 
+     RowBox[{"1", "/", 
+      RowBox[{"(", 
+       RowBox[{"10", " ", "parsec"}], ")"}]}]], "=", 
+    RowBox[{
+     FractionBox[
+      SuperscriptBox["10", 
+       RowBox[{
+        RowBox[{"-", "m"}], "/", "5"}]], 
+      SuperscriptBox["10", 
+       RowBox[{
+        RowBox[{"-", "M"}], "/", "5"}]]], "=", 
+     SuperscriptBox["10", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"M", "-", "m"}], ")"}], "/", "5"}]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "93d4a9bc-b3f2-48c0-b156-dbdd3124c1b4"],
+ "\n\nWe can take log base 10 of that equation and we get:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["log", "10"], 
+     FractionBox[
+      RowBox[{"10", "parsec"}], "R"]}], "=", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"M", "-", "m"}], ")"}], "/", "5"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "dc9a76e6-1bae-40d9-bb08-e8c4b69ed6dd"],
+ "   <==== this is as far as I got at about 12:20 in class\n\nSolve for ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "4537949e-942a-48b4-b025-aea7fd04b446"],
+ " and get:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "=", 
+    RowBox[{"m", "+", 
+     RowBox[{"5", "  ", 
+      SubscriptBox["log", "10"], 
+      FractionBox[
+       RowBox[{"10", " ", "parsec"}], "R"]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "89c23875-ccdc-4123-9c53-edeb9827e9e3"],
+ " <===== this is the formula you need and that I was going to do using \
+Sirius as the example\n\nLet\[CloseCurlyQuote]s try it for the Sun:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"m", "=", 
+    RowBox[{"-", "26.74"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b395769b-155b-4b1c-9846-1d220d0daf4a"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    RowBox[{"0.000004848", " ", "parsecs"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "cebc25c0-25fb-4aec-9d37-ec1f3cb7419b"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "26.74"}], " ", "+", 
+      RowBox[{"5", " ", 
+       SubscriptBox["log", "10"], 
+       FractionBox[
+        RowBox[{"10", " ", "parsec"}], 
+        RowBox[{"0.000004848", " ", "parsecs"}]]}]}], "=", "4.83"}]}], 
+   TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "13e976c2-c255-4473-a4a9-eca159a8f1e6"],
+ "\n\nWe have just discovered that by far the brightest object in our sky \
+(the Sun) would barely be visible even at a location like Deep Springs if it \
+were at the standard distance of 10 parsecs. In an urban area or even a \
+suburban area you would have no chance of seeing it due to light pollution. \
+In such areas you are lucky to see magnitude 3 stars.\n\nNow you have what \
+you need to fill out the HR diagram that I wanted to fill out in class."
+}], "Text",
+ CellChangeTimes->{{3.830018634165945*^9, 3.830018869713675*^9}, 
+   3.830019693588867*^9, {3.8300197463839397`*^9, 3.830019746552907*^9}, {
+   3.830019794702635*^9, 3.830019854779093*^9}, {3.830019927397743*^9, 
+   3.8300200822613163`*^9}, {3.830020615376378*^9, 
+   3.830020770853606*^9}},ExpressionUUID->"3d61b9ee-545a-4a66-83d3-\
+060eb36d51ef"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1227, 855},
+WindowMargins->{{134, Automatic}, {Automatic, 125}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 9, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"fd65d3fa-ee11-40cd-8805-ae45c8ab28b1"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 412, 7, 136, "Title",ExpressionUUID->"1d04ec28-ffbc-4db3-bc58-44df7696715a"],
+Cell[CellGroupData[{
+Cell[1017, 33, 166, 3, 67, "Section",ExpressionUUID->"bde6603c-8f4c-49d1-b0d5-a894727975e8"],
+Cell[1186, 38, 839, 18, 58, "Text",ExpressionUUID->"e8134fb9-fab2-4ecd-af51-d19c40b67a99"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2062, 61, 210, 4, 67, "Section",ExpressionUUID->"161587e7-d11e-492c-8798-abc10e18823e"],
+Cell[2275, 67, 1662, 31, 202, "Text",ExpressionUUID->"b3a1eab8-64b8-408d-b78c-5ebce8bdfa77"],
+Cell[3940, 100, 793, 13, 58, "Text",ExpressionUUID->"c789b3f3-893a-498c-a7d2-cc5925048d31"],
+Cell[CellGroupData[{
+Cell[4758, 117, 269, 4, 54, "Subsection",ExpressionUUID->"d2319c39-d914-44fd-9f7c-46a1e3a2e776"],
+Cell[5030, 123, 1649, 35, 137, "Text",ExpressionUUID->"e5ec66c5-e17b-4000-936b-cc2d464c2258"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6716, 163, 319, 5, 54, "Subsection",ExpressionUUID->"ad90cb8d-ef9c-40ec-8b5b-46b9219099eb"],
+Cell[7038, 170, 928, 20, 58, "Text",ExpressionUUID->"2b4c65e2-51c2-4160-8510-e452e59f7981"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8015, 196, 318, 5, 67, "Section",ExpressionUUID->"05d6644c-bdec-4533-bf14-04fa5f89ba18"],
+Cell[8336, 203, 5238, 116, 479, "Text",ExpressionUUID->"81f94878-ac74-475d-aae8-f27709e62e36"],
+Cell[CellGroupData[{
+Cell[13599, 323, 174, 3, 54, "Subsection",ExpressionUUID->"d7bd142f-c079-4c72-8b10-f7e453341d3a"],
+Cell[13776, 328, 1005, 21, 156, "Text",ExpressionUUID->"8a372156-c011-4a6f-9c35-d91c823b3475"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14830, 355, 323, 5, 67, "Section",ExpressionUUID->"c16cb7d8-574c-43cf-940e-27d7170f89bc"],
+Cell[15156, 362, 1638, 43, 134, "Text",ExpressionUUID->"b672223c-9ba3-4087-9862-b3c246928d19"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16831, 410, 569, 10, 67, "Section",ExpressionUUID->"a83bbfe0-e3fc-4c58-8aac-17f0ba6ca6ce"],
+Cell[17403, 422, 2619, 61, 250, "Text",ExpressionUUID->"228c0b51-a557-45e1-b280-53abcec6d9a8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20059, 488, 488, 7, 67, "Section",ExpressionUUID->"6933fe77-7953-4e17-a1df-f0fef90995e5"],
+Cell[20550, 497, 6282, 183, 764, "Text",ExpressionUUID->"e6416983-7941-4751-b748-7cb9ca8fdd6e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26869, 685, 734, 15, 68, "Section",ExpressionUUID->"5f025625-1928-48cb-a75a-ee85bfc4fceb"],
+Cell[27606, 702, 4594, 130, 736, "Text",ExpressionUUID->"3d61b9ee-545a-4a66-83d3-060eb36d51ef"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

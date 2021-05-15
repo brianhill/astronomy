@@ -6,15 +6,15 @@ See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 
 Details will be added on an ongoing basis through the term.
 
-### Week 8 &mdash; Chapters 10 & 11 &mdash; Our Sun and Other Stars
+### Week 8 &mdash; Chapters 10, and 11 &mdash; Our Sun and Other Stars
 
 * Tuesday, May 11 &mdash; Our Sun &ndash; Guide to Reading and [Problem Set 8](./problem_sets/Astro-PS08.pdf)
-* Friday, May 14 &mdash; Other Stars
+* Friday, May 14 &mdash; Other Stars &mdash; The HR diagram &mdash; [Absolute Magnitude Handout](./resources/DistanceAndMagnitude/AstronomicalDistanceScalesAndAbsoluteMagnitude.pdf) &mdash; [HR Plot Handout](./resources/HRPlot/HRPlot.pdf)
 
-### Week 9 &mdash; Chapter 12 &mdash; Fusion &mdash; Start Chapter 13 &mdash; Novas
+### Week 9 &mdash; Chapter 12 &mdash; Fusion and Nova
 
-* Tuesday, May 18 &mdash; Start Chapter 13 (just 13.1) Red Giants, Planetary Nebulas, Novas and White Dwarfs
-* Friday, May 21 &mdash; Second Midterm
+* Tuesday, May 18 &mdash; Chapter 12 &mdash; Fusion in the Interior of Stars &mdash; Reading and Discussion Guide and [Problem Set 9](./problem_sets/Astro-PS09.pdf)
+* Friday, May 21 &mdash; Second Midterm (for half of period) and Start Chapter 13 on the Death of Stars
 
 ### Week 10 &mdash; Finish Chapter 13 and Start Chapter 14; Supernovas and Black Holes
 
