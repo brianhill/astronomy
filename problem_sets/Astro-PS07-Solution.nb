@@ -1,0 +1,421 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     21217,        413]
+NotebookOptionsPosition[     19360,        370]
+NotebookOutlinePosition[     19805,        388]
+CellTagsIndexPosition[     19762,        385]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Astronomy \[LongDash] PS 7 \[LongDash] Solar System \
+Properties",
+ FontSize->36]], "Title",
+ CellChangeTimes->{{3.826990895531827*^9, 3.8269909050731707`*^9}, {
+  3.826991212936166*^9, 3.826991215061927*^9}, {3.828370378578549*^9, 
+  3.828370404709653*^9}},ExpressionUUID->"1cd65f7b-be86-46b3-aaf1-\
+48ae0714202a"],
+
+Cell[TextData[StyleBox["My Solution \[LongDash] many answers are of course \
+subjective, but please review mine as a good way of reviewing Chapter 8 and \
+Section 9.1",
+ FontSize->24,
+ FontSlant->"Italic"]], "Title",
+ CellChangeTimes->{{3.8269909442346687`*^9, 3.8269909472827673`*^9}, {
+  3.828370548369618*^9, 3.828370548762776*^9}, {3.829999987823694*^9, 
+  3.8300000221727343`*^9}, {3.830002172185565*^9, 
+  3.8300022131908407`*^9}},ExpressionUUID->"f75a004f-b82e-44e2-9064-\
+ae0d2c22a56e"],
+
+Cell[CellGroupData[{
+
+Cell["Planets vs. Dwarf Planets", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 
+  3.828375348066052*^9}},ExpressionUUID->"e3583be7-533b-427c-856f-\
+d9183166dddc"],
+
+Cell[TextData[{
+ StyleBox["1. What are the diameters of Pluto and Charon as quoted by \
+Pasachoff and Filippenko, in Section 8.1?\n",
+  FontSlant->"Italic"],
+ "\nPluto is 2300km in diameter (more recently measured as 2377km) and Charon \
+is 1200km."
+}], "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375810796669*^9}, {
+   3.828376332259346*^9, 3.828376361105803*^9}, {3.8283786645974894`*^9, 
+   3.8283786647764473`*^9}, {3.8300000582639313`*^9, 3.830000059489297*^9}, {
+   3.830000147520939*^9, 
+   3.830000166782257*^9}},ExpressionUUID->"a2057f16-e51f-4168-9923-\
+9a7013c6350d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Kuiper Belt Objects", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}},ExpressionUUID->"d218687d-d0e9-43e4-81f1-\
+b51672583119"],
+
+Cell[TextData[{
+ StyleBox["2. Would it be fair to say \[LongDash] based on size and distance \
+\[LongDash] that Pluto and Charon are just especially large KBOs? \n",
+  FontSlant->"Italic"],
+ "\nYes, although they are quite large for KBOs, there is a whole spectrum of \
+KBO sizes, and they just happen to be the largest and therefore the one we \
+found most easily and first.\n\n",
+ StyleBox["3. Why is this object, now called Eris, thought to be in such a \
+highly tilted orbit relative to the ecliptic?\n",
+  FontSlant->"Italic"],
+ "\nEris is about the size of Charon and it is on a highly tilted orbit (44\
+\.ba relative to the ecliptic plane), so it was slow to be found. Initially \
+it was thought to be even larger than Pluto. Now it is though to be about the \
+size of Charon. Pasachoff and Filippenko say that it was likely flung into \
+its gonzo orbit by a close encounter with Neptune."
+}], "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.8283786884272947`*^9, 
+   3.828378694140337*^9}, {3.830000193377759*^9, 3.830000264906582*^9}, {
+   3.830000367857752*^9, 
+   3.830000533550458*^9}},ExpressionUUID->"4b536bb5-858e-4ff2-973f-\
+923242167953"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Comets and the Oort Cloud", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}, {3.8283767046238117`*^9, 3.8283767054670553`*^9}, {
+  3.828376866950411*^9, 
+  3.828376873610574*^9}},ExpressionUUID->"282607c1-e8e4-478e-b038-\
+6ec3fb8d6859"],
+
+Cell[TextData[{
+ "On p. 236, Pasachoff and Filippenko discuss two categories of comets, one \
+of which is \[OpenCurlyDoubleQuote]nearly isotropic\[CloseCurlyDoubleQuote] \
+meaning that they are not concentrated along the plane of the ecliptic.\n\n",
+ StyleBox["4. What is the other major category of comets?\n",
+  FontSlant->"Italic"],
+ "\nThe other major category is the ecliptic category. So, to summarize, \
+there are comets coming in from all directions (the \
+\[OpenCurlyDoubleQuote]nearly isotropic\[CloseCurlyDoubleQuote] ones), and \
+comets that are concentrated along the ecliptic plane. Reading between the \
+lines, one can assume that Pasachoff and Filippenko prefer this \
+categorization, but in the caption to Figure 8-12, they say that it hasn\
+\[CloseCurlyQuote]t \[OpenCurlyDoubleQuote]taken over\[CloseCurlyDoubleQuote] \
+from the more popular categorization which is short period and long period."
+}], "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.828376715907757*^9, 
+   3.828376747013587*^9}, {3.8283767958613367`*^9, 3.828376828397504*^9}, {
+   3.828376893343378*^9, 3.828377142194477*^9}, {3.828377204598778*^9, 
+   3.828377239406448*^9}, {3.828377287613223*^9, 3.828377323849278*^9}, {
+   3.8283786973463173`*^9, 3.8283786975042877`*^9}, {3.8300005572540083`*^9, 
+   3.830000558334135*^9}, {3.8300005903973722`*^9, 3.830000623540423*^9}, {
+   3.830000662511189*^9, 
+   3.830000785340641*^9}},ExpressionUUID->"4d7c3624-487e-4d20-ac4a-\
+5fe93c4cd20c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Meteoroids", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}, {3.8283767046238117`*^9, 3.8283767054670553`*^9}, {
+  3.828376866950411*^9, 3.828376873610574*^9}, {3.828377355283279*^9, 
+  3.828377357937772*^9}},ExpressionUUID->"b6c529df-0d8a-45f0-a54d-\
+4ea74aca72fc"],
+
+Cell[TextData[{
+ "Meteoroids are small chunks from the size of a grain of sand to a boulder \
+(about 1m). Anything larger than that is usually called an asteroid.\n\n",
+ StyleBox["5. What is the distinction between a meteoroid and a meteorite \
+according to Pasachoff and Filippenko?\n",
+  FontSlant->"Italic"],
+ "\nA meteorite is just a meteor that has made it through the Earth\
+\[CloseCurlyQuote]s atmosphere and landed on Earth. Whatever didn\
+\[CloseCurlyQuote]t burn up in the atmosphere joins the rocks here on Earth. \
+So \[OpenCurlyDoubleQuote]meteorite\[CloseCurlyDoubleQuote] is a \
+categorization of rocks, like granite, or basalt."
+}], "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.828376715907757*^9, 
+   3.828376747013587*^9}, {3.8283767958613367`*^9, 3.828376828397504*^9}, {
+   3.828376893343378*^9, 3.828377142194477*^9}, {3.828377204598778*^9, 
+   3.828377239406448*^9}, {3.828377287613223*^9, 3.828377323849278*^9}, {
+   3.828377362246036*^9, 3.828377366408787*^9}, {3.828377396502795*^9, 
+   3.8283775104025373`*^9}, {3.828378701610012*^9, 3.828378701813273*^9}, {
+   3.8300007923829403`*^9, 3.830000858376108*^9}, {3.830000913445977*^9, 
+   3.8300009145826273`*^9}},ExpressionUUID->"be946b4c-2289-4fdf-85a8-\
+570798df29ac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Asteroids", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}, {3.8283767046238117`*^9, 3.8283767054670553`*^9}, {
+  3.828376866950411*^9, 3.828376873610574*^9}, {3.828377355283279*^9, 
+  3.828377357937772*^9}, {3.828377516901984*^9, 
+  3.82837751820709*^9}},ExpressionUUID->"06ee0815-5a2e-4959-a74a-\
+57e9f1222c05"],
+
+Cell[TextData[{
+ "Due to the large number of asteroids, with vast numbers still being found, \
+Pasachoff and Filippenko quote a roughly 1% chance each century (or once in \
+10,000 years) that an asteroid greater than 200m will collide with Earth. \
+Objects 50-60m across are expected to arrive about once every 1,000 years.\n\n\
+",
+ StyleBox["6. How often are objects in the 20m size range expected to arrive?\
+\n",
+  FontSlant->"Italic"],
+ "\nThe estimate on p. 255 is once per century.\n\nSo to summarize:\n\nEvery \
+10,000 years, >200m\nEvery 1,000 years, 50-60m\nEvery 100 years, 20m"
+}], "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.828376715907757*^9, 
+   3.828376747013587*^9}, {3.8283767958613367`*^9, 3.828376828397504*^9}, {
+   3.828376893343378*^9, 3.828377142194477*^9}, {3.828377204598778*^9, 
+   3.828377239406448*^9}, {3.828377287613223*^9, 3.828377323849278*^9}, {
+   3.828377362246036*^9, 3.828377366408787*^9}, {3.828377396502795*^9, 
+   3.828377582634815*^9}, {3.828377618648137*^9, 3.8283777253262463`*^9}, {
+   3.8283777592897243`*^9, 3.8283777815424633`*^9}, {3.82837786108004*^9, 
+   3.828377937850999*^9}, {3.828378055862915*^9, 3.82837822188052*^9}, {
+   3.828378254741847*^9, 3.828378287737121*^9}, 3.828378734091416*^9, {
+   3.8283792167351913`*^9, 3.828379216991467*^9}, {3.830000943169511*^9, 
+   3.830001028786867*^9}},ExpressionUUID->"6104eb95-204e-46bf-a8c0-\
+e30eb9dd9d4b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Formation of the Solar System", "Section",
+ CellChangeTimes->{{3.826991164190846*^9, 3.826991165000153*^9}, {
+  3.8269911976809387`*^9, 3.8269911994582644`*^9}, {3.826992380834362*^9, 
+  3.826992389091782*^9}, {3.82837528940935*^9, 3.8283752944379663`*^9}, {
+  3.828375346760975*^9, 3.828375348066052*^9}, {3.828375821184004*^9, 
+  3.828375825819289*^9}, {3.8283767046238117`*^9, 3.8283767054670553`*^9}, {
+  3.828376866950411*^9, 3.828376873610574*^9}, {3.828377355283279*^9, 
+  3.828377357937772*^9}, {3.828377516901984*^9, 3.82837751820709*^9}, {
+  3.828378331421978*^9, 
+  3.828378339566292*^9}},ExpressionUUID->"5a196e79-fac2-4585-ac35-\
+3a2990ed8511"],
+
+Cell[TextData[{
+ "It is highly worth studying the story described in Figure 9-5 to know the \
+best story we currently have about the formation of the solar system.\n\n",
+ StyleBox["7. As the gas and dust started sticking together, the first thing \
+it formed were _____________ and this category is objects that are about \
+_________ in diameter.\n",
+  FontSlant->"Italic"],
+ "\nThe blanks are \[OpenCurlyDoubleQuote]planetesimals\
+\[CloseCurlyDoubleQuote] and \[OpenCurlyDoubleQuote]1km to a few hundred km.\
+\[CloseCurlyDoubleQuote]\n\nIt is important to note that these are just \
+categorizations. What is really happening is a process of accretion by \
+gravity into larger and larger chunks, and where you draw the lines between \
+the objects of various sizes is a bit arbitrary.\n\n",
+ StyleBox["8. What is the frost line (referred to in Section 9.1b and on p. \
+218, and what is distinctive about objects that form inside the frost line \
+vs. outside it?\n",
+  FontSlant->"Italic"],
+ "\nInside the frost line, water ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{
+     SubscriptBox[
+      StyleBox["H",
+       FontSlant->"Plain"], "2"], "0"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "484e4a52-f79b-4cc8-a7f3-2dc24c3d2dc8"],
+ "), ammonia ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["NH", "3"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "767d4f2a-4f62-4b34-8aeb-63d9ec94555e"],
+ ") and methane ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["CH", 
+     RowBox[{"4", " "}]], ")"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "fd6b5082-cb82-4ae7-9f03-d30744c78183"],
+ " are vaporized and then blown away by the solar wind. Farther from the Sun \
+(outside the frost line), these molecules can hang around as chunks of ice, \
+because the Sun\[CloseCurlyQuote]s light is too weak to vaporize them.\n\n",
+ StyleBox["9. How did the gas giants get so ridiculously large?\n",
+  FontSlant->"Italic"],
+ " \n They started off as accumulating planetesimals, but out at their orbit, \
+which is beyond the frost line, there was a large amount of the various kinds \
+of ices that could add to their mass. Once their mass got large enough, \
+Pasachoff and Filippenko say that they then \[OpenCurlyDoubleQuote]attracted \
+large amounts of nearby hydrogen and helium gas in the nebula, growing \
+dramatically, especially in the cases of Saturn and (more spectacularly) \
+Jupiter.\n \n",
+ StyleBox[" The key idea here is that we have an understanding of why the \
+inner planets are rocky and the outer planets are gas giants.\n",
+  FontSlant->"Italic"],
+ "\n",
+ StyleBox["10. The asteroids in the asteroid belt today have only __________ \
+per cent of the mass that was initially at their location. Why did no planet \
+form where the asteroid belt is now?\n",
+  FontSlant->"Italic"],
+ "\nThe blank is ambiguous because the story isn\[CloseCurlyQuote]t \
+completely and compellingly worked out. Whatever it is it is only a few \
+percent of what was originally there. Pasachoff and Filippenko say that \
+\[OpenCurlyDoubleQuote]Jupiter \[OpenCurlyQuote]bullied\[CloseCurlyQuote] the \
+asteroid belt, gravitationally kicking out material that orbited an integer \
+number of times in the time that Jupiter itself made one orbit.\
+\[CloseCurlyDoubleQuote] They also say that is is hypothesized that \
+\[OpenCurlyDoubleQuote]Jupiter and Saturn achieved a 2:1 resonance for a time \
+and this resonance served to eject asteroids,\[CloseCurlyDoubleQuote] and \
+that 90-95% of what was left was ejected because of this resonance."
+}], "Text",
+ CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
+   3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
+   3.8269930310293207`*^9, 3.826993055373657*^9}, {3.828375304360639*^9, 
+   3.828375316431018*^9}, {3.8283753501806307`*^9, 3.828375385494225*^9}, {
+   3.828375451575775*^9, 3.8283755026957607`*^9}, {3.8283756174210987`*^9, 
+   3.828375714180711*^9}, {3.828375801172019*^9, 3.828375830690915*^9}, {
+   3.828375863924582*^9, 3.82837595640034*^9}, {3.828375995470739*^9, 
+   3.828376041089126*^9}, {3.828376130717021*^9, 3.828376261868643*^9}, {
+   3.828376382074272*^9, 3.828376410964315*^9}, {3.828376489263104*^9, 
+   3.828376508613121*^9}, {3.828376541158793*^9, 3.828376589399149*^9}, {
+   3.8283766294598713`*^9, 3.8283766835273046`*^9}, {3.828376715907757*^9, 
+   3.828376747013587*^9}, {3.8283767958613367`*^9, 3.828376828397504*^9}, {
+   3.828376893343378*^9, 3.828377142194477*^9}, {3.828377204598778*^9, 
+   3.828377239406448*^9}, {3.828377287613223*^9, 3.828377323849278*^9}, {
+   3.828377362246036*^9, 3.828377366408787*^9}, {3.828377396502795*^9, 
+   3.8283775104025373`*^9}, {3.828378363102429*^9, 3.828378507484819*^9}, {
+   3.828378547625045*^9, 3.828378635604711*^9}, {3.8283787396133547`*^9, 
+   3.828379081438807*^9}, {3.828379115504685*^9, 3.8283791914429197`*^9}, 
+   3.828379240135846*^9, {3.830001056597391*^9, 3.830001091258382*^9}, {
+   3.830001163811812*^9, 3.830001259741835*^9}, {3.83000129141072*^9, 
+   3.830001433873012*^9}, {3.830001476960134*^9, 3.830001742982902*^9}, {
+   3.830001801821591*^9, 3.830001915249393*^9}, {3.830002034316435*^9, 
+   3.83000214903225*^9}},ExpressionUUID->"741ca0e3-27a3-468d-a191-\
+aef11899230a"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{73, Automatic}, {Automatic, 9}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 9, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"21a06164-2249-464d-b88a-20177cb21ce3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 339, 6, 86, "Title",ExpressionUUID->"1cd65f7b-be86-46b3-aaf1-48ae0714202a"],
+Cell[922, 30, 494, 9, 106, "Title",ExpressionUUID->"f75a004f-b82e-44e2-9064-ae0d2c22a56e"],
+Cell[CellGroupData[{
+Cell[1441, 43, 368, 6, 67, "Section",ExpressionUUID->"e3583be7-533b-427c-856f-d9183166dddc"],
+Cell[1812, 51, 964, 17, 81, "Text",ExpressionUUID->"a2057f16-e51f-4168-9923-9a7013c6350d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2813, 73, 408, 6, 67, "Section",ExpressionUUID->"d218687d-d0e9-43e4-81f1-b51672583119"],
+Cell[3224, 81, 1902, 30, 265, "Text",ExpressionUUID->"4b536bb5-858e-4ff2-973f-923242167953"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5163, 116, 516, 8, 67, "Section",ExpressionUUID->"282607c1-e8e4-478e-b038-6ec3fb8d6859"],
+Cell[5682, 126, 2221, 33, 242, "Text",ExpressionUUID->"4d7c3624-487e-4d20-ac4a-5fe93c4cd20c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7940, 164, 547, 8, 67, "Section",ExpressionUUID->"b6c529df-0d8a-45f0-a54d-4ea74aca72fc"],
+Cell[8490, 174, 1994, 30, 196, "Text",ExpressionUUID->"be946b4c-2289-4fdf-85a8-570798df29ac"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10521, 209, 594, 9, 67, "Section",ExpressionUUID->"06ee0815-5a2e-4959-a74a-57e9f1222c05"],
+Cell[11118, 220, 2156, 33, 311, "Text",ExpressionUUID->"6104eb95-204e-46bf-a8c0-e30eb9dd9d4b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13311, 258, 667, 10, 67, "Section",ExpressionUUID->"5a196e79-fac2-4585-ac35-3a2990ed8511"],
+Cell[13981, 270, 5351, 96, 886, "Text",ExpressionUUID->"741ca0e3-27a3-468d-a191-aef11899230a"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
