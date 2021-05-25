@@ -36,7 +36,6 @@ Details will be added on an ongoing basis through the term.
 * Tuesday, June 15 &mdash; The Big Bang
 * Friday, June 18 &mdash; Last Midterm (no further exams!)
 
-### Week 14 &mdash; Chapters 18 (continued) and 19 &mdash; Dark Matter, Dark Energy, and Particle Physics
+### Week 14 &mdash; Chapters 18 (continued) &mdash; Dark Matter, Dark Energy
 
 * Tuesday, June 22 &mdash; Dark Matter, Dark Energy
-* Friday, June 25 &mdash; Particle Physics and the Early Stages of the Big Bang
