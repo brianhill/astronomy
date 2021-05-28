@@ -16,19 +16,19 @@ Details will be added on an ongoing basis through the term.
 * Tuesday, May 18 &mdash; Chapter 12 &mdash; Fusion in the Interior of Stars &mdash; Reading and Discussion Guide and [Problem Set 9](./problem_sets/Astro-PS09.pdf)
 * Friday, May 21 &mdash; Second Midterm (for half of period) and Start Chapter 13 on the Death of Stars
 
-### Week 10 &mdash; Finish Chapter 13 and Start Chapter 14; Supernovas and Black Holes
+### Week 10 &mdash; Finish Chapter 13 and Start Chapter 14; Supernovas, Pulsars, Stellar Mass Black Holes, Schwarzschild Metric
 
-* Tuesday, May 25 &mdash; Remainder of Chapter 13 &mdash; Supernovas, Neutron Stars, Pulsars, Gravitational Waves
-* Friday, May 28 &mdash; Start Black Holes 
+* Tuesday, May 25 &mdash; Remainder of Chapter 13 &mdash; Supernovas, Neutron Stars, Pulsars
+* Friday, May 28 &mdash; Reading: Start Chapter 14 on Black Holes, Sections 14.1 to 14.6 &mdash; Supplementary Reading: Taylor and Wheeler, Exploring Black Holes, pp. 2-16 to 2-30
 
 ### Week 11 &mdash; Chapters 14 and 15 &mdash; Black Holes, The Milky Way
 
-* Tuesday, June 1 &mdash; Finish Black Holes
-* Friday, June 4 &mdash; Our Galaxy: More than 100 billion Stars
+* Tuesday, June 1 &mdash; Finish Chapter 14 on Black Holes (Supermassive Black Holes, Gravitational Wave Detection) &mdash; [Problem Set 10](./problem_sets/Astro-PS10.pdf)
+* Friday, June 4 &mdash; Reading Chapter 15 on Our Galaxy with more than 100 billion stars
 
 ### Week 12 &mdash; Chapters 16, and 17 &mdash; Other Galaxies, Quasars, Active Galactic Nuclei
 
-* Tuesday, June 8 &mdash; The Universe: More than 100 billion Galaxies &mdash; PRESENT SPECIAL PROJECT RESULTS?
+* Tuesday, June 8 &mdash; The Universe: More than 100 billion galaxies
 * Friday, June 11 &mdash; Quasars, Active Galactic Nuclei
 
 ### Week 13 &mdash; Chapter 18 (through 18.3) &mdash; The Big Bang and Last Midterm
