@@ -1,0 +1,409 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15012,        401]
+NotebookOptionsPosition[     13085,        344]
+NotebookOutlinePosition[     13496,        362]
+CellTagsIndexPosition[     13453,        359]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Solutions to Absolute Magnitude Practice", "Chapter",
+ CellChangeTimes->{{3.728383445304961*^9, 3.72838346773687*^9}, {
+  3.728784799569207*^9, 
+  3.728784810421509*^9}},ExpressionUUID->"db5d2ae6-3c10-4872-be7e-\
+b3ab1ab3d5cd"],
+
+Cell[CellGroupData[{
+
+Cell["Practice Problem 1", "Subsection",
+ CellChangeTimes->{{3.728384391158197*^9, 
+  3.7283843932826233`*^9}},ExpressionUUID->"004ca53c-115c-4dba-8a66-\
+131696234ea4"],
+
+Cell[TextData[{
+ "Sirius has a magnitude of -1.46. Vega has a magnitude of 0.03.\n\n(a) Which \
+is brighter?\n\nBigger magnitudes (2, 3, 4, etc) are dimmer.\n\nHere we have \
+a negative magnitude. The more negative the brighter! So Sirius is brighter \
+than Vega. In fact, Sirius is the brightest star in the sky and is easily \
+visible right now.\n\n(b) The difference in magnitudes is?\n\n-1.46 - 0.03 = \
+-1.49\n\n(c) If you use the ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", 
+    RowBox[{"difference", " ", "in", " ", "magnitudes"}]], TraditionalForm]],
+  ExpressionUUID->"5dd9e125-c0ce-44a6-858e-20b5726a3384"],
+ " formula, that says that the Sirius is how much brighter than Vega?\n\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", "1.49"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "144694fd-e368-41e1-91af-6eae0254811b"],
+ "=3.91\n\nNow, you might have done\n\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", 
+    RowBox[{"-", "1.49"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "3c44b7b9-7b94-409c-9e59-8336c824bcb5"],
+ "\n\nAnd then your answer would be\n\n0.255\n\nThis is the reciprocal of \
+3.91 and it\[CloseCurlyQuote]s not quite right. Sirius is not 0.255 times as \
+bright as Vega. That would make it dimmer. So really you were looking for \n\n\
+",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "0.255"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d082a3f9-42bf-4e7f-abda-a980932adeb6"],
+ "=3.91\n\nThis is just an area where you have to be careful and double-check \
+your answers for sensibility. If someone says \[OpenCurlyDoubleQuote]the \
+Tesla is 1/3 the price of the Prius\[CloseCurlyDoubleQuote] you say \
+\[OpenCurlyDoubleQuote]go check your math.\[CloseCurlyDoubleQuote] Sure \
+enough, they\[CloseCurlyQuote]ll come back at you and say, \
+\[OpenCurlyDoubleQuote]the Prius is 1/3 the price of the Tesla,\
+\[CloseCurlyDoubleQuote] or alternatively, \[OpenCurlyDoubleQuote]the Tesla \
+is 3 times the price of the Prius.\[CloseCurlyDoubleQuote]\n\n(d) If you use \
+the actual ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["100", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"difference", " ", "in", " ", "magnitudes"}], ")"}], "/", 
+     "5"}]], TraditionalForm]],ExpressionUUID->
+  "70866c5c-bc2b-49f3-a823-96a633653dd4"],
+ " formula what do you get?"
+}], "Text",
+ CellChangeTimes->{{3.728384410429407*^9, 3.728384762352045*^9}, {
+  3.728384801086747*^9, 3.728384844274946*^9}, {3.7283865194748163`*^9, 
+  3.7283865208557253`*^9}, {3.728783338718165*^9, 3.72878344636525*^9}, {
+  3.7287834816948423`*^9, 
+  3.7287836916305304`*^9}},ExpressionUUID->"9d770498-7142-473e-81be-\
+5cd1eea78de8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ SuperscriptBox["100", 
+  RowBox[{"1.49", "/", "5"}]]], "Input",
+ CellChangeTimes->{{3.7287836985710897`*^9, 
+  3.728783714038179*^9}},ExpressionUUID->"e206af38-48a7-49e2-bad2-\
+037cded4d707"],
+
+Cell[BoxData["3.944573020752784`"], "Output",
+ CellChangeTimes->{
+  3.728783714968071*^9},ExpressionUUID->"70cc5f36-0b07-49bf-8795-\
+8acf697f13a0"]
+}, Open  ]],
+
+Cell["\<\
+So, that\[CloseCurlyQuote]s pretty close to 3.91. If you didn\
+\[CloseCurlyQuote]t get something close make sure you divided by 5 before \
+exponentiating.\
+\>", "Text",
+ CellChangeTimes->{{3.7287837354148073`*^9, 
+  3.7287837560121937`*^9}},ExpressionUUID->"9bdb388e-5234-4de8-9419-\
+187c8ac9087e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Practice Problem 2", "Subsection",
+ CellChangeTimes->{{3.728384391158197*^9, 3.7283843932826233`*^9}, {
+  3.728384672522908*^9, 
+  3.7283846726998777`*^9}},ExpressionUUID->"a8537fbd-a767-4a13-830a-\
+b56d81358d50"],
+
+Cell[TextData[{
+ "The Full Moon has magnitude of about -12.6. The Sun has magnitude of about \
+-26.7.\n\n(a) The difference in magnitudes is?\n\n-12.6 - (-26.7)=14.1\n\n(b) \
+If you use the ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", 
+    RowBox[{"difference", " ", "in", " ", "magnitudes"}]], TraditionalForm]],
+  ExpressionUUID->"6dedfdbb-6d89-43c1-8a05-db67a41c0d3c"],
+ " formula, that says that the Sun is how much brighter than the Moon?\n\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", "14.1"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "27f50f56-64d2-4dc8-97a5-da09c40e65a3"],
+ "=408276\n\n(c) That\[CloseCurlyQuote]s a lot of magnitude difference. The \
+errors pile up like compounded interest. If you use the actual ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["100", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"difference", " ", "in", " ", "magnitudes"}], ")"}], "/", 
+     "5"}]], TraditionalForm]],ExpressionUUID->
+  "e749ccd7-7c6c-4270-afce-182ebc536adb"],
+ " what do you get?"
+}], "Text",
+ CellChangeTimes->{{3.728384410429407*^9, 3.728384662834321*^9}, {
+  3.728384868925468*^9, 3.7283848827501*^9}, {3.72838495766807*^9, 
+  3.728384958037331*^9}, {3.728386558847187*^9, 3.728386560682433*^9}, {
+  3.728783762031423*^9, 
+  3.7287838263706427`*^9}},ExpressionUUID->"795fdd01-a451-4c6b-874b-\
+d52215848985"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ SuperscriptBox["100", 
+  RowBox[{"14.1", "/", "5"}]]], "Input",
+ CellChangeTimes->{{3.7287836985710897`*^9, 3.728783714038179*^9}, {
+  3.7287838337297173`*^9, 
+  3.7287838348077497`*^9}},ExpressionUUID->"31038598-ba8c-494a-a1cd-\
+6f5de928e266"],
+
+Cell[BoxData["436515.83224016655`"], "Output",
+ CellChangeTimes->{3.728783714968071*^9, 
+  3.728783835711734*^9},ExpressionUUID->"17bc9583-691c-492e-af13-\
+21a968c0092a"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Practice Problem 3", "Subsection",
+ CellChangeTimes->{{3.728384391158197*^9, 3.7283843932826233`*^9}, {
+  3.728385391859515*^9, 
+  3.7283853919717407`*^9}},ExpressionUUID->"ea9a0f08-02dc-4f5c-ba69-\
+80f50441e203"],
+
+Cell[TextData[{
+ "The intensity of the Sun at a distance of the Earth is about 1350 ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox["W",
+     FontSlant->"Plain"], "/", 
+    RowBox[{
+     SuperscriptBox[
+      StyleBox["m",
+       FontSlant->"Plain"], "2"], "."}]}], TraditionalForm]],ExpressionUUID->
+  "8076c6bf-3ef9-47a7-bf70-260a85f16281"],
+ " Jupiter\[CloseCurlyQuote]s distance from the Sun is about 5 times the \
+Earth\[CloseCurlyQuote]s distance from the Sun.\n\n(a) If you imagined a \
+sphere surrounding the Sun at Jupiter\[CloseCurlyQuote]s distance, and \
+compared that with an imaginary sphere surrounding the Sun at Earth\
+\[CloseCurlyQuote]s distance, the imaginary sphere at Jupiter\
+\[CloseCurlyQuote]s distance would have\n\n____25________ times\n\nthe area \
+of the imaginary sphere at the Earth\[CloseCurlyQuote]s distance.\n\n(b)  \
+That means the intensity of the Sun at Jupiter is \n\n25x\n5x\nthe same\n1/5 \
+as much\n1/25 as much <======== this one\n\nbecause the \
+Sun\[CloseCurlyQuote]s radiation is spread over an imaginary sphere with 25x \
+the area!\n\nas the intensity of the Sun at the Earth.\n\n(c) Using the \
+intensity of the Sun at the Earth is 1350 W / ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    StyleBox["m",
+     FontSlant->"Plain"], "2"], TraditionalForm]],ExpressionUUID->
+  "18121068-eb55-4e79-9292-e759760e58c6"],
+ " we find that the intensity of the Sun at Jupiter is?\n\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"1350", " ", 
+     RowBox[{
+      StyleBox["W",
+       FontSlant->"Plain"], "/", 
+      SuperscriptBox[
+       StyleBox["m",
+        FontSlant->"Plain"], "2"]}]}], "25"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "2237d153-13e2-4a28-ba88-d741eeddca62"],
+ "=54 ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox["W",
+     FontSlant->"Plain"], "/", 
+    SuperscriptBox[
+     StyleBox["m",
+      FontSlant->"Plain"], "2"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "6abaee2a-20c9-44e6-959e-566e32a44207"]
+}], "Text",
+ CellChangeTimes->{{3.728384410429407*^9, 3.728384762352045*^9}, {
+  3.728384801086747*^9, 3.728384844274946*^9}, {3.728385397742263*^9, 
+  3.7283857187197847`*^9}, {3.728386568241386*^9, 3.728386592972871*^9}, {
+  3.728783859166934*^9, 
+  3.728783956535678*^9}},ExpressionUUID->"edfc17c6-9aef-4447-a9b8-\
+db4ff16fc050"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Practice Problem 4", "Subsection",
+ CellChangeTimes->{{3.728384391158197*^9, 3.7283843932826233`*^9}, {
+  3.728385391859515*^9, 3.7283853919717407`*^9}, {3.728385932943203*^9, 
+  3.728385932997663*^9}},ExpressionUUID->"6cc16e0e-d015-4938-bf06-\
+baafff026351"],
+
+Cell[TextData[{
+ "Now this is going to get harder because you can\[CloseCurlyQuote]t do this \
+problem without combining all of the previous concepts and definitions. If \
+you get stuck, you need to take advantage of my office hours (please!). My \
+office hours are easy to find by clicking on the link in the bottom of every \
+one of my email messages.\n\nStar 1 and Star 2 have the same absolute \
+magnitude. Star 1 is 5 parsecs away. Star 2 appears dimmer. To be precise, \
+Star 1\[CloseCurlyQuote]s apparent magnitude is 2.0 and Star 2\
+\[CloseCurlyQuote]s apparent magnitude is 7.0.\n\nHow far away is Star 2?\n\n\
+7.0-2.0 is 5.0, so we have a nice round 5 magnitudes of difference.\n\nThe \
+brightness ratio is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"100", "^", 
+     RowBox[{"(", 
+      RowBox[{"5", "/", "5"}], ")"}]}], "=", 
+    RowBox[{
+     SuperscriptBox["100", "1"], "=", "100."}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d43c15fe-ee78-46bd-9aa6-19f3b3fcc159"],
+ "\n\nSo Star 2 appears 1/100 as bright as Star 1. Or if you prefer, Star 1 \
+appears 100 times as bright as Star 2.\n\nIf they are truly the same \
+brightness what could cause that!?!?\n\nWell, Star 2 must be a lot further \
+away.\n\nIs it 100 times as far away? No! That would make it 1/10,000 as \
+bright.\n\nIf it were 10 times as far away, that works, because ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     SuperscriptBox["10", "2"]], "=", 
+    FractionBox["1", "100"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "be639e10-d198-42ce-8ecc-cf872f7bfcd7"],
+ " and that is the brightness ratio we are looking for.\n\nIt is really handy \
+for these kinds of problems to know some common squares.\n\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "a0e4d2a8-d5df-4c3a-9acc-91b3f8421ed5"],
+ "=4\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["3", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "9e3801e4-b579-4e60-b945-65aba480c33b"],
+ "=9\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["4", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "3a09b69f-1a66-4017-81f9-74ec8b8f8761"],
+ "=16\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["5", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0746b684-c71f-46a8-9185-d7ed465df682"],
+ "=25\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "99f6824a-b7cd-4db3-a77f-4346cab0b083"],
+ "=100\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["100", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d083eaa4-94fa-4569-957b-15848de1bace"],
+ "=10,000\n\nIf you know common squares and you can avoid punching them into \
+your calculator, the right answers will jump out at you a lot faster. If you \
+don\[CloseCurlyQuote]t know these, just patiently put them into your \
+calculator. On a multiple choice problem that will be at most five things to \
+punch in and some might be obviously wrong, so probably less."
+}], "Text",
+ CellChangeTimes->{{3.728385753798815*^9, 3.728385904301259*^9}, {
+  3.728385943710596*^9, 3.728386300267057*^9}, {3.728386333443202*^9, 
+  3.728386409675164*^9}, {3.7283866178929167`*^9, 3.7283866390744247`*^9}, {
+  3.72838668396021*^9, 3.728386686403179*^9}, {3.728783998364819*^9, 
+  3.728784389549416*^9}},ExpressionUUID->"c582c3ee-9c51-49e5-93a4-\
+89bf9a5d7b21"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 240}, {Automatic, 163}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 18, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 233, 4, 82, "Chapter", "ExpressionUUID" -> \
+"db5d2ae6-3c10-4872-be7e-b3ab1ab3d5cd"],
+Cell[CellGroupData[{
+Cell[838, 30, 168, 3, 54, "Subsection", "ExpressionUUID" -> \
+"004ca53c-115c-4dba-8a66-131696234ea4"],
+Cell[1009, 35, 2723, 58, 932, "Text", "ExpressionUUID" -> \
+"9d770498-7142-473e-81be-5cd1eea78de8"],
+Cell[CellGroupData[{
+Cell[3757, 97, 206, 5, 41, "Input", "ExpressionUUID" -> \
+"e206af38-48a7-49e2-bad2-037cded4d707"],
+Cell[3966, 104, 147, 3, 40, "Output", "ExpressionUUID" -> \
+"70cc5f36-0b07-49bf-8795-8acf697f13a0"]
+}, Open  ]],
+Cell[4128, 110, 308, 7, 62, "Text", "ExpressionUUID" -> \
+"9bdb388e-5234-4de8-9419-187c8ac9087e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4473, 122, 219, 4, 54, "Subsection", "ExpressionUUID" -> \
+"a8537fbd-a767-4a13-830a-b56d81358d50"],
+Cell[4695, 128, 1372, 32, 329, "Text", "ExpressionUUID" -> \
+"795fdd01-a451-4c6b-874b-d52215848985"],
+Cell[CellGroupData[{
+Cell[6092, 164, 259, 6, 41, "Input", "ExpressionUUID" -> \
+"31038598-ba8c-494a-a1cd-6f5de928e266"],
+Cell[6354, 172, 170, 3, 40, "Output", "ExpressionUUID" -> \
+"17bc9583-691c-492e-af13-21a968c0092a"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6573, 181, 219, 4, 54, "Subsection", "ExpressionUUID" -> \
+"ea9a0f08-02dc-4f5c-ba69-80f50441e203"],
+Cell[6795, 187, 2382, 60, 685, "Text", "ExpressionUUID" -> \
+"edfc17c6-9aef-4447-a9b8-db4ff16fc050"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9214, 252, 265, 4, 54, "Subsection", "ExpressionUUID" -> \
+"6cc16e0e-d015-4938-bf06-baafff026351"],
+Cell[9482, 258, 3575, 82, 1035, "Text", "ExpressionUUID" -> \
+"c582c3ee-9c51-49e5-93a4-89bf9a5d7b21"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

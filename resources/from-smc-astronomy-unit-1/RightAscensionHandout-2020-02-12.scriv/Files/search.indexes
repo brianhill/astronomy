@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="12DFD6FC-9DE5-4B5F-BEA0-31EA266BDE91">
+            <Text>February 12, 2020
+
+Notes and Observations about Right Ascension, Declination, and the Ecliptic
+The Sun's Daily Motion, Annual Motion, and Centuries Motion
+
+Because the OpenStax textbook does not discuss the coordinates of right ascension and declination well enough, I once again prepared notes. I only will do this when I think I need to do better than the textbook. Also, my notes are more like an outline—they don’t capture everything discussed in lecture.
+
+Right Ascension and Declination
+
+So far the only important point we’ve discussed regarding the chart below is that there is a line in the sky that is arbitrarily chosen to be the 0h line for right ascension. This line that runs from the celestial north pole to the celestial south pole at right ascension of 0h is called the prime meridian. I have made the line extra dark in the chart below to emphasize it:
+
+#
+
+We also noted that the place where this line crosses 0º of declination is called the First Point of Aries and somewhat annoyingly the First Point of Aries is in Pisces.
+
+Suppose that the island that England is on was slowly drifting toward Europe. And suppose that despite that fact that you had noticed the island was drifting that you remained insistent that the 0º line of longitude had to go through the Greenwich Royal Observatory. That would mean you would have to keep redrawing the maps. Suppose that the drift was so slow that it only became important to redraw the maps about once every 50 years.
+
+This is exactly the situation for the First Point of Aries. Over the course of centuries, it is slowly moving. Now I have to at least partially explain that.
+
+The Sun's Daily Motion
+
+The daily motion of the Sun and the stars is the most familiar.
+
+Annual Motion: The Solstices, the Equinoxes, and the Ecliptic
+
+You agree that the Sun is low in the sky in the winter, and high in the sky in the summer? Maybe you've never really noticed this. The Sun being more overhead in the summer is actually one of the two main reasons it is hotter in the summer. It just beats down on us more directly. The other reason summer is hotter is that the days are longer, and this is because when the Sun is more overhead it sets later and rises earlier.
+
+It's not the Sun that is doing the moving of course, but you agree that it appears to move from low in the sky in the winter to high in the sky in the summer? Please stop me if you don't agree that it appears to do this. I can try to find some way to explain it better.
+
+The day of the year that it is lowest in the sky is called the Winter Solstice. It is below the equator (for those of us in the Northern hemisphere—for those in the southern hemisphere, they would say the Sun is highest in December and lowest in June, but let's leave them out of it). We say that it is lowest in the sky sometime in December. To be precise it was last at a low point on December 21, 2019.
+
+The day of the year that it appears to be highest in the sky is called the Summer Solstice. That will next be on June 20, 2020.
+
+As the Sun appears to move down over the equator in Autumn, there is a day when it is right overhead for those on the equator. That's the Fall Equinox. Everybody on the Earth has equal days and equal nights on that day. It was last on September 23, 2019. (Some people call it the autumnal equinox).
+
+As the Sun appears to move back over the equator in Spring, there is again a day when it is right overhead for those on the equator. That's the Spring Equinox. Everyone on the Earth has equal days and equal nights on that day too. It will next be March 19, 2020. Some people call it the "vernal equinox." We also call that day "The First Day of Spring."
+
+The Sun's Annual Motion
+
+The Sun is always marching eastward through the stars and it takes a whole year to march all the way around—trust me on this for now—this is not something you have likely noticed—if only because you can't see the stars that the Sun is in front of because the Sun is too bright to see any stars at all when it is up.
+
+Whether you have noticed it or not, the Sun slowly makes a track going east through the stars. On the Spring Equinox this track comes north over the celestial equator while also going east.
+
+Hold the Chart Up — Which Way is East?
+
+Hold the chart up to the sky and imagine that. First off, which way is even East?!? It's left on that chart, even though on most maps left is west. On this chart left is east. Maybe you should note that, since it is not what you'd expect.
+
+So now you know what the line labeled ECLIPTIC on the chart is. It's the Sun's track through the stars. And you know what direction the Sun appears to move on that track. And now you know how they picked the first point of Aries! It is where the ecliptic crosses the celestial equator as the sun is coming north in the spring.
+
+The Sun's Centuries Motion
+
+And now you know the surprise—maybe not so surprising—is that when Hipparchus gave a name to that point in the year 130 B.C, that point was in Aries, and about every 50 years we have to redo all the maps with a new and improved First Point of Aries, because the dang thing moves. That's not much of an explanation, but it is a fact. The coordinates reference the First Point of Aries, and the First Point of Aries slowly moves over many centuries.
+
+In fact, the place where the Ecliptic crosses the celestial equator is currently in Pisces, and in the year 2597 it will be in Aquarius. And so, although we've still got six centuries to go, we are indeed in the dawning of the Age of Aquarius, and we are currently still in the Age of Pisces, and Jesus walked the Earth just after the Age of Aries had ended and the Age of Pisces had just begun.
+
+The Astronomical Coordinate System
+
+Let's complete the explanation of right ascension and declination.
+
+#
+					Source: http://www.funsci.com/fun3_en/sider/sider.htm
+
+The Units of Declination
+
+Degrees, Minutes, and Seconds
+
+The Units of Right Ascension
+
+Hours, Minutes, and Seconds!?!?
+
+Yes, that's right, the units of right ascension are obviously an angle, like degrees, but instead of doing the obvious thing of breaking a full go-round of right ascension up into 360º, the Greeks broke it up into 24 hours.
+
+This is because the stars take—ALMOST—24 hours to go around once. It's actually four minutes less than that, and eventually we'll get to that, but for now I just mention it so that you won't say I lied later when do get to that. For now, just pretend it is 24 hours. So because it was so close to 24 hours, they decided to use hours as the measurement of right ascension.
+
+Then just like degrees and ordinary hours are broken up into 60 minute ("mynewt") parts, so are each of the 24 hours of right ascension. And just like minutes of arc and ordinary minutes are broken up a second time into 60 parts, so is each minute of right ascension.
+
+In grand total, how many seconds of arc are there in a complete circle?
+
+In grand total, how many seconds of right ascension are there in a complete circle?
+
+Every star chart, including the star chart showing the First Point of Aries uses these coordinates. Here is how those coordinates look to you, standing on the surface of the Earth
+
+#
+					Source: http://www.funsci.com/fun3_en/sider/sider.htm
+The Early Evening Sky in March
+
+Because the Sun is at right ascension of 0h in March, the stars that are up for the most amount of the night in March are those that are directly opposite the Sun, and those are the stars at 12h. Since we often go out in the early evening about five hours before midnight, rather than at midnight when these stars are at their highest, you'll find that stars that are at right ascension of about 7h are highest in the early evening in March.
+
+Find the meridian, the line that comes out of due south, goes through the zenith, and continues off the top of the chart going north:
+
+#
+8pm PDT, March 18, 2020
+
+What right ascension is it nearest? Hint: don't answer 6h or 8h. There's a number between those :)
+
+What constellations are most prominent in the early evening in March if you gaze south?
+
+By the way, Canis Major has the brightest star in the entire sky, Sirius. It is so bright you can see it even if you live in downtown San Francisco.
+The Early Evening Sky in February
+
+We have a month to go until the vernal equinox. Right now it is more like the stars that are at 5h are the highest in the early evening:
+
+#
+7pm PST, February 19, 2020
+
+In addition to Orion, what constellation is high and prominent in the early evening as you gaze south?
+
+Venus is very high and bright. It is so high and bright you may mistake it for a jet with its landing lights on. It is brighter than any other star in the night sky right now.
+
+Conclusion
+
+We have a good coordinate system and we have a lot of facts about the sky. We don't really have explanations yet.
+
+Why does the Sun appear to march eastward through the stars as the year goes on, and westward through the sky on every day?
+
+Why does the First Point of Aries move over the centuries?
+
+We couldn't even properly ask these questions without first setting up a coordinate system and measuring carefully the positions of the stars and the movement of the Sun in this coordinate system. So it's fine that we started with a coordinate system and haven't yet answered any questions.</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>
