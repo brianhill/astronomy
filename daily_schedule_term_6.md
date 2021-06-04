@@ -24,7 +24,7 @@ Details will be added on an ongoing basis through the term.
 ### Week 11 &mdash; Chapters 14 and 15 &mdash; Black Holes, The Milky Way
 
 * Tuesday, June 1 &mdash; Finish Chapter 14 on Black Holes (Supermassive Black Holes, Gravitational Wave Detection) &mdash; Excellent explanation by Veritasium of what a [black hole accretion disk](https://www.youtube.com/watch?v=zUyH3XhpLTo) looks like &mdash; [Problem Set 10](./problem_sets/Astro-PS10.pdf)
-* Friday, June 4 &mdash; Read all of Chapter 15 on Our Galaxy with more than 100 billion stars
+* Friday, June 4 &mdash; Read all of Chapter 15 on Our Galaxy with more than 100 billion stars &mdash; Event Horizon Telescope [image of supermassive black hole](https://youtu.be/S_GVbuddri8) in M87 &mdash; [Density wave theory animation](https://youtu.be/-jR3C_yA_G0)
 
 ### Week 12 &mdash; Chapters 16, and 17 &mdash; Other Galaxies, Quasars, Active Galactic Nuclei
 
