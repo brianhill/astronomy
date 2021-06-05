@@ -26,16 +26,16 @@ Details will be added on an ongoing basis through the term.
 * Tuesday, June 1 &mdash; Finish Chapter 14 on Black Holes (Supermassive Black Holes, Gravitational Wave Detection) &mdash; Excellent explanation by Veritasium of what a [black hole accretion disk](https://www.youtube.com/watch?v=zUyH3XhpLTo) looks like &mdash; [Problem Set 10](./problem_sets/Astro-PS10.pdf)
 * Friday, June 4 &mdash; Read all of Chapter 15 on Our Galaxy with more than 100 billion stars &mdash; [Density wave theory animation](https://youtu.be/-jR3C_yA_G0)
 
-### Week 12 &mdash; Chapters 16, and 17 &mdash; Other Galaxies, Quasars, Active Galactic Nuclei
+### Week 12 &mdash; Chapters 16, and 17 &mdash; Hubble's Expanding Universe, Other Galaxies, Quasars, Active Galactic Nuclei
 
-* Tuesday, June 8 &mdash; Chapter 16: More than 100 billion galaxies &mdash; [Hubble's 1925 paper](./resources/Hubble1925Paper.pdf) &mdash; Hubble's 1929 paper](./resources/Hubble1925Paper.pdf) &mdash; Event Horizon Telescope [image of supermassive black hole](https://youtu.be/S_GVbuddri8) in M87
-* Friday, June 11 &mdash; Chapter 17: Quasars, Active Galactic Nuclei
+* Tuesday, June 8 &mdash; Chapter 16: More than 100 billion galaxies &mdash; [Hubble's 1925 paper](./resources/Hubble1925Paper.pdf) &mdash; Hubble's 1929 paper](./resources/Hubble1925Paper.pdf)  &mdash; [Problem Set 11](./problem_sets/Astro-PS11.pdf)
+* Friday, June 11 &mdash; Chapter 17: Quasars, Active Galactic Nuclei &mdash; Event Horizon Telescope [image of supermassive black hole](https://youtu.be/S_GVbuddri8) in M87
 
-### Week 13 &mdash; Chapter 18
+### Week 13 &mdash; Chapter 18 &mdash; Modern Measurements of Hubble's Law
 
 * Tuesday, June 15 &mdash; Chapter 18
 * Friday, June 18 &mdash; Last Midterm (no further exams!)
 
-### Week 14 &mdash; Chapters 19
+### Week 14 &mdash; Chapters 19 &mdash; Modern Understanding of The Big Bang
 
 * Tuesday, June 22 &mdash; Chapter 19
