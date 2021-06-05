@@ -2,9 +2,9 @@
 
 Course [home page](./)
 
-See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
+Note: Unless otherwise noted, page numbers, equation numbers, and problem numbers refer to the [5th edition of The Cosmos by Pasachoff and Filippenko](https://www.amazon.com/Cosmos-Astronomy-New-Millennium/dp/1108431380).
 
-Details will be added on an ongoing basis through the term.
+See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 
 ### Week 8 &mdash; Chapters 10, and 11 &mdash; Our Sun and Other Stars
 
