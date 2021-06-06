@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3627969,      59626]
-NotebookOptionsPosition[   3625709,      59581]
-NotebookOutlinePosition[   3626157,      59599]
-CellTagsIndexPosition[   3626114,      59596]
+NotebookDataLength[   3628683,      59641]
+NotebookOptionsPosition[   3626423,      59596]
+NotebookOutlinePosition[   3626871,      59614]
+CellTagsIndexPosition[   3626828,      59611]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -76,8 +76,7 @@ could get the force on Jupiter from the acceleration using ",
   FormBox[
    RowBox[{"F", "=", 
     RowBox[{"m", "\[VeryThinSpace]", "a"}]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "6b29ab21-2912-49e4-b040-a4c08f8f8df1"],
+  ExpressionUUID->"6b29ab21-2912-49e4-b040-a4c08f8f8df1"],
  ".\n\n(a) Compute the acceleration of Jupiter that represents its circular \
 motion around the Sun, using the formula\n\n",
  Cell[BoxData[
@@ -111,30 +110,26 @@ motion around the Sun, using the formula\n\n",
           StyleBox["\[Pi]",
            FontSize->14], "2"], "r"}], 
         SuperscriptBox["P", "2"]],
-       FontSize->24]}]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+       FontSize->24]}]}]}], TraditionalForm]],ExpressionUUID->
   "6284522a-1a1f-45eb-b82d-a46f6bef0e89"],
  "\n\nUse ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     RowBox[{"r", "=", 
-     RowBox[{"42", " ", "light"}]}], "\[Dash]", "minutes"}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "821379e1-4f00-4835-aa56-2b76af253f7a"],
+     RowBox[{"42", " ", "light"}]}], "\[Dash]", "minutes"}], 
+   TraditionalForm]],ExpressionUUID->"821379e1-4f00-4835-aa56-2b76af253f7a"],
  ", and ",
  Cell[BoxData[
   FormBox[
    RowBox[{"P", "=", 
-    RowBox[{"12", " ", "years"}]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+    RowBox[{"12", " ", "years"}]}], TraditionalForm]],ExpressionUUID->
   "354d8058-5364-46f0-9870-9f51e3ba0dc0"],
- "\n\nThere is no need to convert units. Your answer for acceleration will be \
-in light-minutes/",
+ ".\n\nThere is no need to convert units. Your answer for acceleration will \
+be in light-minutes/",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["years", "2"], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+   SuperscriptBox["years", "2"], TraditionalForm]],ExpressionUUID->
   "5bfc599c-31a9-4e1c-a010-a6bae138c416"],
  ", which is a perfectly valid unit for acceleration.\n\n(b) Using the same \
 formula as in (a), compute the acceleration of our whole solar system, \
@@ -146,14 +141,11 @@ use  ",
    RowBox[{
     RowBox[{"r", "=", 
      RowBox[{"26000", " ", "light"}]}], "\[Dash]", "years"}], 
-   TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "959fa384-49fc-4697-9848-c0fe96259aae"],
+   TraditionalForm]],ExpressionUUID->"959fa384-49fc-4697-9848-c0fe96259aae"],
  ", and ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"P", "="}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+   RowBox[{"P", "="}], TraditionalForm]],ExpressionUUID->
   "18ccce37-9e9b-4c9c-ac51-0f7a81d3c596"],
  "250,000,000 years.\n\nBefore you plug in 26,000, convert it to \
 light-minutes, by multiplying by 365.25 * 24 * 60. That way your answer to \
@@ -162,8 +154,7 @@ this part will also be in ",
   FormBox[
    RowBox[{"light", "\[Dash]", 
     RowBox[{"minutes", "/", 
-     SuperscriptBox["year", "2"]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+     SuperscriptBox["year", "2"]}]}], TraditionalForm]],ExpressionUUID->
   "46c853bf-4f12-405e-97f7-257599750125"],
  ".\n\n(c) What is the ratio of the acceleration you got in (b) to the \
 acceleration you got in (a)?\n\n(d) What you computed in (b) is a valid \
@@ -172,18 +163,42 @@ our Solar System apart.\n\nOnly tidal forces can tear things apart. The \
 question is, how much different is the acceleration of Jupiter if it is 42 \
 light-minutes further from the center of the Galaxy than the Sun is? It is \
 the difference in accelerations that represents the tidal forces that are \
-tearing the Solar System apart.\n\nSo we need to add 42 light-minutes to what \
-you used for ",
+tearing the Solar System apart.\n\nIn (b) you had a value for ",
  Cell[BoxData[
   FormBox["r", TraditionalForm]],
   FormatType->"TraditionalForm",ExpressionUUID->
-  "83754d3e-ca68-4c4e-9da7-6408bdfe2170"],
- " in (b). Then compute what fractional change is 42 light-minutes compared \
-to the number of light-minutes you got in part (b)?\n\n(e) Whatever you got \
-in (c), multiply it by whatever fractional change you got in (d). Finally, we \
-have an answer for how negligible tidal forces are at a distance of 26,000 \
-light-years compared to the forces that keep Jupiter in orbit around the Sun.\
-\n\n"
+  "90282185-5aae-4026-8bae-919de92713a5"],
+ " in light-minutes. The formula for the difference in the acceleration at a \
+slightly larger radius is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]a", "/", "a"}], "=", 
+    RowBox[{
+     RowBox[{"-", "2"}], 
+     RowBox[{"\[CapitalDelta]r", "/", "r"}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "75f18177-bbcb-49c2-b380-8b9fb1689774"],
+ ". So compute ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]r", "/", "r"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "596ed4ac-5e8b-4be1-9fcf-e70a9d1a2eda"],
+ " with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]r", "=", 
+     RowBox[{"42", " ", "light"}]}], "\[Dash]", "minutes"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "afdc1209-a081-429f-ab7d-1ba00f0ce71d"],
+ " and multiply that by 2. That is how much weaker (fractionally) the \
+acceleration. (The minus sign just says the tidal force is weaker with \
+increasing distance.)\n\n(e) Whatever you got in (c), multiply it by whatever \
+fractional change you got in (d). Finally, we have an answer for how \
+negligible tidal forces are at a distance of 26,000 light-years compared to \
+the forces that keep Jupiter in orbit around the Sun.\n\n"
 }], "Text",
  CellChangeTimes->{{3.826991261333582*^9, 3.826991387375276*^9}, 
    3.826991563068309*^9, {3.826991654096292*^9, 3.8269916556926117`*^9}, {
@@ -199,8 +214,9 @@ light-years compared to the forces that keep Jupiter in orbit around the Sun.\
    3.83184093986357*^9, 3.831840944858575*^9}, {3.831840988778943*^9, 
    3.8318412479602003`*^9}, {3.83184133357617*^9, 3.831841537372213*^9}, {
    3.831853794101324*^9, 3.8318538964428883`*^9}, {3.831853941333291*^9, 
-   3.8318540413242702`*^9}, {3.8318540722605553`*^9, 
-   3.831854147005937*^9}},ExpressionUUID->"a2057f16-e51f-4168-9923-\
+   3.8318540413242702`*^9}, {3.8318540722605553`*^9, 3.831854147005937*^9}, 
+   3.831928555733613*^9, {3.831929327032819*^9, 
+   3.831929578118332*^9}},ExpressionUUID->"a2057f16-e51f-4168-9923-\
 9a7013c6350d"]
 }, Open  ]],
 
@@ -4910,11 +4926,14 @@ T5ns+f+yxn9qMF6BE/in/hMlyiYW
     MetaInformation -> Association["XMP" -> Association[]]],
    Selectable->False],
   DefaultBaseStyle->"ImageGraphics",
+  ImagePadding->{{0., 0.}, {0., 0.}},
   ImageSize->{487.95744628906255`, Automatic},
   ImageSizeRaw->{974., 554.},
-  PlotRange->{{0, 974.}, {0, 554.}}]], "Input",
- CellChangeTimes->{3.831842252046647*^9, 
-  3.831842416627225*^9},ExpressionUUID->"408bd767-f7ea-4180-b8d5-\
+  PlotRange->{{0., 974.}, {0., 554.}},
+  PlotRangePadding->Automatic]], "Input",
+ CellChangeTimes->{3.831842252046647*^9, 3.831842416627225*^9, 
+  3.831929657248378*^9, 
+  3.831929691212641*^9},ExpressionUUID->"408bd767-f7ea-4180-b8d5-\
 df9ac4d738ad"],
 
 Cell[TextData[{
@@ -4927,18 +4946,15 @@ going 200 km/s. Using 8kpc as the radius, converting that to km and \
 multiplying by ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"2", "\[Pi]"}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+   RowBox[{"2", "\[Pi]"}], TraditionalForm]],ExpressionUUID->
   "f9192077-3e40-42ef-bf7d-b67358725aa6"],
  " to get a circumference, ",
  Cell[BoxData[
-  FormBox["C", TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+  FormBox["C", TraditionalForm]],ExpressionUUID->
   "c285baee-cce3-4b81-8bfe-4be8f3eb8d20"],
  ". Then compute the period ",
  Cell[BoxData[
-  FormBox["P", TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+  FormBox["P", TraditionalForm]],ExpressionUUID->
   "e561bebe-6de0-4d41-a6fa-c0dba9a368ca"],
  " that says how long it will take us to orbit the Milky Way:\n\n",
  Cell[BoxData[
@@ -4948,20 +4964,21 @@ multiplying by ",
      FractionBox["C", "v"], "=", 
      FractionBox[
       RowBox[{"2", "\[Pi]", " ", "r"}], "v"]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "4038f2ae-4195-416b-aa0e-e0a27bf19dd0"],
- ".\n\n(b) If you did everything in (a) using km and km/sec, then your answer \
-to (a) is in seconds. Convert it to years (by dividing by 365.25*24*60*60).\n\
-\n(c) Consider a star orbiting at 4kpc (half our distance from the center of \
-the Galaxy). Repeat what you did in parts (a) and (b) using the data for this \
-new radius. The galactic rotation data above is so close to flat, you might \
-as well use 200 km/s again for this object\[CloseCurlyQuote]s speed.\n\n(d) \
-Consider a star orbiting at 16kpc (twice our distance from the center of the \
-Galaxy). Repeat what you did in parts (a) and (b) using the data for this new \
-radius. Out at that distance, the data is very uncertain, but perhaps ",
+  FontSize->18,ExpressionUUID->"4038f2ae-4195-416b-aa0e-e0a27bf19dd0"],
+ StyleBox[".",
+  FontSize->18],
+ "\n\n(b) If you did everything in (a) using km and km/sec, then your answer \
+to (a) is in seconds. Convert seconds to years (by dividing by \
+365.25*24*60*60).\n\n(c) Consider a star orbiting at 4kpc (half our distance \
+from the center of the Galaxy). Repeat what you did in parts (a) and (b) \
+using the data for this new radius. The galactic rotation data above is so \
+close to flat, you might as well use 200 km/s again for this object\
+\[CloseCurlyQuote]s speed.\n\n(d) Consider a star orbiting at 16kpc (twice \
+our distance from the center of the Galaxy). Repeat what you did in parts (a) \
+and (b) using the data for this new radius. Out at that distance, the data is \
+very uncertain, but perhaps ",
  Cell[BoxData[
-  FormBox["v", TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+  FormBox["v", TraditionalForm]],ExpressionUUID->
   "1bd2e6a4-aa60-4b4f-85f5-4b7c0dac8147"],
  " is closer to 230 km/s.\n\n(e) If our Galaxy is 13 billion years old, how \
 many times has each of the three stars (the one at 4 kpc, our Sun at 8 kpc, \
@@ -4975,8 +4992,9 @@ one answer to the winding problem.\n"
   3.831842224573835*^9, 3.8318422493250513`*^9}, {3.831842437912283*^9, 
   3.831842912392481*^9}, {3.8318541861322107`*^9, 3.831854208689768*^9}, {
   3.83185424752514*^9, 3.831854376087031*^9}, {3.83185441017038*^9, 
-  3.8318545359370737`*^9}, {3.831855031437893*^9, 
-  3.831855043554174*^9}},ExpressionUUID->"5491bedd-b082-4385-ba80-\
+  3.8318545359370737`*^9}, {3.831855031437893*^9, 3.831855043554174*^9}, {
+  3.831929768478403*^9, 
+  3.831929769074345*^9}},ExpressionUUID->"5491bedd-b082-4385-ba80-\
 072175362e6b"]
 }, Open  ]],
 
@@ -7241,30 +7259,29 @@ T5ns+f+yxn9qMF6BE/in/hMlyiYW
 
 Cell[TextData[{
  "\n(a) Let's use variable star #16. It has a 41-day period, and log of the \
-period is 1.6. Go to page 342 of the textbook and use figure 11-28(a) to find \
-the maximum brightness of a variable with this period. You will get an \
-absolute magnitude ",
+period is about 1.6. Go to page 342 of the textbook and use figure 11-28(a) \
+to find the maximum brightness of a variable with this period. This gives you \
+an absolute magnitude ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["M", "V"], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+   SubscriptBox["M", "V"], TraditionalForm]],ExpressionUUID->
   "01ded85c-53fb-40fe-a14b-65a54c01c87b"],
  ". \n\n(b) What you did in (a) is applied Leavitt's Law (the \
 period-luminosity relationship) to find out how bright this Cepheid would be \
 if it were at the standard distance of 10 parsecs. Go back to Table II of \
-Hubble's paper, and find the apparent magnitude of the Cepheid. Call that ",
+Hubble's paper, and find the apparent magnitude (Hubble labeled the column \
+\[OpenCurlyDoubleQuote]Photographic Magnitude, Max.\[CloseCurlyDoubleQuote] \
+of Cepheid #16. Call that ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["m", "V"], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+   SubscriptBox["m", "V"], TraditionalForm]],ExpressionUUID->
   "eff00824-d279-4d72-84d6-03310135078a"],
  ". Then compute the difference ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["m", "V"], "-", 
-    SubscriptBox["M", "V"]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+    SubscriptBox["M", "V"]}], TraditionalForm]],ExpressionUUID->
   "5aa9b102-bac0-45f3-a857-4b1273e1ee89"],
  ".\n\n(c) Solving the formula ",
  Cell[BoxData[
@@ -7279,12 +7296,10 @@ Hubble's paper, and find the apparent magnitude of the Cepheid. Call that ",
        RowBox[{
         SubscriptBox["m", "V"], "-", 
         SubscriptBox["M", "V"]}], ")"}]}]]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "ceed5e59-baf2-4ce1-95b6-159c491153ef"],
+  ExpressionUUID->"ceed5e59-baf2-4ce1-95b6-159c491153ef"],
  " for ",
  Cell[BoxData[
-  FormBox["d", TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+  FormBox["d", TraditionalForm]],ExpressionUUID->
   "b49e1e46-3666-4c87-8e98-2e11c128ab7c"],
  ", find the distance to variable star #16 in M31. Your answer for the \
 distance will be in parsecs. You have found the distance that makes this star \
@@ -7306,8 +7321,8 @@ images we have now in Figure 16-6(e)."
   3.83185509421231*^9}, {3.831855285058423*^9, 3.831855772967063*^9}, {
   3.831855834313998*^9, 3.831855853833302*^9}, {3.831855917880693*^9, 
   3.83185606462733*^9}, {3.831856160342968*^9, 3.831856319570403*^9}, {
-  3.831856367777253*^9, 
-  3.831856410100842*^9}},ExpressionUUID->"ba1943a5-0b75-438d-81e0-\
+  3.831856367777253*^9, 3.831856410100842*^9}, {3.8319298013976593`*^9, 
+  3.831929868740069*^9}},ExpressionUUID->"ba1943a5-0b75-438d-81e0-\
 98cc61461540"]
 }, Open  ]],
 
@@ -59604,28 +59619,28 @@ Cell[1052, 31, 260, 4, 53, "Subtitle",ExpressionUUID->"f75a004f-b82e-44e2-9064-a
 Cell[1315, 37, 754, 13, 58, "Text",ExpressionUUID->"e7c0cf94-4e48-4036-8533-84a391a7e271"],
 Cell[CellGroupData[{
 Cell[2094, 54, 476, 7, 67, "Section",ExpressionUUID->"e3583be7-533b-427c-856f-d9183166dddc"],
-Cell[2573, 63, 6130, 140, 1021, "Text",ExpressionUUID->"a2057f16-e51f-4168-9923-9a7013c6350d"]
+Cell[2573, 63, 6793, 156, 1067, "Text",ExpressionUUID->"a2057f16-e51f-4168-9923-9a7013c6350d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8740, 208, 539, 8, 67, "Section",ExpressionUUID->"3b3c62cf-95f2-4f93-8958-7f25780c089f"],
-Cell[9282, 218, 286241, 4699, 291, "Input",ExpressionUUID->"408bd767-f7ea-4180-b8d5-df9ac4d738ad"],
-Cell[295526, 4919, 3126, 60, 637, "Text",ExpressionUUID->"5491bedd-b082-4385-ba80-072175362e6b"]
+Cell[9403, 224, 539, 8, 67, "Section",ExpressionUUID->"3b3c62cf-95f2-4f93-8958-7f25780c089f"],
+Cell[9945, 234, 286359, 4702, 291, "Input",ExpressionUUID->"408bd767-f7ea-4180-b8d5-df9ac4d738ad"],
+Cell[296307, 4938, 3061, 59, 641, "Text",ExpressionUUID->"5491bedd-b082-4385-ba80-072175362e6b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[298689, 4984, 566, 8, 67, "Section",ExpressionUUID->"11c55c38-cbd4-4a3b-af1f-0e16065fe61b"],
-Cell[299258, 4994, 1006, 17, 81, "Text",ExpressionUUID->"29b0e519-3c56-409a-8fca-5b53b3b4b07a"],
-Cell[300267, 5013, 135457, 2226, 265, "Input",ExpressionUUID->"9976354e-10c9-48ed-b9ad-225e4db8df36"],
-Cell[435727, 7241, 3181, 69, 438, "Text",ExpressionUUID->"ba1943a5-0b75-438d-81e0-98cc61461540"]
+Cell[299405, 5002, 566, 8, 67, "Section",ExpressionUUID->"11c55c38-cbd4-4a3b-af1f-0e16065fe61b"],
+Cell[299974, 5012, 1006, 17, 81, "Text",ExpressionUUID->"29b0e519-3c56-409a-8fca-5b53b3b4b07a"],
+Cell[300983, 5031, 135457, 2226, 265, "Input",ExpressionUUID->"9976354e-10c9-48ed-b9ad-225e4db8df36"],
+Cell[436443, 7259, 3179, 66, 461, "Text",ExpressionUUID->"ba1943a5-0b75-438d-81e0-98cc61461540"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[438945, 7315, 656, 10, 67, "Section",ExpressionUUID->"bb417161-8253-4b92-9c0e-7f3e9556a826"],
-Cell[439604, 7327, 876, 14, 35, "Text",ExpressionUUID->"fe97dd0b-a898-4fe1-81e4-0c3214796f52"],
-Cell[440483, 7343, 3182757, 52182, 374, "Input",ExpressionUUID->"599e7b87-b06c-4685-94fe-f56deb87b83b"],
-Cell[3623243, 59527, 1222, 24, 265, "Text",ExpressionUUID->"47fe314c-f46b-4126-b1b3-9e2ef3f602ce"]
+Cell[439659, 7330, 656, 10, 67, "Section",ExpressionUUID->"bb417161-8253-4b92-9c0e-7f3e9556a826"],
+Cell[440318, 7342, 876, 14, 35, "Text",ExpressionUUID->"fe97dd0b-a898-4fe1-81e4-0c3214796f52"],
+Cell[441197, 7358, 3182757, 52182, 374, "Input",ExpressionUUID->"599e7b87-b06c-4685-94fe-f56deb87b83b"],
+Cell[3623957, 59542, 1222, 24, 265, "Text",ExpressionUUID->"47fe314c-f46b-4126-b1b3-9e2ef3f602ce"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3624502, 59556, 720, 10, 67, "Section",ExpressionUUID->"f2fc42af-956c-4220-bfae-9a033e485ccb"],
-Cell[3625225, 59568, 456, 9, 81, "Text",ExpressionUUID->"ad3689b5-4f7b-4602-9508-0bf5639104e3"]
+Cell[3625216, 59571, 720, 10, 67, "Section",ExpressionUUID->"f2fc42af-956c-4220-bfae-9a033e485ccb"],
+Cell[3625939, 59583, 456, 9, 81, "Text",ExpressionUUID->"ad3689b5-4f7b-4602-9508-0bf5639104e3"]
 }, Open  ]]
 }, Open  ]]
 }
