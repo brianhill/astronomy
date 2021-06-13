@@ -36,6 +36,6 @@ See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 * Tuesday, June 15 &mdash; Chapter 18 &mdash; General Relativity and the Expanding Universe &mdash; The New Standard Candle: Type 1a Supernovae and Modern Measurements of Hubble's Law &mdash; The Evidence for Dark Matter and Dark Energy on Cosmological Scales &mdash; [Problem Set 12](./problem_sets/Astro-PS12-WithSuperliminalJets.pdf)
 * Friday, June 18 &mdash; Third (Final) Midterm
 
-### Week 14 &mdash; Chapters 19 &mdash; The Cosmic Microwave Background Radiation and 
+### Week 14 &mdash; Chapters 19 &mdash; The Cosmic Microwave Background Radiation 
 
 * Tuesday, June 22 &mdash; Chapter 19 &mdash; Further Evidence for the Big Bang &mdash; The Universe when it was Only 380,000 Years Old &mdash; Density Fluctuations in the Early Universe &mdash; The Inflationary Universe
