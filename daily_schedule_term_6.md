@@ -28,14 +28,14 @@ See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 
 ### Week 12 &mdash; Chapters 16, and 17 &mdash; Hubble's Expanding Universe, Other Galaxies, Gravitational Lensing, Quasars, Active Galactic Nuclei
 
-* Tuesday, June 8 &mdash; Chapter 16: More than 100 billion galaxies &mdash; [Hubble's 1925 paper](./resources/Hubble1925Paper.pdf) &mdash; [Hubble's 1929 paper](./resources/Hubble1929Paper.pdf) &mdash; [Problem Set 11](./problem_sets/Astro-PS11.pdf) &mdash; A [Deeper Dive on Gravitational Lensing](resources/HarvardAstronomy202Lecture12.pdf) by Jonathan Pritchard, Harvard Astronomy 202, Lecture 12
-* Friday, June 11 &mdash; Chapter 17: Quasars, Active Galactic Nuclei &mdash; Event Horizon Telescope [image of supermassive black hole](https://youtu.be/S_GVbuddri8) in M87 &mdash; Gravitational Lensing [Deflection of starlight](https://youtu.be/HLxvq_M4218)
+* Tuesday, June 8 &mdash; Chapter 16: More than 100 billion galaxies &mdash; [Hubble's 1925 paper](./resources/Hubble1925Paper.pdf) &mdash; [Hubble's 1929 paper](./resources/Hubble1929Paper.pdf) &mdash; [Problem Set 11](./problem_sets/Astro-PS11.pdf) &mdash; Worksheet on [Understanding Hubble's Law](./resources/UnderstandingHubblesLaw.pdf)
+* Friday, June 11 &mdash; A [Deeper Dive on Gravitational Lensing](./resources/HarvardAstronomy202Lecture12.pdf) &mdash; Video on [Deflection of starlight](https://youtu.be/HLxvq_M4218) &mdash; Chapter 17: Quasars, Active Galactic Nuclei &mdash; Event Horizon Telescope [image of supermassive black hole](https://youtu.be/S_GVbuddri8) in M87
 
 ### Week 13 &mdash; Chapter 18 &mdash; Cosmology 
 
-* Tuesday, June 15 &mdash; Chapter 18 &mdash; General Relativity and the Expanding Universe &mdash; The New Standard Candle: Type 1a Supernovae and Modern Measurements of Hubble's Law &mdash; The Evidence for Dark Matter and Dark Energy on Cosmological Scales
+* Tuesday, June 15 &mdash; Chapter 18 &mdash; General Relativity and the Expanding Universe &mdash; The New Standard Candle: Type 1a Supernovae and Modern Measurements of Hubble's Law &mdash; The Evidence for Dark Matter and Dark Energy on Cosmological Scales &mdash; [Problem Set 12](./problem_sets/Astro-PS12-WithSuperliminalJets.pdf)
 * Friday, June 18 &mdash; Third (Final) Midterm
 
-### Week 14 &mdash; Chapters 19 &mdash; The Cosmic Microwave Background Radiation
+### Week 14 &mdash; Chapters 19 &mdash; The Cosmic Microwave Background Radiation and 
 
-* Tuesday, June 22 &mdash; Chapter 19 &mdash; Further Evidence for the Big Bang &mdash; Density Fluctuations in the Early Universe &mdash; The Inflationary Universe
+* Tuesday, June 22 &mdash; Chapter 19 &mdash; Further Evidence for the Big Bang &mdash; The Universe when it was Only 380,000 Years Old &mdash; Density Fluctuations in the Early Universe &mdash; The Inflationary Universe
