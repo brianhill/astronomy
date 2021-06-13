@@ -29,7 +29,7 @@ See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 ### Week 12 &mdash; Chapters 16, and 17 &mdash; Hubble's Expanding Universe, Other Galaxies, Gravitational Lensing, Quasars, Active Galactic Nuclei
 
 * Tuesday, June 8 &mdash; Chapter 16: More than 100 billion galaxies &mdash; [Hubble's 1925 paper](./resources/Hubble1925Paper.pdf) &mdash; [Hubble's 1929 paper](./resources/Hubble1929Paper.pdf) &mdash; [Problem Set 11](./problem_sets/Astro-PS11.pdf) &mdash; Worksheet on [Understanding Hubble's Law](./resources/UnderstandingHubblesLaw.pdf)
-* Friday, June 11 &mdash; A [Deeper Dive on Gravitational Lensing](./resources/HarvardAstronomy202Lecture12.pdf) &mdash; Video on [Deflection of starlight](https://youtu.be/HLxvq_M4218) &mdash; Chapter 17: Quasars, Active Galactic Nuclei &mdash; Event Horizon Telescope [image of supermassive black hole](https://youtu.be/S_GVbuddri8) in M87
+* Friday, June 11 &mdash; A [Deeper Dive on Gravitational Lensing](./resources/HarvardAstronomy202Lecture12Excerpt.pdf) &mdash; Video on [Deflection of starlight](https://youtu.be/HLxvq_M4218) &mdash; Chapter 17: Quasars, Active Galactic Nuclei &mdash; Event Horizon Telescope [image of supermassive black hole](https://youtu.be/S_GVbuddri8) in M87
 
 ### Week 13 &mdash; Chapter 18 &mdash; Cosmology 
 
