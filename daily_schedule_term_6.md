@@ -33,7 +33,7 @@ See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 
 ### Week 13 &mdash; Chapter 18 &mdash; Cosmology 
 
-* Tuesday, June 15 &mdash; Chapter 18 &mdash; General Relativity and the Expanding Universe &mdash; The New Standard Candle: Type 1a Supernovae and Modern Measurements of Hubble's Law &mdash; The Evidence for Dark Matter and Dark Energy on Cosmological Scales &mdash; [Problem Set 12](./problem_sets/Astro-PS12-WithSuperliminalJets.pdf) &mdash; High-Z supernovae results, [Filippenko and Riess 1998](FilippenkoAndRiess1998.pdf)
+* Tuesday, June 15 &mdash; Chapter 18 &mdash; General Relativity and the Expanding Universe &mdash; The New Standard Candle: Type 1a Supernovae and Modern Measurements of Hubble's Law &mdash; The Evidence for Dark Matter and Dark Energy on Cosmological Scales &mdash; [Problem Set 12](./problem_sets/Astro-PS12-WithSuperliminalJets.pdf) &mdash; High-Z supernovae results, [Riess et al 1998](RiessEtAl1998.pdf)
 * Friday, June 18 &mdash; Third (Final) Midterm
 
 ### Week 14 &mdash; Chapters 19 &mdash; The Cosmic Microwave Background Radiation 
