@@ -1,0 +1,281 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10199,        271]
+NotebookOptionsPosition[      9006,        241]
+NotebookOutlinePosition[      9362,        257]
+CellTagsIndexPosition[      9319,        254]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Mean Depth", "Section",
+ CellChangeTimes->{{3.7347154262376842`*^9, 
+  3.734715456284567*^9}},ExpressionUUID->"b0439f43-5a05-4659-baed-\
+16e1bdd86516"],
+
+Cell[TextData[{
+ "The first new formula in Section 7.1 was stated without proof. The formula \
+I am referring to is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["z", "e"], "=", 
+    RowBox[{
+     FractionBox["2", "3"], "L"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "77e0e446-a6c7-4454-9936-62467c9d07f1"],
+ "\n\nThe variable ",
+ Cell[BoxData[
+  FormBox["z", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "59bf3e88-603b-497b-aee5-3ec45b50a638"],
+ " is the depth below the surface of the star. ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["z", "e"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "54ec49c2-1472-42e4-aca8-73dfc35712e8"],
+ " was by definition the depth at which ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"T", "=", 
+    SubscriptBox["T", "e"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "acb44e8e-588c-455d-82d0-fd713fee0c31"],
+ ".\n\nSwihart says that this is the mean ",
+ Cell[BoxData[
+  FormBox["z", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "4900ad50-b47e-4067-b000-f7c956a6a2ca"],
+ " from which the photons leaving a star come. This is such a significant \
+quantity, it seemed truly unfortunate to not know exactly how to get it. We \
+got all of it except the ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["2", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "41e27115-0c29-43ac-ac1e-16e5ef536bd0"],
+ ", and now we\[CloseCurlyQuote]ll fix that."
+}], "Text",
+ CellChangeTimes->{{3.734692150056921*^9, 3.734692158492679*^9}, {
+  3.734715461595131*^9, 3.7347155983846397`*^9}, {3.73471615691782*^9, 
+  3.7347162431029243`*^9}, {3.7347163175378313`*^9, 
+  3.7347164341567507`*^9}},ExpressionUUID->"d5998b3f-999c-4db6-9af5-\
+319212f8ab6c"],
+
+Cell[CellGroupData[{
+
+Cell["Setting up the integral", "Subsection",
+ CellChangeTimes->{{3.734716503536578*^9, 
+  3.734716508687067*^9}},ExpressionUUID->"0046ef7e-0361-4bb8-86fd-\
+951ad9c527a3"],
+
+Cell[TextData[{
+ "Suppose you have a little absorber or sensor of area ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "10af7533-8a4b-4cee-b1d4-bb651354ebc4"],
+ " sitting on the surface of a star. What is the total amount of flux passing \
+through this sensor?\n\nSet up the usual polar coordinate system. The flux \
+passing through the sensor is due to all the little volume elements \
+characterized by ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "dec0df88-8e1c-49ae-9d86-9cc6b2b30ca0"],
+ ", ",
+ Cell[BoxData[
+  FormBox["\[CapitalDelta]\[Theta]", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b5d8f57b-8cce-47eb-befc-4450645674da"],
+ ", ",
+ Cell[BoxData[
+  FormBox["\[CapitalDelta]\[Phi]", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "adb39127-4ccb-4b5e-a80d-c3e23248f2d4"],
+ ". The volume of such an element is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["r", "2"], "sin", "\[VeryThinSpace]", "\[Theta]", " ", 
+    "\[CapitalDelta]", "\[VeryThinSpace]", "r", " ", 
+    "\[CapitalDelta]\[Theta]", "\[VeryThinSpace] ", "\[CapitalDelta]\[Phi]"}],
+    TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "8d993484-d59a-4847-a055-033cfe1a77bb"],
+ ". The radiation produced by this volume must be proportional to the volume, \
+provided the little volume is much less than an optical depth thick. If it \
+had some substantial optical thickness, then it might be more proportional to \
+the surface area than the volume, but we are going to take the limit that \
+this volume is infinitesimally small.\n\nLet\[CloseCurlyQuote]s call the \
+proportionality constant ",
+ Cell[BoxData[
+  FormBox["l", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "bcc8ae70-2c96-438d-a234-fd33f950e5e1"],
+ ". Then the total luminosity of the volume ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"l", 
+    SuperscriptBox["r", "2"], "sin", "\[VeryThinSpace]", "\[Theta]", " ", 
+    "\[CapitalDelta]", "\[VeryThinSpace]", "r", " ", 
+    "\[CapitalDelta]\[Theta]", "\[VeryThinSpace] ", "\[CapitalDelta]\[Phi]"}],
+    TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "eb9e05d7-d190-46ad-9175-58cd1ccf44a0"],
+ ".\n\nThe probably that some radiation produced by this little volume will \
+reach the detector is attenuated by ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["e", 
+    RowBox[{
+     RowBox[{"-", "k"}], "\[VeryThinSpace]", "r"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0aafad0b-14e4-432e-9618-f5864367a03c"],
+ ".\n\nNow here is something a bit tricky. The detector subtends an area ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "fe1cb73c-7e2b-4f6a-bbef-f858cee50ad7"],
+ ", and the detector is ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b2196f98-b3bc-4bae-9ce0-803c5cfc7269"],
+ " away from the little volume, so one might think that the detector catches\n\
+\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["A", 
+    RowBox[{"4", "\[Pi]", "\[VeryThinSpace]", 
+     SuperscriptBox["r", "2"]}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0e2365df-bc36-40f6-a3f8-ba0a45009f90"],
+ "\n\nof the luminosity.\n\nHowever, the detector is facing the surface of \
+the star, and that means that its obliquely positioned (that means \
+\[OpenCurlyDoubleQuote]at an angle\[CloseCurlyDoubleQuote] with an emphasis \
+on the fact that it doesn\[CloseCurlyQuote]t catch as much radiation as it \
+would), and so it only catches the incident radiation amount of:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["A", 
+     RowBox[{"4", "\[Pi]", "\[VeryThinSpace]", 
+      SuperscriptBox["r", "2"]}]], "l", 
+    SuperscriptBox["r", "2"], "sin", "\[VeryThinSpace]", "\[Theta]", " ", 
+    "\[CapitalDelta]", "\[VeryThinSpace]", "r", " ", 
+    "\[CapitalDelta]\[Theta]", "\[VeryThinSpace] ", "\[CapitalDelta]\[Phi]"}],
+    TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "7f28cc05-5d27-47a4-82b1-f5c0c18ba6fe"]
+}], "Text",
+ CellChangeTimes->{{3.734716566165461*^9, 3.734716630536762*^9}, {
+  3.73471680975802*^9, 3.734716904865346*^9}, {3.734716957942986*^9, 
+  3.7347170512976837`*^9}, {3.734717095971443*^9, 3.73471731027381*^9}, {
+  3.734717621430724*^9, 
+  3.7347179088480453`*^9}},ExpressionUUID->"caa70f29-d25c-4054-83b8-\
+b4c547354521"],
+
+Cell[BoxData[""], "Input",ExpressionUUID->"2a74ab7f-c0da-4f04-996f-a74afcaf81ea"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"Cos", "[", "theta", "]"}], "2"], 
+    RowBox[{"Sin", "[", "theta", "]"}]}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"theta", ",", " ", "0", ",", " ", 
+     RowBox[{"Pi", "/", "2"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.73469151543826*^9, 3.734691525738317*^9}, {
+  3.734691864732729*^9, 3.73469187871255*^9}, {3.734692106129863*^9, 
+  3.7346921146405563`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"9d6f5789-485c-40fe-8dce-b54cf7ef44fb"],
+
+Cell[BoxData[
+ FractionBox["1", "3"]], "Output",
+ CellChangeTimes->{3.73469188036303*^9, 3.734692115422619*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"f4cd53b6-233a-4b19-b829-8045a432ce1a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Cos", "[", "theta", "]"}], 
+    RowBox[{"Sin", "[", "theta", "]"}]}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"theta", ",", " ", "0", ",", " ", 
+     RowBox[{"Pi", "/", "2"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.73469151543826*^9, 3.734691525738317*^9}, {
+  3.734691864732729*^9, 3.734691894495798*^9}, {3.734692118885347*^9, 
+  3.734692122650556*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"025ee4e6-9df1-4a97-a50f-4e9de27454a3"],
+
+Cell[BoxData[
+ FractionBox["1", "2"]], "Output",
+ CellChangeTimes->{3.734691895839468*^9, 3.7346921231577806`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"5cebfe1c-8065-40e7-b7e4-b20f7cf08c85"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 778}, {Automatic, 129}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 157, 3, 84, "Section",ExpressionUUID->"b0439f43-5a05-4659-baed-16e1bdd86516"],
+Cell[740, 27, 1829, 48, 338, "Text",ExpressionUUID->"d5998b3f-999c-4db6-9af5-319212f8ab6c"],
+Cell[CellGroupData[{
+Cell[2594, 79, 171, 3, 67, "Subsection",ExpressionUUID->"0046ef7e-0361-4bb8-86fd-951ad9c527a3"],
+Cell[2768, 84, 4593, 106, 885, "Text",ExpressionUUID->"caa70f29-d25c-4054-83b8-b4c547354521"],
+Cell[7364, 192, 81, 0, 37, "Input",ExpressionUUID->"2a74ab7f-c0da-4f04-996f-a74afcaf81ea"],
+Cell[CellGroupData[{
+Cell[7470, 196, 550, 13, 41, "Input",ExpressionUUID->"9d6f5789-485c-40fe-8dce-b54cf7ef44fb"],
+Cell[8023, 211, 189, 3, 60, "Output",ExpressionUUID->"f4cd53b6-233a-4b19-b829-8045a432ce1a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8249, 219, 522, 12, 37, "Input",ExpressionUUID->"025ee4e6-9df1-4a97-a50f-4e9de27454a3"],
+Cell[8774, 233, 192, 3, 59, "Output",ExpressionUUID->"5cebfe1c-8065-40e7-b7e4-b20f7cf08c85"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

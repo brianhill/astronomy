@@ -1,0 +1,773 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     33004,        765]
+NotebookOptionsPosition[     29593,        696]
+NotebookOutlinePosition[     29986,        713]
+CellTagsIndexPosition[     29943,        710]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Physics 90 \[LongDash] HW 3", "Chapter",
+ CellChangeTimes->{{3.714577519769075*^9, 3.714577524042035*^9}, {
+  3.728785840976698*^9, 3.728785853240991*^9}, {3.791285098244536*^9, 
+  3.7912851453834763`*^9}},ExpressionUUID->"c5546609-1e46-4a0d-b508-\
+d07a23b9baa3"],
+
+Cell["Passed out, Friday, 2020-02-21. Due Monday, 2020-02-24.", "Subsubtitle",
+ CellChangeTimes->{{3.714577603818059*^9, 3.714577633135415*^9}, {
+  3.728785870926477*^9, 3.728785885697648*^9}, {3.760222231678377*^9, 
+  3.7602222344569683`*^9}, {3.76026704484297*^9, 3.760267104814376*^9}, {
+  3.7912851357024593`*^9, 3.791285141862341*^9}, {3.791294540413286*^9, 
+  3.7912945560062437`*^9}},ExpressionUUID->"9048d643-e63d-41ea-b345-\
+dceec4e95d66"],
+
+Cell[TextData[{
+ StyleBox["e.g.",
+  FontSlant->"Italic"],
+ " is Latin for \[OpenCurlyDoubleQuote]for example\[CloseCurlyDoubleQuote] \
+and ",
+ StyleBox["i.e.",
+  FontSlant->"Italic"],
+ " is Latin for \[OpenCurlyDoubleQuote]in other words\[CloseCurlyDoubleQuote]\
+\n\nStandard prefixes:\n\nk = kilo = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "3"], TraditionalForm]],ExpressionUUID->
+  "f577d929-4561-417b-8531-182e0e5405f7"],
+ " = \[OpenCurlyDoubleQuote]a thousand\[CloseCurlyDoubleQuote]\nM = mega = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "6"], TraditionalForm]],ExpressionUUID->
+  "04c895ab-889c-44d7-bf36-6c4e4486bd14"],
+ " = \[OpenCurlyDoubleQuote]a million\[CloseCurlyDoubleQuote]\nG = giga = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "9"], TraditionalForm]],ExpressionUUID->
+  "6430e781-9287-42d9-b41e-0f9dc312253b"],
+ " = \[OpenCurlyDoubleQuote]a billion\[CloseCurlyDoubleQuote]\nT = tera = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "12"], TraditionalForm]],ExpressionUUID->
+  "ba3c1248-4259-4a90-ac7b-438e2f0ae094"],
+ " (but do not confuse this with temperature which is also ",
+ StyleBox["T",
+  FontSlant->"Italic"],
+ ")\nc = centi = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "2"}]], TraditionalForm]],ExpressionUUID->
+  "8f4ed934-869c-476f-9eac-0cb739bb7466"],
+ " (but do not confuse it this with the speed of light which is also ",
+ Cell[BoxData[
+  FormBox["c", TraditionalForm]],ExpressionUUID->
+  "6032a69e-4043-45ff-8e45-1772cb0c5f3e"],
+ ")\nm = milli = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "3"}]], TraditionalForm]],ExpressionUUID->
+  "420a78a9-2a2b-4a50-ae1a-c52ea77e2c3c"],
+ " (but do not confuse this with meters which is also m)\n\[Mu] = micro = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "6"}]], TraditionalForm]],ExpressionUUID->
+  "22844c8e-755d-4a75-b5ff-f2935f0a5543"],
+ "\nn = nano = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "9"}]], TraditionalForm]],ExpressionUUID->
+  "73a13420-f2ab-408b-b29f-ca828932ea8d"],
+ "\np = pico = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "12"}]], TraditionalForm]],ExpressionUUID->
+  "c552efab-0ec0-4990-9ffc-95e565a5e96c"]
+}], "Text",
+ CellChangeTimes->{{3.728791387582795*^9, 3.728791508435587*^9}, {
+   3.7287915993774776`*^9, 3.728791638458419*^9}, 3.7288204302499228`*^9, {
+   3.760222211996976*^9, 3.760222278422719*^9}, {3.76022799540414*^9, 
+   3.760228020207596*^9}, {3.760228942679778*^9, 3.760228943726067*^9}, {
+   3.760265958993066*^9, 3.760265959688327*^9}, {3.76026624031019*^9, 
+   3.7602662647226048`*^9}, {3.760266343505501*^9, 3.760266364555503*^9}, {
+   3.791285171766364*^9, 3.7912852165177917`*^9}, {3.791294570272184*^9, 
+   3.791294587327751*^9}},ExpressionUUID->"f3ed81f1-c31a-4924-8ddf-\
+b1c8dcc4569a"],
+
+Cell[TextData[{
+ "Common unit abbreviations:\n\nm is the usual abbreviation for meters, but \
+in right ascension it is used for minutes\ns is the usual abbreviation for \
+seconds\nHz is for Hertz which is ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "second"], TraditionalForm]],ExpressionUUID->
+  "2680c613-085e-4375-a1df-5f88f473b92a"]
+}], "Text",
+ CellChangeTimes->{{3.728791387582795*^9, 3.728791508435587*^9}, {
+  3.7287915993774776`*^9, 3.728791638458419*^9}, {3.728792237796914*^9, 
+  3.7287924485757732`*^9}, {3.7287924796590548`*^9, 3.728792493363742*^9}, {
+  3.760222283248932*^9, 3.760222355403982*^9}, {3.7602262164393578`*^9, 
+  3.760226226139529*^9}, {3.76022799891297*^9, 3.760228000026937*^9}, {
+  3.76026596300725*^9, 3.7602659639269667`*^9}, {3.7912852285771914`*^9, 
+  3.791285264915565*^9}},ExpressionUUID->"66ebc62c-60ee-4969-bbe3-\
+e06b6ba4820b"],
+
+Cell[CellGroupData[{
+
+Cell["Apparent Magnitude (or just \[OpenCurlyDoubleQuote]Magnitude\
+\[CloseCurlyDoubleQuote])", "Section",
+ CellChangeTimes->{{3.728785951255321*^9, 3.728785987667964*^9}, {
+  3.72878619324277*^9, 3.7287861959180603`*^9}, {3.72878716601398*^9, 
+  3.728787170658223*^9}, {3.760225054310114*^9, 
+  3.760225061555151*^9}},ExpressionUUID->"0843e29f-2513-470b-ae9b-\
+cfc7bb2e82c4"],
+
+Cell[CellGroupData[{
+
+Cell["1. Apparent Magnitude", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+  3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+  3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+  3.7288198592202473`*^9, 3.7288198593423443`*^9}, {3.760225064806157*^9, 
+  3.76022506533496*^9}, {3.760225154165472*^9, 3.760225155944215*^9}, {
+  3.76022847962886*^9, 3.760228479886331*^9}, {3.791285348029089*^9, 
+  3.791285348288121*^9}},ExpressionUUID->"80518d13-cb1b-40ac-831e-\
+6b088cccc4db"],
+
+Cell[TextData[{
+ "One of these is",
+ StyleBox[" NOT",
+  FontWeight->"Bold"],
+ " true:\n\n(A) Hipparchus set up the magnitude system.\n(B) The brightest \
+stars in his system had magnitude 1 and the dimmest stars had magnitude 6.\n\
+(C) With modern measuring techniques, thousands of stars are known to be \
+brighter than magnitude 1.\n(D) The brightest star in the sky is Sirius and a \
+modern measurement using a digital camera of its magnitude gives -1.46."
+}], "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+  3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+  3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+  3.728787694124564*^9, 3.728787698881048*^9}, {3.728818189412043*^9, 
+  3.7288182236328497`*^9}, {3.760225096306964*^9, 3.760225131665833*^9}, {
+  3.760266407811871*^9, 3.7602664112655354`*^9}, {3.791285315147326*^9, 
+  3.791285324717012*^9}},ExpressionUUID->"c69ac505-70b8-4368-91cc-\
+324900392f90"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"5e9f5ed0-e002-4b4a-b31f-7f7b1d4da384"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. Apparent Magnitude", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+  3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+  3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+  3.728787636524106*^9, 3.728787636600894*^9}, {3.728819863461574*^9, 
+  3.7288198636623173`*^9}, {3.760225164852992*^9, 3.76022516529149*^9}, {
+  3.760227847818383*^9, 3.760227848062376*^9}, {3.760228483004025*^9, 
+  3.760228483566518*^9}, {3.7912853508308077`*^9, 
+  3.7912853512020807`*^9}},ExpressionUUID->"df336ad2-e9c9-4c90-a40b-\
+f916fac5163d"],
+
+Cell[TextData[{
+ "In the modern system, each magnitude step (e.g., mag ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3", "\[Rule]", "4"}], TraditionalForm]],ExpressionUUID->
+  "d96fd39b-e428-466e-a7d4-53e9e8402ac7"],
+ ") is about 2.5 times dimmer. So two steps would be about:\n\n(A) about 5 \
+times dimmer\n(B) about 6.25 times dimmer\n(C) about 10 times dimmer"
+}], "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+  3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+  3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+  3.728787650979855*^9, 3.728787686056163*^9}, {3.728787729515135*^9, 
+  3.7287880536739187`*^9}, {3.728818382668725*^9, 3.728818458614081*^9}, {
+  3.7288184901796103`*^9, 3.7288185370126247`*^9}, {3.728819411989029*^9, 
+  3.728819423088846*^9}, {3.76022516865621*^9, 3.760225340252483*^9}, {
+  3.760225410858007*^9, 3.7602254160218287`*^9}, {3.760225472316959*^9, 
+  3.7602254767719173`*^9}, {3.79128537155364*^9, 3.7912853717451468`*^9}, {
+  3.7912859028296423`*^9, 
+  3.791285927287032*^9}},ExpressionUUID->"3111cd35-2340-4f27-b41c-\
+6994f4b7f819"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3. Apparent Magnitude", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+  3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+  3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+  3.728787636524106*^9, 3.728787636600894*^9}, {3.728819863461574*^9, 
+  3.7288198636623173`*^9}, {3.760225164852992*^9, 3.76022516529149*^9}, {
+  3.760227847818383*^9, 3.760227848062376*^9}, {3.760228483004025*^9, 
+  3.760228483566518*^9}, {3.7912853547344627`*^9, 
+  3.7912853550045013`*^9}},ExpressionUUID->"e19b5563-755a-40db-a255-\
+3a727c161a1b"],
+
+Cell[TextData[{
+ "In the modern system, 5 steps dimmer is (e.g., mag ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"13", "\[Rule]", "18"}], TraditionalForm]],ExpressionUUID->
+  "2afb0b8e-572e-406a-bf99-215f2fefc350"],
+ ") is:\n\n(A) about 2.5 times dimmer\n(B) about 6.25 times dimmer\n(C) a \
+little less than 100 times dimmer\n(D) by definition exactly 100 times dimmer\
+\n(E) none of the above"
+}], "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+  3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+  3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+  3.728787650979855*^9, 3.728787686056163*^9}, {3.728787729515135*^9, 
+  3.7287880536739187`*^9}, {3.728818382668725*^9, 3.728818458614081*^9}, {
+  3.7288184901796103`*^9, 3.7288185370126247`*^9}, {3.728819411989029*^9, 
+  3.728819423088846*^9}, {3.76022516865621*^9, 3.760225340252483*^9}, {
+  3.760225410858007*^9, 3.7602254160218287`*^9}, {3.760225472316959*^9, 
+  3.7602254767719173`*^9}, {3.791285426308814*^9, 3.791285518866836*^9}, {
+  3.791285939662326*^9, 3.791285942216501*^9}, {3.791286570867835*^9, 
+  3.791286573556744*^9}, {3.7912874620099497`*^9, 
+  3.791287462246352*^9}},ExpressionUUID->"91a4796d-a782-41ab-b1cb-\
+429abe8d9ec8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Apparent Magnitude", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+  3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+  3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+  3.728787636524106*^9, 3.728787636600894*^9}, {3.7287880870652027`*^9, 
+  3.728788087277444*^9}, {3.7288198674779167`*^9, 3.728819867667407*^9}, {
+  3.760225346878502*^9, 3.760225347351012*^9}, {3.7602278509436827`*^9, 
+  3.760227851787325*^9}, {3.760228487615299*^9, 3.760228489561565*^9}, {
+  3.79128553441302*^9, 
+  3.791285534649424*^9}},ExpressionUUID->"ef1f7c96-f7c6-404e-bd7f-\
+087bc963c70b"],
+
+Cell["\<\
+Venus is currently at magnitude -4.22. The brightest star in the sky, Sirius, \
+has magnitude -1.46. Venus is currently:
+
+(A) brighter than Sirius
+(B) dimmer than Sirius\
+\>", "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+  3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+  3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+  3.728787650979855*^9, 3.728787686056163*^9}, {3.728787729515135*^9, 
+  3.7287880536739187`*^9}, {3.728818382668725*^9, 3.728818458614081*^9}, {
+  3.7288184901796103`*^9, 3.7288185370126247`*^9}, {3.728819411989029*^9, 
+  3.728819423088846*^9}, {3.76022516865621*^9, 3.7602253161443853`*^9}, {
+  3.760225352471168*^9, 3.760225497527882*^9}, {3.7602661978528976`*^9, 
+  3.760266216030931*^9}, {3.791285553010586*^9, 3.7912856429309196`*^9}, {
+  3.791287249908634*^9, 
+  3.791287257063384*^9}},ExpressionUUID->"b26be37d-4a1d-49bb-9e0a-\
+56e515470a64"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5. Apparent Magnitude \[LongDash] with Important Formula", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+   3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+   3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+   3.728787636524106*^9, 3.728787636600894*^9}, {3.7287880870652027`*^9, 
+   3.728788087277444*^9}, {3.7288198674779167`*^9, 3.728819867667407*^9}, {
+   3.760225346878502*^9, 3.760225347351012*^9}, {3.7602278509436827`*^9, 
+   3.760227851787325*^9}, {3.760228487615299*^9, 3.760228489561565*^9}, {
+   3.79128553441302*^9, 3.791285534649424*^9}, {3.791285650547858*^9, 
+   3.7912856506483*^9}, {3.79128573375276*^9, 3.791285751538761*^9}, {
+   3.791286532393796*^9, 3.7912865384002323`*^9}, {3.791286697881119*^9, 
+   3.79128669795982*^9}, 
+   3.791287348450345*^9},ExpressionUUID->"dae98ea7-ff77-4084-8513-\
+a8267fb8001e"],
+
+Cell[TextData[{
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["B", "2"], 
+     SubscriptBox["B", "1"]], "=", 
+    SuperscriptBox["10", 
+     RowBox[{"0.4", 
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["m", "1"], "-", 
+        SubscriptBox["m", "2"]}], ")"}]}]]}], TraditionalForm]],
+  ExpressionUUID->"db12fb2d-3869-4e97-b754-9d70b6e266f7"],
+ "\n\nAs an example of two steps dimmer, put in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["m", "2"], "=", "4"}], TraditionalForm]],ExpressionUUID->
+  "ffd7605a-61e1-49bd-bda7-5141a9861625"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["m", "1"], "=", "2"}], TraditionalForm]],ExpressionUUID->
+  "b157e6de-467c-4391-9717-09a736a977e7"],
+ ". Fill in your answer here:\n\n___________\n\nMake sure this agrees with \
+the answer to Problem 2. If you are confused and it does not seem to agree, \
+try also computing ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"0.4", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["m", "2"], "-", 
+       SubscriptBox["m", "1"]}], ")"}]}]], TraditionalForm]],ExpressionUUID->
+  "850c3ee7-5e03-4f88-b38e-014d9bc117ce"],
+ ". That\[CloseCurlyQuote]s:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["B", "1"], 
+     SubscriptBox["B", "2"]], "=", 
+    SuperscriptBox["10", 
+     RowBox[{"0.4", 
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["m", "2"], "-", 
+        SubscriptBox["m", "1"]}], ")"}]}]]}], TraditionalForm]],
+  ExpressionUUID->"898de0fe-ba83-4975-9c07-8f396c68314b"],
+ "\n\nNow is it clear that your answer is in agreement with Problem 2?!?"
+}], "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+   3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+   3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+   3.728787650979855*^9, 3.728787686056163*^9}, {3.728787729515135*^9, 
+   3.7287880536739187`*^9}, {3.728818382668725*^9, 3.728818458614081*^9}, {
+   3.7288184901796103`*^9, 3.7288185370126247`*^9}, {3.728819411989029*^9, 
+   3.728819423088846*^9}, {3.76022516865621*^9, 3.7602253161443853`*^9}, {
+   3.760225352471168*^9, 3.760225497527882*^9}, {3.7602661978528976`*^9, 
+   3.760266216030931*^9}, {3.791285553010586*^9, 3.79128588054418*^9}, {
+   3.791285960227656*^9, 3.79128632456201*^9}, {3.7912863638376837`*^9, 
+   3.791286517420252*^9}, {3.7912865492126303`*^9, 3.791286559203287*^9}, {
+   3.791286710087783*^9, 3.79128671330616*^9}, {3.791287227342702*^9, 
+   3.791287227476686*^9}, 3.7912873740674047`*^9, {3.7913301611779327`*^9, 
+   3.791330161265596*^9}, {3.791330216853628*^9, 3.791330238871232*^9}, {
+   3.791330817472086*^9, 
+   3.7913308194954643`*^9}},ExpressionUUID->"cd4111ce-842d-4346-8962-\
+32e1b1531caf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["6. Apparent Magnitude", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+   3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+   3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+   3.728787636524106*^9, 3.728787636600894*^9}, {3.7287880870652027`*^9, 
+   3.728788087277444*^9}, {3.7288198674779167`*^9, 3.728819867667407*^9}, {
+   3.760225346878502*^9, 3.760225347351012*^9}, {3.7602278509436827`*^9, 
+   3.760227851787325*^9}, {3.760228487615299*^9, 3.760228489561565*^9}, {
+   3.79128553441302*^9, 3.791285534649424*^9}, {3.791285650547858*^9, 
+   3.7912856506483*^9}, {3.79128573375276*^9, 3.791285751538761*^9}, {
+   3.791286745940943*^9, 3.791286746030641*^9}, 
+   3.791287346896504*^9},ExpressionUUID->"827f7edb-03b8-45e5-8630-\
+1a6a36577e43"],
+
+Cell[TextData[{
+ "Use in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["m", "1"], "=", "13"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "5985b54f-a054-484d-b918-6c41a01e9785"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["m", "2"], "=", "18"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "6e08ee3c-d23b-49e3-b265-3823de3ccb20"],
+ " in\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["B", "2"], 
+     SubscriptBox["B", "1"]], "=", 
+    SuperscriptBox["10", 
+     RowBox[{"0.4", 
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["m", "1"], "-", 
+        SubscriptBox["m", "2"]}], ")"}]}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "450f5341-675a-4e72-8c7c-0ea50fa85125"],
+ "\n\nWhat is this ratio? Fill in your answer here:\n\n___________\n\nDoes \
+this agree with Problem 3?!?"
+}], "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+  3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+  3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+  3.728787650979855*^9, 3.728787686056163*^9}, {3.728787729515135*^9, 
+  3.7287880536739187`*^9}, {3.728818382668725*^9, 3.728818458614081*^9}, {
+  3.7288184901796103`*^9, 3.7288185370126247`*^9}, {3.728819411989029*^9, 
+  3.728819423088846*^9}, {3.76022516865621*^9, 3.7602253161443853`*^9}, {
+  3.760225352471168*^9, 3.760225497527882*^9}, {3.7602661978528976`*^9, 
+  3.760266216030931*^9}, {3.791285553010586*^9, 3.79128588054418*^9}, {
+  3.791285960227656*^9, 3.79128632456201*^9}, {3.7912863638376837`*^9, 
+  3.791286517420252*^9}, {3.791286580770458*^9, 3.791286681140932*^9}, {
+  3.791286733824923*^9, 3.7912867403386803`*^9}, {3.791287362423194*^9, 
+  3.791287364211677*^9}},ExpressionUUID->"cb3a2bec-07f8-4291-aab9-\
+b641331e6569"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Wave, Wave Speed, Period and Frequency", "Section",
+ CellChangeTimes->{{3.728785951255321*^9, 3.728785987667964*^9}, {
+  3.72878619324277*^9, 3.7287861959180603`*^9}, {3.72878716601398*^9, 
+  3.728787170658223*^9}, {3.728788294236734*^9, 3.728788296957325*^9}, {
+  3.728789156882728*^9, 3.728789160613267*^9}, {3.7602255251369247`*^9, 
+  3.7602255299841127`*^9}, {3.760226030229808*^9, 3.760226035413259*^9}, {
+  3.7602289820771627`*^9, 
+  3.76022898293186*^9}},ExpressionUUID->"d5e43a75-9180-437e-a3ee-\
+4e1d84418b46"],
+
+Cell[TextData[{
+ "The relationship between period and frequency is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"P", "=", 
+    StyleBox[
+     FractionBox["1", "f"],
+     FontSize->18]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "cbe9987f-7ba5-40ca-8303-c578aee2cb78"],
+ "\n\nwhich you can rearrange to get\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "=", 
+    StyleBox[
+     FractionBox["1", "P"],
+     FontSize->18]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0c07c572-bd54-40d6-aec1-bdc00e09668b"],
+ "\n\nThe main formula for waves of light is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"c", "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"\[Lambda]", "\[VeryThinSpace]"}], "P"],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "a6faa14c-1b63-448b-af46-8efc15d56c2c"],
+ " where the speed of light ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"c", "=", 
+    RowBox[{"3", "*", 
+     SuperscriptBox["10", "8"]}]}], TraditionalForm]],ExpressionUUID->
+  "b3ce9f4f-991a-45c4-be0a-19ad7866f636"],
+ "m/s\n\nFrom this and the definition of frequency, you can also get ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"c", "=", 
+    RowBox[{"\[Lambda]", "\[VeryThinSpace]", "f"}]}], TraditionalForm]],
+  ExpressionUUID->"ab44047b-35b4-473e-ad81-6441ba867a62"],
+ ", and then from that you can also get,\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Lambda]", "=", 
+    StyleBox[
+     FractionBox["c", "f"],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "07d7c2d5-b406-4c87-89b8-89005ece4379"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "=", 
+    StyleBox[
+     FractionBox["c", "\[Lambda]"],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "8c56d31a-c2ad-4e1b-a4bc-bf720343ba30"]
+}], "Text",
+ CellChangeTimes->{{3.791287104866365*^9, 
+  3.791287146365891*^9}},ExpressionUUID->"65e092a0-d508-4f87-8c10-\
+0dd6228bb58c"],
+
+Cell[CellGroupData[{
+
+Cell["7. Frequency and Period", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+  3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+  3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+  3.7287883077142677`*^9, 3.728788311829797*^9}, {3.728788389871953*^9, 
+  3.7287883910415382`*^9}, {3.728819871190378*^9, 3.728819871379834*^9}, {
+  3.760225533437891*^9, 3.760225536047936*^9}, {3.76022785638723*^9, 
+  3.760227860594664*^9}, {3.7602284931727753`*^9, 3.76022849328502*^9}, {
+  3.791286782155569*^9, 
+  3.7912867825709257`*^9}},ExpressionUUID->"0ac61ede-cf4c-49d8-8868-\
+48c20a24118f"],
+
+Cell["\<\
+The usual units of frequency and period are
+
+(A) Hz for frequency and seconds for period
+(B) seconds for frequency and Hz for period
+(C) Hz for both frequency and period
+(D) seconds for both frequency and period\
+\>", "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+  3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+  3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+  3.728787694124564*^9, 3.728787698881048*^9}, {3.728788315194726*^9, 
+  3.728788576567317*^9}, {3.728788629948842*^9, 3.728788641040523*^9}, {
+  3.7287925316568108`*^9, 3.7287925334*^9}, {3.7602255405595417`*^9, 
+  3.760225596719623*^9}},ExpressionUUID->"2811cde3-9e2a-46b6-a9a5-\
+a82a080fa8db"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["8. Frequency and Period", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+   3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+   3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+   3.7287883077142677`*^9, 3.728788311829797*^9}, {3.728788389871953*^9, 
+   3.7287883910415382`*^9}, {3.728788655228881*^9, 3.728788657060487*^9}, {
+   3.7287888601812057`*^9, 3.728788860439157*^9}, {3.7288198744753532`*^9, 
+   3.728819874666725*^9}, 3.7602256057785797`*^9, {3.76022786427335*^9, 
+   3.760227864363455*^9}, {3.760228495669977*^9, 3.7602284957826157`*^9}, {
+   3.7912868043960752`*^9, 
+   3.791286804710985*^9}},ExpressionUUID->"f589d2a1-4613-47b3-91fa-\
+33f72a60059f"],
+
+Cell[TextData[{
+ "The redline on a typical car engine is about 6000 rpm. In revolutions per \
+second, that is 100 ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["rev", "sec"], TraditionalForm]],ExpressionUUID->
+  "5cc65df3-2a3a-4ba3-925b-9fb147262ef9"],
+ " or we could just write 100 Hz.\n\nWhat period corresponds to 100 Hz?\n\n\
+(A) 0.006 seconds\n(B) 0.01 seconds\n(C) ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "2"}]], TraditionalForm]],ExpressionUUID->
+  "eb01cb6c-2c26-483a-af06-c576dbad7cd3"],
+ " seconds\n(D)10 ms\n(E) B, C and D, because they are all three correct and \
+equivalent"
+}], "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+   3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+   3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+   3.728787694124564*^9, 3.728787698881048*^9}, {3.728788315194726*^9, 
+   3.728788576567317*^9}, {3.728788629948842*^9, 3.728788899809022*^9}, 
+   3.7287889301916733`*^9, {3.7287891639670877`*^9, 3.728789165551901*^9}, {
+   3.7287917331279383`*^9, 3.7287917447147284`*^9}, {3.7602256281086397`*^9, 
+   3.760225777158937*^9}, {3.76022582577063*^9, 3.760225986983783*^9}, {
+   3.760266476425634*^9, 
+   3.7602664966754103`*^9}},ExpressionUUID->"f85fb100-605f-4e53-8065-\
+ed684b34d962"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["9. Frequency from Wavelength", "Subsection",
+ CellChangeTimes->{{3.72878611463848*^9, 3.728786114772954*^9}, {
+   3.728786197808118*^9, 3.728786199225708*^9}, {3.728787182820612*^9, 
+   3.728787213986566*^9}, {3.7287873744983177`*^9, 3.728787375713875*^9}, {
+   3.7287883077142677`*^9, 3.728788311829797*^9}, {3.728788389871953*^9, 
+   3.7287883910415382`*^9}, {3.72878980968102*^9, 3.728789816136689*^9}, {
+   3.728789988769177*^9, 3.728789999197673*^9}, {3.7287903799374332`*^9, 
+   3.72879038019386*^9}, {3.728790853711495*^9, 3.728790858322362*^9}, {
+   3.728791056212101*^9, 3.728791058854062*^9}, {3.728791228944556*^9, 
+   3.728791232915909*^9}, 3.728818812407166*^9, {3.728819902913707*^9, 
+   3.72881990304867*^9}, {3.760226469971385*^9, 3.7602264700825157`*^9}, {
+   3.760227867603549*^9, 3.760227867693573*^9}, {3.7602284999340076`*^9, 
+   3.760228500811429*^9}, {3.791286890357582*^9, 
+   3.791286890661172*^9}},ExpressionUUID->"bc2a8af8-a3bb-480c-803f-\
+c2df504185bb"],
+
+Cell[TextData[{
+ "Microwaves ovens have wavelength 12 cm. What is the frequency (choose the \
+one that is",
+ StyleBox[" WRONG",
+  FontWeight->"Bold"],
+ "):\n\n(A) 2.5 GHz\n(B) 2.5 MHz\n(C) 2500 MHz\n(D) 2,500,000,000 Hz"
+}], "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+   3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+   3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+   3.728787694124564*^9, 3.728787698881048*^9}, {3.728788315194726*^9, 
+   3.728788576567317*^9}, {3.728788629948842*^9, 3.728788641040523*^9}, {
+   3.728789831640202*^9, 3.728789872150806*^9}, {3.72878991057061*^9, 
+   3.728789951756455*^9}, {3.728790002989956*^9, 3.728790112464007*^9}, {
+   3.7287908860361013`*^9, 3.7287908970789213`*^9}, {3.728791239666006*^9, 
+   3.728791355642967*^9}, {3.728791860760027*^9, 3.728791876824234*^9}, {
+   3.728791933740735*^9, 3.7287920512898417`*^9}, {3.728818925241005*^9, 
+   3.728818929673418*^9}, 
+   3.760229037765025*^9},ExpressionUUID->"1b58d089-e3be-4a60-8e66-\
+bfae9cdf4429"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["10. Wavelength from Frequency", "Subsection",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQnZcXEiFx4rUj154IMC11Z2cSiGawfA6mS5xu3QXR
+nyfufwiiLT6d/wqiBW58A9Met8uyJIH0pt5fYJrr+e4SEO0R8hBMvzplqiYF
+pA/Fs6iDaMm5M2xAdFjwM1sQXfK/NhdES5m0gemJR7atANGnArxWguiOk2yH
+QHRVSDSYPmc57zqIVvCXvQGib/+OcZQG0jx9R5xA9IfD1/w1gHTM++oAEC01
+0/MGiD63wx9Ml9031BdgeeMYlmICpnekvDwMoq1evgbT5Ru+CAkC6Timn2Da
+23OSv5/9G0edx8vBNAAro5kT
+  
+  "],ExpressionUUID->"a5ad2a3b-2f3d-4f9e-a372-4156f4ecf343"],
+
+Cell[TextData[{
+ "We command nuclear submarines to come to the surface using ultra-low \
+frequency waves. The frequency ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "=", 
+    RowBox[{"10", "Hz"}]}], TraditionalForm]],ExpressionUUID->
+  "b81fc69c-556a-47b0-a0ce-96d6d947e00d"],
+ ". These waves have wavelength:\n\n(A) 3 x ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", "4"], 
+    StyleBox["m",
+     FontSlant->"Plain"]}], TraditionalForm]],ExpressionUUID->
+  "e7b6b7fa-08c8-4dde-bdfc-709da5b16dbe"],
+ "\n(B) 3 x ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", "4"], "km"}], TraditionalForm]],ExpressionUUID->
+  "b8243678-3410-45cc-a8ac-c903fe5f217e"],
+ "\n(C) 3 x ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "7"], TraditionalForm]],ExpressionUUID->
+  "2ca403bc-fdef-477d-a40b-9875369b1277"],
+ " km\n(D) 3 x ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "8"], TraditionalForm]],ExpressionUUID->
+  "18d04d57-9722-4cde-837e-6d9e2d9cc483"],
+ "m\n"
+}], "Text",
+ CellChangeTimes->{{3.7287860095062723`*^9, 3.728786078883757*^9}, {
+  3.728786123850498*^9, 3.7287861717645273`*^9}, {3.728786953501112*^9, 
+  3.728786953701021*^9}, {3.728787222262816*^9, 3.72878761818843*^9}, {
+  3.728787694124564*^9, 3.728787698881048*^9}, {3.728788315194726*^9, 
+  3.728788576567317*^9}, {3.728788629948842*^9, 3.728788641040523*^9}, {
+  3.728789831640202*^9, 3.728789872150806*^9}, {3.72878991057061*^9, 
+  3.728789951756455*^9}, {3.728790002989956*^9, 3.728790112464007*^9}, {
+  3.7287908860361013`*^9, 3.7287908970789213`*^9}, {3.728791239666006*^9, 
+  3.728791355642967*^9}, {3.728791860760027*^9, 3.728791876824234*^9}, {
+  3.728791933740735*^9, 3.7287920512898417`*^9}, {3.7288188271744127`*^9, 
+  3.7288189526237297`*^9}, {3.760226578949744*^9, 
+  3.760226660231126*^9}},ExpressionUUID->"e5d83edd-1ae1-4779-a464-\
+3bd73a34c235"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 359}, {Automatic, 126}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 269, 4, 69, "Chapter",ExpressionUUID->"c5546609-1e46-4a0d-b508-d07a23b9baa3"],
+Cell[852, 28, 448, 6, 31, "Subsubtitle",ExpressionUUID->"9048d643-e63d-41ea-b345-dceec4e95d66"],
+Cell[1303, 36, 2880, 74, 311, "Text",ExpressionUUID->"f3ed81f1-c31a-4924-8ddf-b1c8dcc4569a"],
+Cell[4186, 112, 872, 16, 131, "Text",ExpressionUUID->"66ebc62c-60ee-4969-bbe3-e06b6ba4820b"],
+Cell[CellGroupData[{
+Cell[5083, 132, 376, 6, 67, "Section",ExpressionUUID->"0843e29f-2513-470b-ae9b-cfc7bb2e82c4"],
+Cell[CellGroupData[{
+Cell[5484, 142, 555, 8, 54, "Subsection",ExpressionUUID->"80518d13-cb1b-40ac-831e-6b088cccc4db"],
+Cell[6042, 152, 987, 17, 173, "Text",ExpressionUUID->"c69ac505-70b8-4368-91cc-324900392f90"],
+Cell[7032, 171, 99, 1, 1, "PageBreak",ExpressionUUID->"5e9f5ed0-e002-4b4a-b31f-7f7b1d4da384",
+ PageBreakBelow->True]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7168, 177, 607, 9, 54, "Subsection",ExpressionUUID->"df336ad2-e9c9-4c90-a40b-f916fac5163d"],
+Cell[7778, 188, 1136, 20, 150, "Text",ExpressionUUID->"3111cd35-2340-4f27-b41c-6994f4b7f819"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8951, 213, 607, 9, 54, "Subsection",ExpressionUUID->"e19b5563-755a-40db-a255-3a727c161a1b"],
+Cell[9561, 224, 1263, 22, 173, "Text",ExpressionUUID->"91a4796d-a782-41ab-b1cb-429abe8d9ec8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10861, 251, 656, 10, 54, "Subsection",ExpressionUUID->"ef1f7c96-f7c6-404e-bd7f-087bc963c70b"],
+Cell[11520, 263, 958, 18, 127, "Text",ExpressionUUID->"b26be37d-4a1d-49bb-9e0a-56e515470a64"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12515, 286, 915, 13, 54, "Subsection",ExpressionUUID->"dae98ea7-ff77-4084-8513-a8267fb8001e"],
+Cell[13433, 301, 2832, 71, 323, "Text",ExpressionUUID->"cd4111ce-842d-4346-8962-32e1b1531caf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16302, 377, 829, 12, 54, "Subsection",ExpressionUUID->"827f7edb-03b8-45e5-8630-1a6a36577e43"],
+Cell[17134, 391, 1902, 46, 225, "Text",ExpressionUUID->"cb3a2bec-07f8-4291-aab9-b641331e6569"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19085, 443, 525, 8, 67, "Section",ExpressionUUID->"d5e43a75-9180-437e-a3ee-4e1d84418b46"],
+Cell[19613, 453, 1905, 60, 379, "Text",ExpressionUUID->"65e092a0-d508-4f87-8c10-0dd6228bb58c"],
+Cell[CellGroupData[{
+Cell[21543, 517, 659, 10, 54, "Subsection",ExpressionUUID->"0ac61ede-cf4c-49d8-8868-48c20a24118f"],
+Cell[22205, 529, 746, 15, 150, "Text",ExpressionUUID->"2811cde3-9e2a-46b6-a9a5-a82a080fa8db"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22988, 549, 746, 11, 54, "Subsection",ExpressionUUID->"f589d2a1-4613-47b3-91fa-33f72a60059f"],
+Cell[23737, 562, 1329, 27, 246, "Text",ExpressionUUID->"f85fb100-605f-4e53-8065-ed684b34d962"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25103, 594, 987, 14, 54, "Subsection",ExpressionUUID->"bc2a8af8-a3bb-480c-803f-c2df504185bb"],
+Cell[26093, 610, 1073, 19, 150, "Text",ExpressionUUID->"1b58d089-e3be-4a60-8e66-bfae9cdf4429"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27203, 634, 482, 9, 54, "Subsection",ExpressionUUID->"a5ad2a3b-2f3d-4f9e-a372-4156f4ecf343"],
+Cell[27688, 645, 1865, 46, 196, "Text",ExpressionUUID->"e5d83edd-1ae1-4779-a464-3bd73a34c235"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

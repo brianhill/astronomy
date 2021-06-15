@@ -4,7 +4,7 @@ Course [home page](./)
 
 Note: Unless otherwise noted, page numbers, equation numbers, and problem numbers refer to the [5th edition of The Cosmos by Pasachoff and Filippenko](https://www.amazon.com/Cosmos-Astronomy-New-Millennium/dp/1108431380).
 
-Details will be added on an ongoing basis through the term.
+See also [Daily Schedule Term 6](./daily_schedule_term_6.md)
 
 ### Week 1 &mdash; Chapters 1 and 2 &mdash; Units, Scientific Notation, Light, Temperature, Atoms, Atomic Spectra
 

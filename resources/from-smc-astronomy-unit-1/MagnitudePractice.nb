@@ -1,0 +1,814 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     32850,        804]
+NotebookOptionsPosition[     27894,        706]
+NotebookOutlinePosition[     28250,        722]
+CellTagsIndexPosition[     28207,        719]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Activity 16 Solution + Practice Problems", "Section",
+ CellChangeTimes->{{3.734682340296645*^9, 
+  3.7346823526137047`*^9}},ExpressionUUID->"ea0b122d-34a2-43a9-801e-\
+4bd0f4fe13b5"],
+
+Cell[CellGroupData[{
+
+Cell["Activity 16 Solution", "Subsection",
+ CellChangeTimes->{{3.734682367870448*^9, 
+  3.734682372616047*^9}},ExpressionUUID->"d8d76ada-c2c4-4726-8e37-\
+e063eec54343"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+1a How many times brighter is a star of magnitude 10 than one of magnitude 13?\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.734682898858666*^9, 
+  3.7346829184565496`*^9}},ExpressionUUID->"67adf6ed-65f8-45f5-9636-\
+481e1dcd1391"],
+
+Cell[TextData[{
+ "That is 3 magnitudes of difference. Each magnitude is about a factor of \
+2.5. The easiest way is to do 2.5 x 2.5 x 2.5 on your calculator and get \
+15.625.\n\nThe same thing can be accomplished by doing ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "3eab32ea-bde7-44db-af87-90be06f4ad27"],
+ ". This requires that your calculator have a ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["y", "x"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "c13f6395-2418-4755-81b7-f5e67eedbfd3"],
+ " key.\n\n15.625 is an approximate answer, because 2.5 is not exactly ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["100", 
+    RowBox[{"1", "/", "5"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e7093448-36de-43d2-addb-1c0363a5020c"],
+ ".\n\nIf you want a more exact answer, or if there is a lot of difference in \
+magnitudes, to find out how much brighter star 1 is than star 2, you do\n\n",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["100", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["m", "2"], "-", 
+       SubscriptBox["m", "1"]}], ")"}], "/", "5"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "89fd57c0-32b8-4bdf-a2fc-c879d1df4710"],
+ "\n\nIn this case, that is ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["100", 
+    RowBox[{"3", "/", "5"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "3c23a387-79b0-4401-a978-7a741681f723"],
+ " which is 15.849.\n\nI will make sure that answers on multiple choice tests \
+are sufficiently different that it will be obvious which answer is the right \
+one. For example, in this problem a multiple choice question could have \
+answers like 1.6, 3, 16, 160, 1000. You\[CloseCurlyQuote]d pick 16 because \
+that is the only one that is close."
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 
+  3.73468288187306*^9}},ExpressionUUID->"ffd9539f-6ba6-4469-8161-\
+5745b7eb4312"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["1b Very similar problem with magnitudes -2 and 2.", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 
+  3.734682944781479*^9}},ExpressionUUID->"0c691095-6dc0-4286-9fc2-\
+b268aff01b59"],
+
+Cell[TextData[{
+ "That is 4 magnitudes of difference. You can do 2.5 x 2.5 x 2.5 x 2.5 on \
+your calculator or you can do\n\nIn this case, that is ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["100", 
+    RowBox[{"4", "/", "5"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "fd6b19dc-e3b7-455f-b0f4-83163fc432f7"],
+ " which is 39.8. On a multiple choice test, the right answer would be \
+\[OpenCurlyDoubleQuote]about 40.\[CloseCurlyDoubleQuote]"
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 
+  3.734683048158395*^9}},ExpressionUUID->"99513c07-7c0a-40be-a398-\
+78ef59aefe24"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2a Very similar problem with magnitudes 5 and 15.", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}},ExpressionUUID->"997aa390-11cd-4ace-9b81-\
+26c4cb6379f2"],
+
+Cell[TextData[{
+ "You can do ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", "10"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "f4923e25-d44d-4aca-a130-1041ac43fe75"],
+ " or  you can do ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["100", 
+     RowBox[{"10", "/", "5"}]], "=", 
+    RowBox[{
+     SuperscriptBox["100", "2"], "=", "10000"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "33367cf6-34d0-4ec5-bfe1-ba9455e41eb4"],
+ ".\n\nYou can see why I prefer the second way. It is exact, and fairly easy \
+if the magnitude difference happens to be a multiple of 5."
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}},ExpressionUUID->"1eed7537-2fdd-4b70-9ddb-\
+36e8f7cd289a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2b Very similar problem with magnitudes -1.5 and 5.", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 
+  3.734683189221355*^9}},ExpressionUUID->"be7410f2-5cda-4f9d-9d39-\
+27456ad78a6c"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["100", 
+     RowBox[{"6.5", "/", "5"}]], "=", 
+    RowBox[{
+     SuperscriptBox["100", "1.3"], "=", "398.1"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "ee354b1b-db0d-4cd1-ba65-6ed7ae25ec77"],
+ ".\n\nIf you do ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", "6.5"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "a52f0bf4-3590-4723-adb1-ad80cd3d550b"],
+ " you get 386.0."
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}, {3.73468319863839*^9, 3.734683214857592*^9}, {
+  3.734683260121991*^9, 
+  3.734683297548505*^9}},ExpressionUUID->"2bbaa124-6bd3-4633-ab69-\
+bf85eb913399"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3 Compute m-M for the star designated \[OpenCurlyDoubleQuote]10 \
+Lacertae\[CloseCurlyDoubleQuote]", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 
+  3.7346833703811913`*^9}},ExpressionUUID->"14d78cb0-0d3c-4794-b42c-\
+fde40084ee59"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"m", "=", "4.9"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "95ace6e4-414c-42f8-b9d2-9ffdb09ecfed"],
+ " (the star\[CloseCurlyQuote]s apparent magnitude, probably not visible from \
+our pad, but certainly visible if you are in a very dark place).\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "=", 
+    RowBox[{"-", "4.8"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "2e4d6cde-d717-467f-8709-00165aba3e0c"],
+ " (the star\[CloseCurlyQuote]s absolute magnitude, which is how bright it \
+would be if it were only 10 parsecs away).\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"m", "-", "M"}], "=", "9.7"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e5cd75fc-0350-4d21-b392-81d5c1c2e496"]
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}, {3.73468319863839*^9, 3.734683214857592*^9}, {
+  3.734683260121991*^9, 3.734683297548505*^9}, {3.734683379503413*^9, 
+  3.734683470788292*^9}},ExpressionUUID->"a0d959ca-4ac7-4de2-8539-\
+ac8c56d3ce6f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "4 Compute ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2.5", 
+    RowBox[{"m", "-", "M"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d27511a2-3bc6-46c6-b810-caa7245c6f0e"]
+}], "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+  3.73468349012354*^9}},ExpressionUUID->"c7f6733c-2c92-4bde-9bec-\
+aed019781a73"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["2.5", "9.7"], "=", "7245"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "783ffa3b-7630-4e42-a8d2-757b3833bcc9"],
+ ".\n\nOf course, I slightly prefer:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["100", 
+     RowBox[{"9.7", "/", "5"}]], "=", "7586."}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d904b6b5-5442-4560-8258-7388a0ed0353"],
+ "\n\nThat\[CloseCurlyQuote]s how much brighter 10 Lacertae would be if it \
+were at the benchmark distance of 10 parsecs. It must be a lot farther than \
+10 parsecs to appear so dim. Now we need to compute how much farther."
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}, {3.73468319863839*^9, 3.734683214857592*^9}, {
+  3.734683260121991*^9, 3.734683297548505*^9}, {3.734683379503413*^9, 
+  3.734683470788292*^9}, {3.734683503111765*^9, 3.734683602380018*^9}, {
+  3.734683646560808*^9, 
+  3.734683682053377*^9}},ExpressionUUID->"f979bc65-f657-4abc-8206-\
+ffc3827eb643"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5 Take square root of what you got in 4", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+  3.73468349012354*^9}, {3.734683623216613*^9, 
+  3.734683634059793*^9}},ExpressionUUID->"fc878364-79c4-4abe-859d-\
+321299dde518"],
+
+Cell[TextData[{
+ "Well ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SqrtBox["7586"], "=", "87.1"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "aa9d68a5-409e-4cf5-b5f8-d923ae4a1e56"],
+ ". That means 10 Lacertae is 87 times as far away as the benchmark \
+distance."
+}], "Text",
+ CellChangeTimes->{{3.7346837080969963`*^9, 3.734683780366877*^9}, {
+  3.734683817275117*^9, 
+  3.734683817342045*^9}},ExpressionUUID->"3a637c6a-36f4-4b0e-8067-\
+b621523b1606"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["6 Multiply what you got in 5 by the benchmark distance", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+  3.73468349012354*^9}, {3.734683623216613*^9, 3.734683634059793*^9}, {
+  3.734683795196069*^9, 
+  3.734683807366767*^9}},ExpressionUUID->"aad4111b-230a-4e7f-ae7a-\
+cf695d942804"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"87.1", " ", "10", " ", "parsecs"}], "=", 
+    RowBox[{"871", " ", "parsecs"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "22008197-b513-43c3-8c3b-18904e242c2a"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.7346837080969963`*^9, 3.734683780366877*^9}, {
+  3.734683820113337*^9, 
+  3.7346838387886963`*^9}},ExpressionUUID->"98dd0851-9e3b-4100-81b6-\
+1bda9624b999"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["7 Use the parallax angle to get the distance", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+  3.73468349012354*^9}, {3.734683623216613*^9, 3.734683634059793*^9}, {
+  3.734683795196069*^9, 3.734683807366767*^9}, {3.7346838550799217`*^9, 
+  3.734683863167076*^9}},ExpressionUUID->"b4bfeccc-1291-4ccf-aff1-\
+cd94f6692de4"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"1", " ", "parsec"}], "0.00308"], "=", 
+    RowBox[{"263", " ", "parsecs"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "8ad1dac5-147f-43d5-9a3a-97857902a293"],
+ ". That\[CloseCurlyQuote]s quite the disagreement. It is my understanding \
+that the parallax measurement was revised."
+}], "Text",
+ CellChangeTimes->{{3.7346837080969963`*^9, 3.734683780366877*^9}, {
+  3.734683820113337*^9, 
+  3.734683929621153*^9}},ExpressionUUID->"ff2c6726-6b37-42b5-8bb6-\
+be68fdd395b4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+8 This one I suggested everyone skip, because it is fairly advanced\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+  3.73468349012354*^9}, {3.734683623216613*^9, 3.734683634059793*^9}, {
+  3.734683795196069*^9, 3.734683807366767*^9}, {3.7346838550799217`*^9, 
+  3.734683863167076*^9}, {3.734683950323064*^9, 
+  3.73468400494007*^9}},ExpressionUUID->"3ae2a8e2-b479-493c-a738-\
+15bf4e6f935d"],
+
+Cell["\<\
+What makes this one advanced is that it involves undoing exponentiation. The \
+function that undoes exponentiation (the technical name is \
+\[OpenCurlyDoubleQuote]the inverse function\[CloseCurlyDoubleQuote]) is the \
+logarithm. If you are comfortable with logarithms see me and I will help you \
+understand 8.\
+\>", "Text",
+ CellChangeTimes->{{3.7346837080969963`*^9, 3.734683780366877*^9}, {
+  3.734683820113337*^9, 3.734683929621153*^9}, {3.7346840079554653`*^9, 
+  3.734684089248371*^9}},ExpressionUUID->"b8737937-f6d4-4af3-957e-\
+7e4e7ff9cdba"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["9a Convert 263 parsecs to light-years", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+  3.73468349012354*^9}, {3.734683623216613*^9, 3.734683634059793*^9}, {
+  3.734683795196069*^9, 3.734683807366767*^9}, {3.7346838550799217`*^9, 
+  3.734683863167076*^9}, {3.734683950323064*^9, 3.73468400494007*^9}, {
+  3.734684100286194*^9, 
+  3.734684117508359*^9}},ExpressionUUID->"7197697f-5274-4623-ac21-\
+97d4b068c5f3"],
+
+Cell["\<\
+They say 1 parsec is 3.26 light-years, so that means that 263 parsecs is 263 \
+* 3.26 light-years. Punching that into a calculator turns out to be 857 \
+light-years.\
+\>", "Text",
+ CellChangeTimes->{{3.7346837080969963`*^9, 3.734683780366877*^9}, {
+  3.734683820113337*^9, 3.734683929621153*^9}, {3.7346840079554653`*^9, 
+  3.734684089248371*^9}, {3.734684121400775*^9, 
+  3.734684214168889*^9}},ExpressionUUID->"b2540a0c-a15b-4b62-90de-\
+248dcc25cb6d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["9b Convert 263 parsecs to light-years", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+  3.73468349012354*^9}, {3.734683623216613*^9, 3.734683634059793*^9}, {
+  3.734683795196069*^9, 3.734683807366767*^9}, {3.7346838550799217`*^9, 
+  3.734683863167076*^9}, {3.734683950323064*^9, 3.73468400494007*^9}, {
+  3.734684100286194*^9, 3.734684117508359*^9}, {3.7346841874852543`*^9, 
+  3.734684187517198*^9}},ExpressionUUID->"f7eb55e4-c69e-47ad-999d-\
+4aaf6a86858b"],
+
+Cell["\<\
+Earlier on they say 1 parsec is 3.26 light-years, so that means that 263 \
+parsecs is 263 * 3.26 light-years. That turns out to be 857 light-years.\
+\>", "Text",
+ CellChangeTimes->{{3.7346837080969963`*^9, 3.734683780366877*^9}, {
+  3.734683820113337*^9, 3.734683929621153*^9}, {3.7346840079554653`*^9, 
+  3.734684089248371*^9}, {3.734684121400775*^9, 
+  3.73468416979853*^9}},ExpressionUUID->"9a217da0-896c-4a00-a61f-\
+892c9a2d681b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["9c How long does it take light to go 857 light-years?", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+   3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+   3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+   3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+   3.73468349012354*^9}, {3.734683623216613*^9, 3.734683634059793*^9}, {
+   3.734683795196069*^9, 3.734683807366767*^9}, {3.7346838550799217`*^9, 
+   3.734683863167076*^9}, {3.734683950323064*^9, 3.73468400494007*^9}, {
+   3.734684100286194*^9, 3.734684117508359*^9}, {3.7346841874852543`*^9, 
+   3.734684187517198*^9}, {3.734684227141548*^9, 3.734684241438706*^9}, 
+   3.734684294820283*^9},ExpressionUUID->"36beac94-73f2-4cc6-ae38-\
+b32efe51481e"],
+
+Cell["Trick question with an easy answer: 857 years.", "Text",
+ CellChangeTimes->{{3.7346837080969963`*^9, 3.734683780366877*^9}, {
+  3.734683820113337*^9, 3.734683929621153*^9}, {3.7346840079554653`*^9, 
+  3.734684089248371*^9}, {3.734684121400775*^9, 3.73468416979853*^9}, {
+  3.7346842456800137`*^9, 
+  3.734684259011565*^9}},ExpressionUUID->"5953e3ad-4a60-4051-8469-\
+3ba85043efba"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["9d When did the light we are seeing now leave 10 Lacertae?", \
+"Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.7346829131801653`*^9, 3.734682944781479*^9}, {3.734683073269759*^9, 
+  3.734683093000764*^9}, {3.7346831833058033`*^9, 3.734683189221355*^9}, {
+  3.734683321344366*^9, 3.7346833703811913`*^9}, {3.734683479193532*^9, 
+  3.73468349012354*^9}, {3.734683623216613*^9, 3.734683634059793*^9}, {
+  3.734683795196069*^9, 3.734683807366767*^9}, {3.7346838550799217`*^9, 
+  3.734683863167076*^9}, {3.734683950323064*^9, 3.73468400494007*^9}, {
+  3.734684100286194*^9, 3.734684117508359*^9}, {3.7346841874852543`*^9, 
+  3.734684187517198*^9}, {3.734684227141548*^9, 
+  3.734684291287828*^9}},ExpressionUUID->"893bf616-4569-4755-83ee-\
+f3fda7d540e9"],
+
+Cell["2018 - 857 = 1161 A.D.", "Text",
+ CellChangeTimes->{{3.7346837080969963`*^9, 3.734683780366877*^9}, {
+  3.734683820113337*^9, 3.734683929621153*^9}, {3.7346840079554653`*^9, 
+  3.734684089248371*^9}, {3.734684121400775*^9, 3.73468416979853*^9}, {
+  3.7346842456800137`*^9, 3.734684259011565*^9}, {3.734684329943427*^9, 
+  3.734684354715475*^9}},ExpressionUUID->"17de98a1-c62f-4200-993a-\
+5b3d64403989"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Practice Problems", "Subsection",
+ CellChangeTimes->{{3.734682367870448*^9, 3.734682372616047*^9}, {
+  3.734684394812686*^9, 
+  3.734684397938436*^9}},ExpressionUUID->"8d85e219-2ef5-4229-8c81-\
+d50892e15a3d"],
+
+Cell[CellGroupData[{
+
+Cell["1 Motorcycle and bicycle headlights", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.734682898858666*^9, 3.7346829184565496`*^9}, {3.734684409224107*^9, 
+  3.734684415623357*^9}},ExpressionUUID->"8bcc084c-0ffa-4783-be2c-\
+f386d92477b2"],
+
+Cell[TextData[{
+ "Suppose a motorcycle with a headlight of 108 Watts and a bicycle with a \
+headlight of 3 Watts are coming at you. If they were the same distance away \
+how much brighter would the motorcycle headlight look?\n\nA. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"108", "Watts"}], 
+     RowBox[{"3", " ", "Watts"}]], "=", 
+    RowBox[{"36", " ", "times"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "5ae5c402-4b76-46e6-9f86-d78945802bca"]
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}, {3.73468319863839*^9, 3.734683214857592*^9}, {
+  3.734683260121991*^9, 3.734683297548505*^9}, {3.734684427021994*^9, 
+  3.734684529482739*^9}, {3.734684591469926*^9, 
+  3.73468460418598*^9}},ExpressionUUID->"fc292020-b2a0-4fa8-b174-\
+c3e2d2372852"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2 What if the motorcycle was twice as far away?", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.734682898858666*^9, 3.7346829184565496`*^9}, {3.734684409224107*^9, 
+  3.734684415623357*^9}, {3.7346845393643637`*^9, 3.7346845448752203`*^9}, {
+  3.734684889087904*^9, 
+  3.734684900086677*^9}},ExpressionUUID->"8f3270dd-5f12-4d57-b3dd-\
+2173acbdbe5b"],
+
+Cell[TextData[{
+ "Considering the previous problem, how much brighter would the motorcycle \
+headlight appear to be if the motorcycle was twice as far away?\n\nThe \
+inverse square law for light says this reduces the apparent brightness by \n\n\
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     SuperscriptBox["2", "2"]], "=", 
+    FractionBox["1", "4"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "06291445-7806-46d6-b7fe-191436a456c6"],
+ ".\n\nSince it was 36 times as bright now it is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["36", "4"], "=", "9"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e9300b2b-5676-4be1-8e59-54c95d25b51e"],
+ " times as bright."
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}, {3.73468319863839*^9, 3.734683214857592*^9}, {
+  3.734683260121991*^9, 3.734683297548505*^9}, {3.734684427021994*^9, 
+  3.734684672676282*^9}, {3.734684747689258*^9, 
+  3.734684748060988*^9}},ExpressionUUID->"36feab7f-3353-4024-ad41-\
+cc54c412be74"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3 How about if the motorcycle was 3 times as far away?", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+   3.734682898858666*^9, 3.7346829184565496`*^9}, {3.734684409224107*^9, 
+   3.734684415623357*^9}, {3.7346845393643637`*^9, 3.7346845448752203`*^9}, {
+   3.734684681418645*^9, 3.734684681518098*^9}, 3.7346848515689163`*^9, {
+   3.7346849031468773`*^9, 
+   3.734684903382999*^9}},ExpressionUUID->"11723259-9003-4a0e-ab5a-\
+aafccb4eb628"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     SuperscriptBox["3", "2"]], "=", 
+    FractionBox["1", "9"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "765f9b5d-dd84-4fd5-84c9-7dac8140ad52"],
+ ".\n\nSince it was 36 times as bright now it is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["36", "9"], "=", "4"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "54ce9136-7af7-4f27-9862-27eb4daf1035"],
+ " times as bright."
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}, {3.73468319863839*^9, 3.734683214857592*^9}, {
+  3.734683260121991*^9, 3.734683297548505*^9}, {3.734684427021994*^9, 
+  3.7346847424722157`*^9}, {3.734684848735938*^9, 
+  3.734684854670446*^9}},ExpressionUUID->"3e4bbd2a-eb9d-4a80-a9f9-\
+84ab36d756fc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4 Motorcycle and bicycle headlights again", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.734682898858666*^9, 3.7346829184565496`*^9}, {3.734684409224107*^9, 
+  3.734684415623357*^9}, {3.7346845393643637`*^9, 3.7346845448752203`*^9}, {
+  3.734684681418645*^9, 3.734684681518098*^9}, {3.7346847586407623`*^9, 
+  3.734684758751636*^9}},ExpressionUUID->"6c25937c-7052-49ee-b6ed-\
+fda6966631c9"],
+
+Cell[TextData[{
+ "How far away would the motorcycle have to be to appear equally bright?\n\n\
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SqrtBox["36"], "=", "6"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b9a24c85-e825-407d-9ca3-ed35d96285f4"],
+ " times as far away as the bicycle.\n\nIf you are wondering how square roots \
+got in the game, ask yourself the question, what if the motorcycle was ",
+ Cell[BoxData[
+  FormBox["k", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "862ba977-5b65-43e5-8549-b2c5c9bc84d2"],
+ " times as far away. The answer would be ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox[
+     StyleBox["k",
+      FontSlant->"Plain"], "2"]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "19024b78-6859-4fb5-8924-b3f47a114314"],
+ " as bright. We are looking for ",
+ Cell[BoxData[
+  FormBox["k", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "9d734f96-01bc-4714-a707-07b4a8339905"],
+ " such that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     SuperscriptBox["k", "2"]], "=", 
+    FractionBox["1", "36"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "99abe699-9723-49d0-a5e6-24fa29c76e2e"],
+ ". Solving this equation involves taking the square root."
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}, {3.73468319863839*^9, 3.734683214857592*^9}, {
+  3.734683260121991*^9, 3.734683297548505*^9}, {3.734684427021994*^9, 
+  3.7346848272987947`*^9}, {3.734685259167921*^9, 
+  3.73468537682021*^9}},ExpressionUUID->"38b6e00e-a512-402f-a439-\
+ea0f856b71da"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5 Motorcycle and bicycle headlights final question", "Subsubsection",
+ CellChangeTimes->{{3.734682436517846*^9, 3.734682477544859*^9}, {
+  3.734682898858666*^9, 3.7346829184565496`*^9}, {3.734684409224107*^9, 
+  3.734684415623357*^9}, {3.7346845393643637`*^9, 3.7346845448752203`*^9}, {
+  3.734684681418645*^9, 3.734684681518098*^9}, {3.7346847586407623`*^9, 
+  3.734684758751636*^9}, {3.734684837211769*^9, 3.734684838177411*^9}, {
+  3.734684920607403*^9, 
+  3.734684922485476*^9}},ExpressionUUID->"751c5766-a8f8-451b-bf71-\
+ede68364aa12"],
+
+Cell[TextData[{
+ "If the bicycle is at the benchmark distance of 100 yards, and the \
+motorcycle headlight appears equally bright, how far away is it?\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"100", " ", "yards", "\[Times]", "6"}], "=", 
+    RowBox[{"600", " ", "yards"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "75746766-d372-4f6f-86b4-6b0783e0b7c0"]
+}], "Text",
+ CellChangeTimes->{{3.734682447711583*^9, 3.73468288187306*^9}, {
+  3.734682960702613*^9, 3.734683048158395*^9}, {3.734683098355014*^9, 
+  3.734683165326971*^9}, {3.73468319863839*^9, 3.734683214857592*^9}, {
+  3.734683260121991*^9, 3.734683297548505*^9}, {3.734684427021994*^9, 
+  3.7346848272987947`*^9}, {3.7346849283020267`*^9, 
+  3.7346850099963913`*^9}},ExpressionUUID->"56980737-1c9c-42dc-898c-\
+9e9b501b9321"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{870, Automatic}, {Automatic, 162}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 187, 3, 84, "Section",ExpressionUUID->"ea0b122d-34a2-43a9-801e-4bd0f4fe13b5"],
+Cell[CellGroupData[{
+Cell[792, 29, 168, 3, 67, "Subsection",ExpressionUUID->"d8d76ada-c2c4-4726-8e37-e063eec54343"],
+Cell[CellGroupData[{
+Cell[985, 36, 288, 6, 89, "Subsubsection",ExpressionUUID->"67adf6ed-65f8-45f5-9636-481e1dcd1391"],
+Cell[1276, 44, 2040, 49, 557, "Text",ExpressionUUID->"ffd9539f-6ba6-4469-8161-5745b7eb4312"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3353, 98, 251, 4, 56, "Subsubsection",ExpressionUUID->"0c691095-6dc0-4286-9fc2-b268aff01b59"],
+Cell[3607, 104, 659, 15, 159, "Text",ExpressionUUID->"99513c07-7c0a-40be-a398-78ef59aefe24"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4303, 124, 297, 4, 56, "Subsubsection",ExpressionUUID->"997aa390-11cd-4ace-9b81-26c4cb6379f2"],
+Cell[4603, 130, 870, 23, 131, "Text",ExpressionUUID->"1eed7537-2fdd-4b70-9ddb-36e8f7cd289a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5510, 158, 350, 5, 56, "Subsubsection",ExpressionUUID->"be7410f2-5cda-4f9d-9d39-27456ad78a6c"],
+Cell[5863, 165, 834, 23, 102, "Text",ExpressionUUID->"2bbaa124-6bd3-4633-ab69-bf85eb913399"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6734, 193, 448, 7, 56, "Subsubsection",ExpressionUUID->"14d78cb0-0d3c-4794-b42c-fde40084ee59"],
+Cell[7185, 202, 1212, 28, 212, "Text",ExpressionUUID->"a0d959ca-4ac7-4de2-8539-ac8c56d3ce6f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8434, 235, 613, 14, 57, "Subsubsection",ExpressionUUID->"c7f6733c-2c92-4bde-9bec-aed019781a73"],
+Cell[9050, 251, 1180, 26, 270, "Text",ExpressionUUID->"f979bc65-f657-4abc-8206-ffc3827eb643"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10267, 282, 483, 7, 56, "Subsubsection",ExpressionUUID->"fc878364-79c4-4abe-859d-321299dde518"],
+Cell[10753, 291, 480, 14, 75, "Text",ExpressionUUID->"3a637c6a-36f4-4b0e-8067-b621523b1606"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11270, 310, 547, 8, 56, "Subsubsection",ExpressionUUID->"aad4111b-230a-4e7f-ae7a-cf695d942804"],
+Cell[11820, 320, 454, 13, 44, "Text",ExpressionUUID->"98dd0851-9e3b-4100-81b6-1bda9624b999"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12311, 338, 585, 8, 56, "Subsubsection",ExpressionUUID->"b4bfeccc-1291-4ccf-aff1-cd94f6692de4"],
+Cell[12899, 348, 583, 15, 79, "Text",ExpressionUUID->"ff2c6726-6b37-42b5-8bb6-be68fdd395b4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13519, 368, 664, 11, 56, "Subsubsection",ExpressionUUID->"3ae2a8e2-b479-493c-a738-15bf4e6f935d"],
+Cell[14186, 381, 559, 10, 131, "Text",ExpressionUUID->"b8737937-f6d4-4af3-957e-7e4e7ff9cdba"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14782, 396, 675, 10, 56, "Subsubsection",ExpressionUUID->"7197697f-5274-4623-ac21-97d4b068c5f3"],
+Cell[15460, 408, 463, 9, 73, "Text",ExpressionUUID->"b2540a0c-a15b-4b62-90de-248dcc25cb6d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15960, 422, 723, 10, 56, "Subsubsection",ExpressionUUID->"f7eb55e4-c69e-47ad-999d-4aaf6a86858b"],
+Cell[16686, 434, 444, 8, 73, "Text",ExpressionUUID->"9a217da0-896c-4a00-a61f-892c9a2d681b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17167, 447, 819, 11, 56, "Subsubsection",ExpressionUUID->"36beac94-73f2-4cc6-ae38-b32efe51481e"],
+Cell[17989, 460, 386, 6, 44, "Text",ExpressionUUID->"5953e3ad-4a60-4051-8469-3ba85043efba"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18412, 471, 795, 12, 56, "Subsubsection",ExpressionUUID->"893bf616-4569-4755-83ee-f3fda7d540e9"],
+Cell[19210, 485, 408, 6, 44, "Text",ExpressionUUID->"17de98a1-c62f-4200-993a-5b3d64403989"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19667, 497, 214, 4, 67, "Subsection",ExpressionUUID->"8d85e219-2ef5-4229-8c81-d50892e15a3d"],
+Cell[CellGroupData[{
+Cell[19906, 505, 283, 4, 56, "Subsubsection",ExpressionUUID->"8bcc084c-0ffa-4783-be2c-f386d92477b2"],
+Cell[20192, 511, 930, 20, 164, "Text",ExpressionUUID->"fc292020-b2a0-4fa8-b174-c3e2d2372852"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21159, 536, 397, 6, 56, "Subsubsection",ExpressionUUID->"8f3270dd-5f12-4d57-b3dd-2173acbdbe5b"],
+Cell[21559, 544, 1172, 28, 258, "Text",ExpressionUUID->"36feab7f-3353-4024-ad41-cc54c412be74"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22768, 577, 484, 7, 56, "Subsubsection",ExpressionUUID->"11723259-9003-4a0e-ab5a-aafccb4eb628"],
+Cell[23255, 586, 941, 24, 116, "Text",ExpressionUUID->"3e4bbd2a-eb9d-4a80-a9f9-84ab36d756fc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24233, 615, 439, 6, 56, "Subsubsection",ExpressionUUID->"6c25937c-7052-49ee-b6ed-fda6966631c9"],
+Cell[24675, 623, 1764, 46, 264, "Text",ExpressionUUID->"38b6e00e-a512-402f-a439-ea0f856b71da"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26476, 674, 546, 8, 56, "Subsubsection",ExpressionUUID->"751c5766-a8f8-451b-bf71-ede68364aa12"],
+Cell[27025, 684, 829, 17, 126, "Text",ExpressionUUID->"56980737-1c9c-42dc-898c-9e9b501b9321"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
