@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2847855,      46715]
-NotebookOptionsPosition[   2842448,      46619]
-NotebookOutlinePosition[   2842895,      46637]
-CellTagsIndexPosition[   2842852,      46634]
+NotebookDataLength[   2848404,      46720]
+NotebookOptionsPosition[   2842997,      46624]
+NotebookOutlinePosition[   2843444,      46642]
+CellTagsIndexPosition[   2843401,      46639]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -74,7 +74,8 @@ electrons fuse to become neutrons.
 (C) When a star turns supernova, elements heavier than iron (like lead, gold \
 and uranium) are made and pushed out as a nebula
 
-Some nice examples of nova and supernova remnants are below.
+For your viewing pleasure (not part of the problem), some nice examples of \
+nova and supernova remnants are below.
 
 Ring Nebula (a nova remnant):\
 \>", "Text",
@@ -110,8 +111,8 @@ Ring Nebula (a nova remnant):\
    3.797589415989483*^9}, {3.797590695268317*^9, 3.797590698542609*^9}, {
    3.797591888718533*^9, 3.7975919032187147`*^9}, {3.832990301501108*^9, 
    3.832990327679614*^9}, {3.8329903869552097`*^9, 3.8329904470071*^9}, {
-   3.832990525603734*^9, 
-   3.832990530292292*^9}},ExpressionUUID->"f45564dd-3913-4f3f-b051-\
+   3.832990525603734*^9, 3.832990530292292*^9}, {3.833021429434589*^9, 
+   3.83302143710497*^9}},ExpressionUUID->"f45564dd-3913-4f3f-b051-\
 cc41c85d9189"],
 
 Cell[BoxData[
@@ -33663,10 +33664,11 @@ Cell["4. Death of Stars", "Subsection",
 6906abdebeec"],
 
 Cell["\<\
-One or more of the following statements three statements are true. Cross out \
-any statements that are wrong. Features of Type 1a Supernova are:
+One or more (maybe all) of the following three statements are true. Cross out \
+any statements that are false. Features of Type 1a Supernova are:
 
-(A) Unlike Type II supernovae, it has little or no Hydrogen in its spectrum
+(A) Unlike Type II supernovae, they have little or no Hydrogen in its \
+spectrum
 (B) It is caused by the accretion of a large star onto a white dwarf
 (C) It occurs when the white dwarf grows to a special size known as the \
 Chandrasekhar limit
@@ -33705,8 +33707,9 @@ Chandrasekhar limit
    3.797591714632881*^9}, {3.797591751814518*^9, 3.7975918369555807`*^9}, {
    3.832990131278204*^9, 3.8329901691681223`*^9}, {3.832990212559205*^9, 
    3.832990212761525*^9}, {3.832990617646654*^9, 3.832990918211359*^9}, 
-   3.8329911940919952`*^9, {3.8329914994477577`*^9, 
-   3.8329914997621107`*^9}},ExpressionUUID->"eecadf9b-01be-40d2-8762-\
+   3.8329911940919952`*^9, {3.8329914994477577`*^9, 3.8329914997621107`*^9}, {
+   3.8330214532036543`*^9, 3.8330214826224117`*^9}, {3.833021584107791*^9, 
+   3.833021584614194*^9}},ExpressionUUID->"eecadf9b-01be-40d2-8762-\
 afc975888c14"]
 }, Open  ]],
 
@@ -33812,8 +33815,8 @@ Cell["6. Supermassive Black Holes", "Subsection",
 
 Cell["\<\
 Active galactic nuclei contain supermassive black holes that are drawing in \
-matter around them. Explain in a short sentence why the center of our galaxy \
-is not currently active:
+matter around them. Explain in a sentence why the center of our galaxy is not \
+currently active:
 
 ______________________________________________________________________________\
 ____\
@@ -33852,8 +33855,8 @@ ____\
    3.832990212761525*^9}, {3.832990617646654*^9, 3.832990918211359*^9}, {
    3.8329910533210173`*^9, 3.83299118556394*^9}, {3.832991239664345*^9, 
    3.832991292854217*^9}, {3.832991379254364*^9, 3.8329913973812447`*^9}, {
-   3.832991504723262*^9, 
-   3.832991505791909*^9}},ExpressionUUID->"f2f4475b-6a6d-4c0d-b77f-\
+   3.832991504723262*^9, 3.832991505791909*^9}, {3.833021494153318*^9, 
+   3.833021494714863*^9}},ExpressionUUID->"f2f4475b-6a6d-4c0d-b77f-\
 a915e4d228c6"]
 }, Open  ]],
 
@@ -33888,7 +33891,7 @@ b0522cd6049f"],
 
 Cell["\<\
 The supermassive black hole at the center of the Milky Way is about 4 million \
-times the mass of the Sun. Explain in a short sentence what method is used to \
+times the mass of the Sun. Explain in a  sentence what method is used to \
 determine its mass:
 
 ______________________________________________________________________________\
@@ -33929,7 +33932,8 @@ ____\
    3.8329910533210173`*^9, 3.83299118556394*^9}, {3.832991239664345*^9, 
    3.832991292854217*^9}, {3.832991379254364*^9, 3.83299144508785*^9}, {
    3.832991507029325*^9, 3.8329915081098003`*^9}, {3.832992511070471*^9, 
-   3.832992511926025*^9}},ExpressionUUID->"fd002555-0075-4504-bd16-\
+   3.832992511926025*^9}, 
+   3.8330215045934343`*^9},ExpressionUUID->"fd002555-0075-4504-bd16-\
 b33c3c7b77cd"]
 }, Open  ]],
 
@@ -33971,8 +33975,7 @@ galaxy, then for a star orbiting the center of the galaxy at radius ",
   "0a0f0809-1130-4327-9a47-b28f21ba7dda"],
  " you\[CloseCurlyQuote]d expect the speed ",
  Cell[BoxData[
-  FormBox["v", TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+  FormBox["v", TraditionalForm]],ExpressionUUID->
   "083df89c-34af-4761-afd8-ab60c21d8de1"],
  " to be ",
  Cell[BoxData[
@@ -33988,9 +33991,9 @@ center of the galaxy would be going _________, and stars further than our Sun \
 would be going _______, but in the real data  they are all \
 _________________________________.\n\nHINT: for the first two blanks, I am \
 just looking for \[OpenCurlyDoubleQuote]faster\[CloseCurlyDoubleQuote] or \
-\[OpenCurlyDoubleQuote]slower,\[CloseCurlyDoubleQuote] and for the third I am \
-looking for a rough description of our galaxy\[CloseCurlyQuote]s rotation \
-curve."
+\[OpenCurlyDoubleQuote]slower,\[CloseCurlyDoubleQuote] and for the third \
+blank your answer should capture what we know about our galaxy\
+\[CloseCurlyQuote]s rotation curve."
 }], "Text",
  CellChangeTimes->{{3.7283836009935427`*^9, 3.728383602769161*^9}, {
    3.728383635463347*^9, 3.728384147311824*^9}, {3.7283842333637323`*^9, 
@@ -34030,7 +34033,7 @@ curve."
    3.8329916578486977`*^9, 3.832991666016296*^9}, {3.832991701407412*^9, 
    3.832991701735323*^9}, {3.832992067798397*^9, 3.832992143454986*^9}, {
    3.832992210111496*^9, 3.832992251252536*^9}, {3.832994323753119*^9, 
-   3.832994324246461*^9}},
+   3.832994324246461*^9}, {3.833021517519775*^9, 3.833021557862159*^9}},
  FontSize->14,ExpressionUUID->"ee6ab5c9-7748-4ac3-a848-6549d6886dd2"]
 }, Open  ]],
 
@@ -34146,7 +34149,8 @@ Cell["10. Quasars", "Subsection",
 5983dd37cf0d"],
 
 Cell["\<\
-One of more of these statements about quasars is false. Cross them out:
+One of more of these statements about quasars is false. Cross the false ones \
+out:
 
 (A) Galaxies are more likely to be quasars if we look back billions of years \
 in time.
@@ -34193,7 +34197,8 @@ superluminal velocities.
    3.832991292854217*^9}, {3.832991379254364*^9, 3.83299144508785*^9}, {
    3.832991507029325*^9, 3.8329915081098003`*^9}, {3.832992511070471*^9, 
    3.832992511926025*^9}, {3.8329925777920713`*^9, 3.832992829497387*^9}, 
-   3.832993086469935*^9},ExpressionUUID->"6bf36caf-757b-4deb-9270-\
+   3.832993086469935*^9, {3.8330215750178328`*^9, 
+   3.833021578089675*^9}},ExpressionUUID->"6bf36caf-757b-4deb-9270-\
 611e3e8bbd66"],
 
 Cell["", "PageBreak",
@@ -36152,9 +36157,9 @@ Cell[TextData[{
  StyleBox["The vertical axis should read 500 km/s and 1000 km/s, not 500 km \
 and 1000 km.",
   FontSlant->"Italic"],
- "\n\nStudying this plot, what value do you calculate for the Hubble \
-constant? _______________. One significant figure will do. The modern value \
-is about 70km/s/Mpc."
+ "\n\nStudying this plot, what value do you calculate for the Hubble constant \
+(include the correct units)? _______________. One significant figure will do. \
+The modern value is about 70km/s/Mpc."
 }], "Text",
  CellChangeTimes->{{3.7283836009935427`*^9, 3.728383602769161*^9}, {
    3.728383635463347*^9, 3.728384147311824*^9}, {3.7283842333637323`*^9, 
@@ -36193,8 +36198,9 @@ is about 70km/s/Mpc."
    3.832991507029325*^9, 3.8329915081098003`*^9}, {3.832992511070471*^9, 
    3.832992511926025*^9}, {3.8329925777920713`*^9, 3.832992829497387*^9}, {
    3.832992867928191*^9, 3.832992889156353*^9}, {3.832992942065784*^9, 
-   3.832993014278775*^9}, {3.832994416237178*^9, 
-   3.832994434777185*^9}},ExpressionUUID->"5bbdcf71-151b-4d5e-94f9-\
+   3.832993014278775*^9}, {3.832994416237178*^9, 3.832994434777185*^9}, {
+   3.8330216299399977`*^9, 
+   3.833021636836515*^9}},ExpressionUUID->"5bbdcf71-151b-4d5e-94f9-\
 9dc17fb46ced"]
 }, Open  ]],
 
@@ -40404,7 +40410,7 @@ Cell["\<\
 Above is a plot from Riess et al, 1998. The graph gets subtly steeper as you \
 go far into the past. Yet Riess et al say that the universe is accelerating.
 
-In a short sentence, reconcile this with your answer to Problem 12.
+In a sentence, reconcile this with your answer to Problem 12.
 
 ______________________________________________________________________________\
 ____
@@ -40453,8 +40459,8 @@ axes represent?\
    3.832993014278775*^9}, {3.832993144396433*^9, 3.83299339704793*^9}, {
    3.8329935244210663`*^9, 3.8329936925164347`*^9}, {3.8329937354797983`*^9, 
    3.832993754582162*^9}, {3.832993875204401*^9, 3.832993880008398*^9}, {
-   3.8329945278605537`*^9, 
-   3.8329945361395063`*^9}},ExpressionUUID->"f157c830-b8df-484a-9155-\
+   3.8329945278605537`*^9, 3.8329945361395063`*^9}, {3.833021649064774*^9, 
+   3.833021649886489*^9}},ExpressionUUID->"f157c830-b8df-484a-9155-\
 b3752e7d3841"]
 }, Open  ]],
 
@@ -46453,21 +46459,20 @@ fd2d-44f8-966e-b35dcf570082"],
 Cell[TextData[{
  "The center of the ellipses is the paper\[CloseCurlyQuote]s best estimate of \
 the parameter values that determine the expansion rate and fate of the \
-universe.\n\nRead off (one sig fig is fine), the best estimate for the value \
+universe. Mark an \[OpenCurlyQuote]x\[CloseCurlyQuote] where you consider the \
+center to be. Then read off (one sig fig is fine), an estimate for the value \
 for ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "\[CapitalLambda]"], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "1afab320-06f4-4723-8f78-6a0ed1c13e9a"],
- ": ___________. Read off (one sig fig is fine), the best estimate for the \
-value for ",
+  ExpressionUUID->"1afab320-06f4-4723-8f78-6a0ed1c13e9a"],
+ ": ___________, and also read off (one sig fig is fine), the best estimate \
+for the value for ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", 
     StyleBox["M",
-     FontSlant->"Plain"]], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+     FontSlant->"Plain"]], TraditionalForm]],ExpressionUUID->
   "01138995-ffdb-4a49-96e2-ba7014ba419c"],
  ":___________."
 }], "Text",
@@ -46512,8 +46517,8 @@ value for ",
    3.8329935244210663`*^9, 3.8329936925164347`*^9}, {3.8329937354797983`*^9, 
    3.832993754582162*^9}, {3.8329938656539297`*^9, 3.832993867486953*^9}, {
    3.832993924996942*^9, 3.832994206043294*^9}, 3.8329942370210857`*^9, {
-   3.832994730150518*^9, 
-   3.8329947441318893`*^9}},ExpressionUUID->"b9a74dc9-7c72-4b35-b0a5-\
+   3.832994730150518*^9, 3.8329947441318893`*^9}, {3.8330216756038923`*^9, 
+   3.833021713178289*^9}},ExpressionUUID->"b9a74dc9-7c72-4b35-b0a5-\
 2c7f851a8d5c"]
 }, Open  ]],
 
@@ -46641,80 +46646,80 @@ Cell[580, 22, 425, 6, 69, "Chapter",ExpressionUUID->"c5546609-1e46-4a0d-b508-d07
 Cell[1008, 30, 401, 6, 53, "Subtitle",ExpressionUUID->"cedfb0be-4b02-4af7-b2a4-4e0a62de72f3"],
 Cell[CellGroupData[{
 Cell[1434, 40, 1631, 23, 54, "Subsection",ExpressionUUID->"31190ef5-c6d9-4cf7-a3c8-b12fc1b2080b"],
-Cell[3068, 65, 3091, 49, 219, "Text",ExpressionUUID->"f45564dd-3913-4f3f-b051-cc41c85d9189"],
-Cell[6162, 116, 753295, 12356, 194, "Input",ExpressionUUID->"19e00d57-5d17-4911-b750-e4ba5dabb3b1"],
-Cell[759460, 12474, 2381, 33, 35, "Text",ExpressionUUID->"e47ad89f-b822-426f-b605-b3916b0d02b6"],
-Cell[761844, 12509, 1279814, 20985, 181, "Input",ExpressionUUID->"ca6dd176-2d94-4db2-a0a8-ffb56865dbe3"],
-Cell[2041661, 33496, 99, 1, 1, "PageBreak",ExpressionUUID->"7e74dd45-daa1-4675-a208-9845c5e0b5a6",
+Cell[3068, 65, 3191, 50, 219, "Text",ExpressionUUID->"f45564dd-3913-4f3f-b051-cc41c85d9189"],
+Cell[6262, 117, 753295, 12356, 194, "Input",ExpressionUUID->"19e00d57-5d17-4911-b750-e4ba5dabb3b1"],
+Cell[759560, 12475, 2381, 33, 35, "Text",ExpressionUUID->"e47ad89f-b822-426f-b605-b3916b0d02b6"],
+Cell[761944, 12510, 1279814, 20985, 181, "Input",ExpressionUUID->"ca6dd176-2d94-4db2-a0a8-ffb56865dbe3"],
+Cell[2041761, 33497, 99, 1, 4, "PageBreak",ExpressionUUID->"7e74dd45-daa1-4675-a208-9845c5e0b5a6",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2041797, 33502, 1531, 21, 54, "Subsection",ExpressionUUID->"32ff261d-2450-4454-80f6-6b51af9535b3"],
-Cell[2043331, 33525, 2596, 39, 127, "Text",ExpressionUUID->"ad1750e4-54fa-4ca0-8378-918ae7cd1c24"]
+Cell[2041897, 33503, 1531, 21, 54, "Subsection",ExpressionUUID->"32ff261d-2450-4454-80f6-6b51af9535b3"],
+Cell[2043431, 33526, 2596, 39, 127, "Text",ExpressionUUID->"ad1750e4-54fa-4ca0-8378-918ae7cd1c24"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2045964, 33569, 1581, 22, 54, "Subsection",ExpressionUUID->"4168c596-5f1f-49de-a448-99567e62623e"],
-Cell[2047548, 33593, 2721, 41, 127, "Text",ExpressionUUID->"68f8b69f-3ec3-4316-a1b1-3a0a5533f5a2"]
+Cell[2046064, 33570, 1581, 22, 54, "Subsection",ExpressionUUID->"4168c596-5f1f-49de-a448-99567e62623e"],
+Cell[2047648, 33594, 2721, 41, 127, "Text",ExpressionUUID->"68f8b69f-3ec3-4316-a1b1-3a0a5533f5a2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2050306, 33639, 1631, 23, 54, "Subsection",ExpressionUUID->"25c5bdb3-31f3-45ac-a7a9-6906abdebeec"],
-Cell[2051940, 33664, 3055, 45, 150, "Text",ExpressionUUID->"eecadf9b-01be-40d2-8762-afc975888c14"]
+Cell[2050406, 33640, 1631, 23, 54, "Subsection",ExpressionUUID->"25c5bdb3-31f3-45ac-a7a9-6906abdebeec"],
+Cell[2052040, 33665, 3161, 47, 150, "Text",ExpressionUUID->"eecadf9b-01be-40d2-8762-afc975888c14"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2055032, 33714, 1687, 23, 54, "Subsection",ExpressionUUID->"8e0e6915-6cf0-482a-b986-ccdda130f87e"],
-Cell[2056722, 33739, 2712, 42, 127, "Text",ExpressionUUID->"7e1778d3-c405-4980-8cfe-b98fc53823e0"]
+Cell[2055238, 33717, 1687, 23, 54, "Subsection",ExpressionUUID->"8e0e6915-6cf0-482a-b986-ccdda130f87e"],
+Cell[2056928, 33742, 2712, 42, 127, "Text",ExpressionUUID->"7e1778d3-c405-4980-8cfe-b98fc53823e0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2059471, 33786, 1737, 24, 54, "Subsection",ExpressionUUID->"24f8337f-325c-4565-8b7f-6396fac58cfb"],
-Cell[2061211, 33812, 2915, 44, 81, "Text",ExpressionUUID->"f2f4475b-6a6d-4c0d-b77f-a915e4d228c6"]
+Cell[2059677, 33789, 1737, 24, 54, "Subsection",ExpressionUUID->"24f8337f-325c-4565-8b7f-6396fac58cfb"],
+Cell[2061417, 33815, 2955, 44, 81, "Text",ExpressionUUID->"f2f4475b-6a6d-4c0d-b77f-a915e4d228c6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2064163, 33861, 1789, 25, 54, "Subsection",ExpressionUUID->"b4bc5cc6-8c03-4b05-8db2-b0522cd6049f"],
-Cell[2065955, 33888, 2958, 44, 81, "Text",ExpressionUUID->"fd002555-0075-4504-bd16-b33c3c7b77cd"]
+Cell[2064409, 33864, 1789, 25, 54, "Subsection",ExpressionUUID->"b4bc5cc6-8c03-4b05-8db2-b0522cd6049f"],
+Cell[2066201, 33891, 2981, 45, 81, "Text",ExpressionUUID->"fd002555-0075-4504-bd16-b33c3c7b77cd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2068950, 33937, 1886, 26, 54, "Subsection",ExpressionUUID->"9afa4d62-8f3c-4cb9-ad36-30973a64038c"],
-Cell[2070839, 33965, 4154, 68, 158, "Text",ExpressionUUID->"ee6ab5c9-7748-4ac3-a848-6549d6886dd2"]
+Cell[2069219, 33941, 1886, 26, 54, "Subsection",ExpressionUUID->"9afa4d62-8f3c-4cb9-ad36-30973a64038c"],
+Cell[2071108, 33969, 4179, 67, 158, "Text",ExpressionUUID->"ee6ab5c9-7748-4ac3-a848-6549d6886dd2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2075030, 34038, 1889, 26, 54, "Subsection",ExpressionUUID->"4cdd66e3-73c6-45ac-8d0f-b0ab1e6bd253"],
-Cell[2076922, 34066, 3507, 49, 96, "Text",ExpressionUUID->"75f52210-96ec-4ef1-852c-53d2a45b61bd"]
+Cell[2075324, 34041, 1889, 26, 54, "Subsection",ExpressionUUID->"4cdd66e3-73c6-45ac-8d0f-b0ab1e6bd253"],
+Cell[2077216, 34069, 3507, 49, 96, "Text",ExpressionUUID->"75f52210-96ec-4ef1-852c-53d2a45b61bd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2080466, 34120, 1821, 25, 54, "Subsection",ExpressionUUID->"8ac6d907-987d-4b78-afde-5983dd37cf0d"],
-Cell[2082290, 34147, 3286, 49, 173, "Text",ExpressionUUID->"6bf36caf-757b-4deb-9270-611e3e8bbd66"],
-Cell[2085579, 34198, 99, 1, 1, "PageBreak",ExpressionUUID->"f7b4a2b1-6e50-4abd-91eb-245044323fe2",
+Cell[2080760, 34123, 1821, 25, 54, "Subsection",ExpressionUUID->"8ac6d907-987d-4b78-afde-5983dd37cf0d"],
+Cell[2082584, 34150, 3350, 51, 173, "Text",ExpressionUUID->"6bf36caf-757b-4deb-9270-611e3e8bbd66"],
+Cell[2085937, 34203, 99, 1, 4, "PageBreak",ExpressionUUID->"f7b4a2b1-6e50-4abd-91eb-245044323fe2",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2085715, 34204, 1926, 27, 54, "Subsection",ExpressionUUID->"20126660-8a1f-40dc-b27c-db2cd2f4ffbc"],
-Cell[2087644, 34233, 2856, 42, 58, "Text",ExpressionUUID->"a15381d1-1592-4b40-a895-79998c0f305b"],
-Cell[2090503, 34277, 113688, 1870, 426, "Input",ExpressionUUID->"0767d2d4-b41f-4541-aa90-6a767ba388a1"],
-Cell[2204194, 36149, 3189, 48, 104, "Text",ExpressionUUID->"5bbdcf71-151b-4d5e-94f9-9dc17fb46ced"]
+Cell[2086073, 34209, 1926, 27, 54, "Subsection",ExpressionUUID->"20126660-8a1f-40dc-b27c-db2cd2f4ffbc"],
+Cell[2088002, 34238, 2856, 42, 58, "Text",ExpressionUUID->"a15381d1-1592-4b40-a895-79998c0f305b"],
+Cell[2090861, 34282, 113688, 1870, 426, "Input",ExpressionUUID->"0767d2d4-b41f-4541-aa90-6a767ba388a1"],
+Cell[2204552, 36154, 3269, 49, 127, "Text",ExpressionUUID->"5bbdcf71-151b-4d5e-94f9-9dc17fb46ced"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2207420, 36202, 1972, 27, 54, "Subsection",ExpressionUUID->"33d83f75-274a-4c3f-a62f-d648e2fb4fe8"],
-Cell[2209395, 36231, 3345, 50, 104, "Text",ExpressionUUID->"26919e8a-d717-45b8-b80d-4755e86ec761"],
-Cell[2212743, 36283, 99, 1, 1, "PageBreak",ExpressionUUID->"56c72f5c-fb3f-4ede-8f66-39bdd2b0a760",
+Cell[2207858, 36208, 1972, 27, 54, "Subsection",ExpressionUUID->"33d83f75-274a-4c3f-a62f-d648e2fb4fe8"],
+Cell[2209833, 36237, 3345, 50, 104, "Text",ExpressionUUID->"26919e8a-d717-45b8-b80d-4755e86ec761"],
+Cell[2213181, 36289, 99, 1, 4, "PageBreak",ExpressionUUID->"56c72f5c-fb3f-4ede-8f66-39bdd2b0a760",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2212879, 36289, 2024, 28, 54, "Subsection",ExpressionUUID->"2ca4c84a-30fa-4302-9462-1e42761515b3"],
-Cell[2214906, 36319, 3049, 46, 104, "Text",ExpressionUUID->"86a85968-94eb-40bd-8a29-4d16c930dd5d"]
+Cell[2213317, 36295, 2024, 28, 54, "Subsection",ExpressionUUID->"2ca4c84a-30fa-4302-9462-1e42761515b3"],
+Cell[2215344, 36325, 3049, 46, 104, "Text",ExpressionUUID->"86a85968-94eb-40bd-8a29-4d16c930dd5d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2217992, 36370, 2073, 29, 54, "Subsection",ExpressionUUID->"2848a307-da2b-4374-a9df-6abd75b10dba"],
-Cell[2220068, 36401, 243605, 3999, 480, "Input",ExpressionUUID->"40a559fe-af5e-4a97-bd82-a6492bae0b7f"],
-Cell[2463676, 40402, 3582, 55, 173, "Text",ExpressionUUID->"f157c830-b8df-484a-9155-b3752e7d3841"]
+Cell[2218430, 36376, 2073, 29, 54, "Subsection",ExpressionUUID->"2848a307-da2b-4374-a9df-6abd75b10dba"],
+Cell[2220506, 36407, 243605, 3999, 480, "Input",ExpressionUUID->"40a559fe-af5e-4a97-bd82-a6492bae0b7f"],
+Cell[2464114, 40408, 3622, 55, 173, "Text",ExpressionUUID->"f157c830-b8df-484a-9155-b3752e7d3841"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2467295, 40462, 2121, 29, 54, "Subsection",ExpressionUUID->"8ad67245-9655-4fa7-b5e5-f12f30351bed"],
-Cell[2469419, 40493, 363051, 5957, 482, "Input",ExpressionUUID->"1719112c-fd2d-44f8-966e-b35dcf570082"],
-Cell[2832473, 46452, 3930, 64, 81, "Text",ExpressionUUID->"b9a74dc9-7c72-4b35-b0a5-2c7f851a8d5c"]
+Cell[2467773, 40468, 2121, 29, 54, "Subsection",ExpressionUUID->"8ad67245-9655-4fa7-b5e5-f12f30351bed"],
+Cell[2469897, 40499, 363051, 5957, 482, "Input",ExpressionUUID->"1719112c-fd2d-44f8-966e-b35dcf570082"],
+Cell[2832951, 46458, 4001, 63, 58, "Text",ExpressionUUID->"b9a74dc9-7c72-4b35-b0a5-2c7f851a8d5c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2836440, 46521, 2173, 30, 54, "Subsection",ExpressionUUID->"67a3b42b-7b0d-45a8-aa99-4d206b38803f"],
-Cell[2838616, 46553, 3804, 62, 219, "Text",ExpressionUUID->"3ff2113b-4657-499c-af7c-095e1eab795a"]
+Cell[2836989, 46526, 2173, 30, 54, "Subsection",ExpressionUUID->"67a3b42b-7b0d-45a8-aa99-4d206b38803f"],
+Cell[2839165, 46558, 3804, 62, 219, "Text",ExpressionUUID->"3ff2113b-4657-499c-af7c-095e1eab795a"]
 }, Open  ]]
 }, Open  ]]
 }
