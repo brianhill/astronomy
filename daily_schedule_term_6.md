@@ -14,7 +14,7 @@ See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 ### Week 9 &mdash; Chapter 12 &mdash; Fusion and Nova
 
 * Tuesday, May 18 &mdash; Chapter 12 &mdash; Fusion in the Interior of Stars &mdash; Reading and Discussion Guide and [Problem Set 9](./problem_sets/Astro-PS09.pdf)
-* Friday, May 21 &mdash; Second Midterm (for half of period) and Start Chapter 13 on the Death of Stars
+* Friday, May 21 &mdash; [Second Midterm](./exams/M2.pdf) &mdash; Start Chapter 13 on the Death of Stars
 
 ### Week 10 &mdash; Finish Chapter 13 and Start Chapter 14; Supernovas, Pulsars, Stellar Mass Black Holes, Schwarzschild Metric
 
@@ -34,7 +34,7 @@ See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 ### Week 13 &mdash; Chapter 18 &mdash; Cosmology 
 
 * Tuesday, June 15 &mdash; Chapter 18 &mdash; General Relativity and the Expanding Universe &mdash; The New Standard Candle: Type 1a Supernovae and Modern Measurements of Hubble's Law &mdash; The Evidence for Dark Matter and Dark Energy on Cosmological Scales &mdash; [Problem Set 12](./problem_sets/Astro-PS12-WithSuperliminalJets.pdf) &mdash; High-Z supernovae results, [Riess et al 1998](/resources/RiessEtAl1998.pdf)
-* Friday, June 18 &mdash; Third (Final) Midterm &mdash; [Dicke, Peebles, Roll, and Wilkinson, 1965](./resources/DickePeeblesRollAndWilkinson.pdf) &mdash; [Penzias and Wilson](./resources/PenziasAndWilson.pdf)
+* Friday, June 18 &mdash;[Third (Final) Midterm](./exams/M3.pdf &mdash; [Penzias and Wilson, 1965](./resources/PenziasAndWilson.pdf) &mdash; [Dicke, Peebles, Roll, and Wilkinson, 1965](./resources/DickePeeblesRollAndWilkinson.pdf) 
 
 ### Week 14 &mdash; Chapters 19 &mdash; The Cosmic Microwave Background Radiation 
 

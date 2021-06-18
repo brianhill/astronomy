@@ -14,3 +14,11 @@
 ## Course Feedback and Suggestions
 
 * [First Day Feedback](./first_day_feedback.html)
+
+## Study Session for the Third (Final) Midterm
+
+Alice's notes:
+
+![Board 1](./photos/Board1.jpeg)
+
+![Board 2](./photos/Board2.jpeg)
