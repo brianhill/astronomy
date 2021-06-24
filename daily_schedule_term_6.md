@@ -39,4 +39,4 @@ See also [Daily Schedule Term 5](./daily_schedule_term_5.md)
 ### Week 14 &mdash; Chapters 19 &mdash; The Cosmic Microwave Background Radiation &mdash; Special Projects
 
 * Tuesday, June 22 &mdash; Finish Chapter 19 &mdash; Echoes of the Big Bang &mdash; [Dicke, Peebles, Roll, and Wilkinson, 1965](./resources/DickePeeblesRollAndWilkinson.pdf) 
-&mdash; The Universe when it was Only 380,000 Years Old &mdash; Density Fluctuations in the Early Universe &mdash; The Inflationary Universe &mdash; Discuss Special Projects: [Chen, Lunar Eclipse and Two-Day Old Moon](./projects/TwoDayOldMoon.html); [Lucia, Wild Duck Open Cluster](./projects/WildDuckCluster.html); [Alice and Declan Veil Nebula](./projects/VeilNebula.html)
+&mdash; The Universe when it was Only 380,000 Years Old &mdash; Density Fluctuations in the Early Universe &mdash; The Inflationary Universe &mdash; Discuss Project Writeups and Results &mdash; [Chen, Lunar Eclipse and Two-Day Old Moon](./projects/TwoDayOldMoon.html) &mdash; [Lucia, Wild Duck Open Cluster](./projects/WildDuckCluster.html) &mdash; [Alice and Declan Veil Nebula](./projects/VeilNebula.html)

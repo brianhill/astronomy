@@ -17,7 +17,7 @@ Links below lead to project pages with larger images.
 
 ### Lucia Pizarro
 
-[Wild Duck Cluster](./projects/WildDuckCluster.html) (together, the two images are about 20 megabytes and this page will take considerable time to load)
+[Wild Duck Cluster](./projects/WildDuckCluster.html) (together, the two images are about 20 megabytes and the linked page will take considerable time to load)
 
 [![Wild Duck Thumbnail](./projects/LuciaWildDuckThumbnail.jpeg)](./projects/WildDuckCluster.html)
 
@@ -29,6 +29,6 @@ Links below lead to project pages with larger images.
 
 ### Alice Owen and Declan Rexer
 
-[Veil Nebula](./projects/VeilNebula.html) (together, the two images are about 20 megabytes and this page will take considerable time to load)
+[Veil Nebula](./projects/VeilNebula.html) (together, the two images are about 20 megabytes and the linked page will take considerable time to load)
 
 [![AliceDeclanVeilThumbnail](./projects/AliceDeclanVeilThumbnail.jpeg)](./projects/VeilNebula.html)

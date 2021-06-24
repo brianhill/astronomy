@@ -4,7 +4,7 @@
 
 Return to [Astronomy Course Home Page](../index.html)
 
-## Western Veil Nebula:
+## Full Image
 
 ![Alice and Declan Veil Full](./AliceDeclanVeilFull.jpeg)
 
