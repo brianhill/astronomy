@@ -13,18 +13,22 @@
 
 ## Projects
 
-* Observational Astronomy [Projects](./projects/index.md)
+Links lead to projects pages with larger images.
 
-## Course Feedback and Suggestions
+### Lucia Pizarro
 
-* [First Day Feedback](./first_day_feedback.html)
+[Two-Day-Old Moon](./projects/WildDuckCluster.html)
 
-## Study Session for the Third (Final) Midterm
+[![Two-Day-Old Moon Thumbnail](./photos/LuciaWildDuckThumbnail.jpeg)](./projects/WildDuckCluster.html)
 
-Alice's notes, Board 1:
+### Chen Li
 
-![Board 1](./photos/Board1.jpeg)
+[Two-Day-Old Moon](./projects/TwoDayOldMoon.html)
 
-Board 2:
+[![Two-Day-Old Moon Thumbnail](./photos/TwoDayOldMoonThumbnail.jpeg)](./projects/TwoDayOldMoon.html)
 
-![Board 2](./photos/Board2.jpeg)
+### Alice Owen and Declan Rexer
+
+[Veil Nebula](./projects/VeilNebula.html)
+
+[![AliceDeclanVeilThumbnail](./photos/AliceDeclanVeilThumbnail.jpeg)](./projects/VeilNebula.html)
