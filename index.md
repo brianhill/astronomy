@@ -17,18 +17,18 @@ Links lead to projects pages with larger images.
 
 ### Lucia Pizarro
 
-[Two-Day-Old Moon](./projects/WildDuckCluster.html)
+[Wild Duck Cluster](./projects/WildDuckCluster.html) (together, the two images are about 20 megabytes and this page will take considerable time to load)
 
-[![Two-Day-Old Moon Thumbnail](./photos/LuciaWildDuckThumbnail.jpeg)](./projects/WildDuckCluster.html)
+[![Wild Duck Thumbnail](./projects/LuciaWildDuckThumbnail.jpeg)](./projects/WildDuckCluster.html)
 
 ### Chen Li
 
-[Two-Day-Old Moon](./projects/TwoDayOldMoon.html)
+[Two-Day-Old Moon](./projects/TwoDayOldMoon.html) (together, the two images are about 2 megabytes and the linked page will some take time to load)
 
-[![Two-Day-Old Moon Thumbnail](./photos/TwoDayOldMoonThumbnail.jpeg)](./projects/TwoDayOldMoon.html)
+[![Two-Day-Old Moon Thumbnail](./projects/TwoDayOldMoonThumbnail.jpeg)](./projects/TwoDayOldMoon.html)
 
 ### Alice Owen and Declan Rexer
 
-[Veil Nebula](./projects/VeilNebula.html)
+[Veil Nebula](./projects/VeilNebula.html) (together, the two images are about 20 megabytes and this page will take considerable time to load)
 
-[![AliceDeclanVeilThumbnail](./photos/AliceDeclanVeilThumbnail.jpeg)](./projects/VeilNebula.html)
+[![AliceDeclanVeilThumbnail](./projects/AliceDeclanVeilThumbnail.jpeg)](./projects/VeilNebula.html)
