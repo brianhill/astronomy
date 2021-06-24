@@ -13,7 +13,7 @@
 
 ## Projects
 
-Links lead to projects pages with larger images.
+Links below lead to project pages with larger images.
 
 ### Lucia Pizarro
 
@@ -25,7 +25,7 @@ Links lead to projects pages with larger images.
 
 [Two-Day-Old Moon](./projects/TwoDayOldMoon.html) (together, the two images are about 2 megabytes and the linked page will some take time to load)
 
-[![Two-Day-Old Moon Thumbnail](./projects/TwoDayOldMoonThumbnail.jpeg)](./projects/TwoDayOldMoon.html)
+[![Two-Day-Old Moon Thumbnail](./projects/ChenTwoDayOldMoonThumbnail.jpeg)](./projects/TwoDayOldMoon.html)
 
 ### Alice Owen and Declan Rexer
 

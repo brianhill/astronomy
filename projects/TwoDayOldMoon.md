@@ -8,7 +8,7 @@ Return to [Astronomy Course Home Page](../index.html)
 
 ![Chen Two-Day Old Moon](./ChenTwoDayOldMoon.jpeg)
 
-The above photo was composed from a small fraction of over 100 exposures each only 1/500 of a second.
+The above photo was composed from a small fraction representing the best of over 100 exposures each only 1/500 of a second.
 
 ## May 26 Lunar Eclipse
 
