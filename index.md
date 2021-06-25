@@ -13,18 +13,22 @@
 
 ## Projects
 
-* Observational Astronomy [Projects](./projects/index.md)
+Links below lead to project pages with larger images.
 
-## Course Feedback and Suggestions
+### Lucia Pizarro
 
-* [First Day Feedback](./first_day_feedback.html)
+[Wild Duck Cluster](./projects/WildDuckCluster.html) (together, the two images are about 20 megabytes and the linked page will take considerable time to load)
 
-## Study Session for the Third (Final) Midterm
+[![Wild Duck Thumbnail](./projects/LuciaWildDuckThumbnail.jpeg)](./projects/WildDuckCluster.html)
 
-Alice's notes, Board 1:
+### Chen Li
 
-![Board 1](./photos/Board1.jpeg)
+[Two-Day-Old Moon](./projects/TwoDayOldMoon.html) (together, the two images are about 2 megabytes and the linked page will some take time to load)
 
-Board 2:
+[![Two-Day-Old Moon Thumbnail](./projects/ChenTwoDayOldMoonThumbnail.jpeg)](./projects/TwoDayOldMoon.html)
 
-![Board 2](./photos/Board2.jpeg)
+### Alice Owen and Declan Rexer
+
+[Veil Nebula](./projects/VeilNebula.html) (together, the two images are about 20 megabytes and the linked page will take considerable time to load)
+
+[![AliceDeclanVeilThumbnail](./projects/AliceDeclanVeilThumbnail.jpeg)](./projects/VeilNebula.html)
