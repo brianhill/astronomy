@@ -4,7 +4,11 @@
 
 Return to [Astronomy Course Home Page](../index.html)
 
-## Two-Day Old Moon
+## Report
+
+[Chen Li, The Two-Day Old Crescent Moon](./ChenLi-TheTwoDayOldCrescentMoon.pdf)
+
+## The Two-Day Old Crescent Moon
 
 ![Chen Two-Day Old Moon](./ChenTwoDayOldMoon.jpeg)
 
