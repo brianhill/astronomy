@@ -4,6 +4,10 @@
 
 Return to [Astronomy Course Home Page](../index.html)
 
+## Report
+
+[Lucia Pizarro, The Wild Duck Cluster](./LuciaPizarroTheWildDuckCluster.pdf)
+
 ## Full Image
 
 ![Lucia Wild Duck Full](./LuciaWildDuckFull.jpeg)
