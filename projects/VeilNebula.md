@@ -4,6 +4,10 @@
 
 Return to [Astronomy Course Home Page](../index.html)
 
+## Report
+
+[Alice Owen and Declan Rexer, The Veil Nebula](./AliceOwenDeclanRexlerTheVeilNebula.pdf)
+
 ## Full Image
 
 ![Alice and Declan Veil Full](./AliceDeclanVeilFull.jpeg)
