@@ -4,16 +4,9 @@
 
 ## Syllabus
 
-* [Syllabus](./AstronomySyllabus.pdf)
+* [Syllabus](./AstronomySyllabusWithDailySchedules.pdf)
 
-## Daily Schedules
-
-* [Daily Schedule Term 5](./daily_schedule_term_5.html)
-* [Daily Schedule Term 6](./daily_schedule_term_6.html)
-
-## Projects
-
-Links below lead to project pages with larger images.
+## Astrophotography Projects
 
 ### Lucia Pizarro
 
