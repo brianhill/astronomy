@@ -10,14 +10,14 @@
 
 ### Lucia Pizarro
 
-* Project Page: [Wild Duck Cluster](./projects/WildDuckCluster.html) project page with full images (together, the two images are 18 megabytes and the linked page will take considerable time to load)
+* [Wild Duck Cluster](./projects/WildDuckCluster.html) project page with full images (together, the two images are 18 megabytes and the linked page will take considerable time to load)
 * Thumbnail:
 
 [![Wild Duck Thumbnail](./projects/LuciaWildDuckThumbnail.jpeg)](./projects/WildDuckCluster.html)
 
 ### Chen Li
 
-* Project Page: [Two-Day-Old Moon](./projects/TwoDayOldMoon.html) project page with full images (together, the two images are 2 megabytes and the linked page may take some time to load)
+* [Two-Day-Old Moon](./projects/TwoDayOldMoon.html) project page with full images (together, the two images are 2 megabytes and the linked page may take some time to load)
 * Thumbnail:
 
 [![Two-Day-Old Moon Thumbnail](./projects/ChenTwoDayOldMoonThumbnail.jpeg)](./projects/TwoDayOldMoon.html)
