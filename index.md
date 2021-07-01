@@ -4,7 +4,12 @@
 
 ## Syllabus
 
-* [Syllabus](./AstronomySyllabusWithDailySchedules.pdf)
+* [Syllabus](./AstronomySyllabus.pdf)
+
+## Daily Schedules
+
+* [Daily Schedule Term 5](./daily_schedule_term_5.html)
+* [Daily Schedule Term 6](./daily_schedule_term_6.html)
 
 ## Astrophotography Projects
 
