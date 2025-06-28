@@ -33,9 +33,9 @@ See also [Daily Schedule Term 6](./daily_schedule_term_6.md)
 
 ### Week 6 &mdash; Chapters 8 and 9 &mdash; The Asteroid Belt, The Kuiper Belt, and Solar System Formation
 
-* Tuesday, April 20 &mdash; The class is rescheduled to be an observing night and telescope operation night starting at 9pm on Sunday evening &mdash; Problem Set 6: Solar System Densities Worksheet](./problem_sets/SolarSystemDensitiesWorksheet.pdf) (put in my box on Tuesday since we are not actually meeting on Tuesday)
+* Tuesday, April 20 &mdash; The class is rescheduled to be an observing night and telescope operation night starting at 9pm on Sunday evening &mdash; Problem Set 6: [Solar System Densities Worksheet](./problem_sets/SolarSystemDensitiesWorksheet.pdf) (put in my box on Tuesday since we are not actually meeting on Tuesday)
 * Friday, April 23 &mdash; Reading *The Cosmos* Chapter 8 and Section 9.1: Our Solar System and Solar System Formation
 
-### Week 7 &mdash; Astrology in Shakespeare
+### Week 7 &mdash; Astrology in Shakespeare (a pre-break interlude to support the campus pre-break Shakespeare festival)
 
 * Tuesday, April 27 &mdash;  Read Chapters 8 and 9 of *Venus In Transit* &mdash; [Shakespeare and Astrology, Chapter IV](https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2094&context=masters-theses) by William Bruce Smith, Master's Thesis, 1989 &mdash; [Problem Set 7](./problem_sets/Astro-PS07.pdf)
